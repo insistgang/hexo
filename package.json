@@ -45,6 +45,6 @@
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-hibiki": "^1.0.5",
     "live2d-widget-model-tororo": "^1.0.5",
-    "moment-timezone": "^0.6.0"
+    "moment-timezone": "^0.6.1"
   }
 }
