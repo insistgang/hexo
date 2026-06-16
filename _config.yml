@@ -158,14 +158,15 @@ gitcalendar:
     index: 0
   user: insistgang # 你的github用户名
   apiurl: 'https://gh-calendar.rschristian.dev/user/'
+  jsonurl: 'https://gh-calendar.rschristian.dev/user/insistgang'
   minheight:
     pc: 280px #桌面端最小高度
-    mibile: 0px #移动端最小高度
+    mobile: 0px #移动端最小高度
   color_light: "['#ebedf0', '#bae3fd', '#74b9ff', '#4dabf7', '#0969da', '#0550ae', '#033d8b', '#0a3069', '#08285c', '#06224d', '#041c3e']" # 亮色主题
   color_dark: "['#ebedf0', '#bae3fd', '#74b9ff', '#4dabf7', '#0969da', '#0550ae', '#033d8b', '#0a3069', '#08285c', '#06224d', '#041c3e']" # 暗色主题
   container: .recent-post-item(style='width:100%;height:auto;padding:10px;')
-  gitcalendar_css: https://cdn.jsdelivr.net/npm/hexo-filter-gitcalendar@1.0.11/lib/gitcalendar.css
-  gitcalendar_js: https://cdn.jsdelivr.net/npm/hexo-filter-gitcalendar@1.0.11/lib/gitcalendar.js
+  gitcalendar_css: /gitcalendar/css/gitcalendar.css
+  gitcalendar_js: /gitcalendar/js/gitcalendar-init.js
   
 butterfly_article_double_row:
   enable: true
