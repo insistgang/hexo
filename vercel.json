@@ -1,8 +1,8 @@
 {
-  "buildCommand": "hexo generate",
+  "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "devCommand": "hexo server",
-  "installCommand": "npm install",
+  "devCommand": "npm run server",
+  "installCommand": "npm ci",
   "framework": null,
   "rewrites": [
     {
