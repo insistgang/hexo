@@ -8,13 +8,13 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/discord-x-telegram-guide/cover_05_platforms.png
+cover: /img/discord-x-telegram-guide/cover_05_platforms.jpg
 abbrlink: discord-x-telegram-guide
 ---
 
 # Discord、X、Telegram：三个你迟早会用到的海外平台
 
-![封面](/img/discord-x-telegram-guide/cover_05_platforms.png)
+![封面](/img/discord-x-telegram-guide/cover_05_platforms.jpg)
 
 ---
 
@@ -24,7 +24,7 @@ abbrlink: discord-x-telegram-guide
 
 这三个平台，国内用户接触得不多，但它们各自占据了海外信息生态的关键位置。搞清楚它们分别是什么、适合干什么，能帮你打开一扇很大的信息窗口。
 
-![Discord：有组织的社区](/img/discord-x-telegram-guide/24_discord_community.png)
+![Discord：有组织的社区](/img/discord-x-telegram-guide/24_discord_community.jpg)
 
 ---
 
@@ -44,7 +44,7 @@ Discord最早是为游戏玩家设计的，但现在早已超出了游戏的范�
 
 ## X（原Twitter）：公开的广场
 
-![X公开广场](/img/discord-x-telegram-guide/25_x_twitter.png)
+![X公开广场](/img/discord-x-telegram-guide/25_x_twitter.jpg)
 
 如果说Discord是会议室，X就是广场。
 
@@ -60,7 +60,7 @@ X的核心是短内容发布和公开传播。你发一条推文，任何人都�
 
 ## Telegram：私密的信息管道
 
-![Telegram私密通讯](/img/discord-x-telegram-guide/26_telegram_private.png)
+![Telegram私密通讯](/img/discord-x-telegram-guide/26_telegram_private.jpg)
 
 Telegram更接近微信的定位——本质是即时通讯工具，但在几个方面做得比微信更极端。
 
