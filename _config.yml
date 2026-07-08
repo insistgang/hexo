@@ -113,7 +113,7 @@ theme: butterfly
 deploy:
   type: git
   repo:
-    github: https://github.com/insistgang/insistgang.github.io.git
+    github: git@github.com:insistgang/insistgang.github.io.git
   branch: master
 
 electric_clock:
