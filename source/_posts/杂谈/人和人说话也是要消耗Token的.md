@@ -6,11 +6,11 @@ tags:
   - 精力管理
 categories:
   - 杂谈
-cover: /img/token-conversation/03_00_token_conversation_cover.png
+cover: /img/token-conversation/03_00_token_conversation_cover.jpg
 abbrlink: token-conversation
 ---
 
-![封面](/img/token-conversation/03_00_token_conversation_cover.png)
+![封面](/img/token-conversation/03_00_token_conversation_cover.jpg)
 
 最近听到一个说法，觉得特别准：
 
@@ -22,7 +22,7 @@ abbrlink: token-conversation
 
 ## 你有没有过这种体验？
 
-![第一章配图](/img/token-conversation/03_01_token_exhaustion.png)
+![第一章配图](/img/token-conversation/03_01_token_exhaustion.jpg)
 
 白天在社群里跟一堆人聊了半天，晚上回家女朋友想跟你说说话，你一个字都不想说了。
 
@@ -36,7 +36,7 @@ abbrlink: token-conversation
 
 ## 深度对话和闲聊，消耗量差了好几倍
 
-![第二章配图](/img/token-conversation/03_02_deep_vs_casual.png)
+![第二章配图](/img/token-conversation/03_02_deep_vs_casual.jpg)
 
 心理学研究早就说过：人每天能做深度工作的时间大概只有 3-4 小时，高质量社交的极限大概是 2-3 小时。超过这个量，质量就急剧下降。
 
@@ -50,7 +50,7 @@ abbrlink: token-conversation
 
 ## 我自己的教训
 
-![第三章配图](/img/token-conversation/03_03_personal_lesson.png)
+![第三章配图](/img/token-conversation/03_03_personal_lesson.jpg)
 
 我以前在好几个微信群里都很活跃，看到有人问技术问题就忍不住打一大段文字回复，觉得这是"助人为乐"。
 
@@ -62,7 +62,7 @@ abbrlink: token-conversation
 
 ## Token 分配策略
 
-![第四章配图](/img/token-conversation/03_04_token_strategy.png)
+![第四章配图](/img/token-conversation/03_04_token_strategy.jpg)
 
 我的做法很简单：把日常交流的人分成几档。
 
@@ -80,7 +80,7 @@ abbrlink: token-conversation
 
 ## 什么时候打开深度思考模式？
 
-![第五章配图](/img/token-conversation/03_05_deep_mode_trigger.png)
+![第五章配图](/img/token-conversation/03_05_deep_mode_trigger.jpg)
 
 我给自己定了一个简单的判断标准：
 
@@ -94,7 +94,7 @@ abbrlink: token-conversation
 
 ## 对没开"会员"的人，意思一下就差不多了
 
-![第六章配图](/img/token-conversation/03_06_vip_treatment.png)
+![第六章配图](/img/token-conversation/03_06_vip_treatment.jpg)
 
 回到开头那句话：人和人之间的对话是需要消耗 Token 的。对于没开"会员"的人，意思一下就差不多了。
 

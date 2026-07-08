@@ -9,11 +9,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/minimax-api-annual-member-review/minimax_api_cover.png
+cover: /img/minimax-api-annual-member-review/minimax_api_cover.jpg
 abbrlink: minimax-api-annual-member-review
 ---
 
-![封面](/img/minimax-api-annual-member-review/minimax_api_cover.png)
+![封面](/img/minimax-api-annual-member-review/minimax_api_cover.jpg)
 
 # MiniMax 年度会员 API 实测：图像生成 + 语音合成，到底好不好用？
 

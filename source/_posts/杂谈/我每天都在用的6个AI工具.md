@@ -6,11 +6,11 @@ tags:
   - 效率
 categories:
   - 杂谈
-cover: /img/six-ai-tools/11_00_six_ai_tools_cover.png
+cover: /img/six-ai-tools/11_00_six_ai_tools_cover.jpg
 abbrlink: six-ai-tools
 ---
 
-![封面](/img/six-ai-tools/11_00_six_ai_tools_cover.png)
+![封面](/img/six-ai-tools/11_00_six_ai_tools_cover.jpg)
 
 标题党文章里动不动就"效率提升 10 倍"，但实际上大部分 AI 工具用下来，体感提升可能也就两三倍——不过这两三倍已经足够改变工作节奏了。
 
@@ -62,7 +62,7 @@ PDF 阅读也不错，特别是论文。丢进去之后让它提取关键信息�
 
 ## Front End Design：前端不丑了
 
-![第四章配图](/img/six-ai-tools/11_04_frontend_design.png)
+![第四章配图](/img/six-ai-tools/11_04_frontend_design.jpg)
 
 AI 生成的代码有一个通病：功能能用，但丑。
 
@@ -90,7 +90,7 @@ AI 写代码的另一个通病：冗余。
 
 ## Reflue：让 AI 自己死磕到底
 
-![第六章配图](/img/six-ai-tools/11_06_reflue.png)
+![第六章配图](/img/six-ai-tools/11_06_reflue.jpg)
 
 这个工具的逻辑是：给它一个任务，它就会自动循环执行，直到任务完成。
 
@@ -102,7 +102,7 @@ AI 写代码的另一个通病：冗余。
 
 ## 真实的使用感受
 
-![第七章配图](/img/six-ai-tools/11_07_real_usage.png)
+![第七章配图](/img/six-ai-tools/11_07_real_usage.jpg)
 
 这 6 个工具里，我用得最频繁的是 Document Skills 和 Skill Create，因为它们解决的是我每天都会遇到的问题。Code Simplifier 和 Front End Design 是写代码时的标配。Find Skill 和 Reflue 偶尔用，但用到的时候效果很明显。
 

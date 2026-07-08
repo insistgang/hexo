@@ -8,18 +8,18 @@ tags:
 categories:
   - 杂谈
   - 研究生成长
-cover: /img/ai-money-paper-zero/ai_money_paper_cover.png
+cover: /img/ai-money-paper-zero/ai_money_paper_cover.jpg
 abbrlink: ai-money-paper-zero
 ---
 
-![封面](/img/ai-money-paper-zero/ai_money_paper_cover.png)
+![封面](/img/ai-money-paper-zero/ai_money_paper_cover.jpg)
 
 > 研二下学期，我突然意识到自己在干一件很蠢的事。
 
 ---
 
 ## 我的 AI 工具全家桶
-![配图](/img/ai-money-paper-zero/ai_money_paper_01.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_01.jpg)
 
 我手上有多少个 AI 工具？数一下：Claude Code、Kimi Code、Qwen Code、Codex、OpenClaw、MiniMax——光命令行工具就六个。再加上各种 API key：Anthropic、智谱、豪卓云、MiniMax……每个月订阅费加起来不是小数目。
 
@@ -32,7 +32,7 @@ abbrlink: ai-money-paper-zero
 我的论文还是那个论文，草稿还是那个草稿，该画的图一张没画完。
 
 ## 我以为我在提效，其实我在逛街
-![配图](/img/ai-money-paper-zero/ai_money_paper_02.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_02.jpg)
 
 回过头看，我使用 AI 的方式，本质上跟逛淘宝没有区别。
 
@@ -43,7 +43,7 @@ abbrlink: ai-money-paper-zero
 更讽刺的是，我还专门写了一篇公众号文章来对比这六个工具的优劣——那篇文章本身花了三个小时。三个小时，够我把论文结论写完了。
 
 ## 体验导向 vs 目的导向
-![配图](/img/ai-money-paper-zero/ai_money_paper_03.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_03.jpg)
 
 我终于想明白了一件事：我不是在用 AI 完成任务，我是在**体验 AI**。
 
@@ -60,7 +60,7 @@ abbrlink: ai-money-paper-zero
 真的有帮助吗？我现在能熟练配置六种 CLI 工具的环境，但我的论文还没投出去。读博的导师不会问我"你用过几个 AI 工具"，他只会问"你发了几篇论文"。
 
 ## 一个简单的判断标准
-![配图](/img/ai-money-paper-zero/ai_money_paper_04.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_04.jpg)
 
 想明白之后，我给自己定了一条规则：
 
@@ -77,7 +77,7 @@ abbrlink: ai-money-paper-zero
 所以本质上，折腾工具是我逃避论文的方式。就像有人考试前疯狂整理书桌一样——看起来在做有用的事，实际上是在回避真正困难的事。
 
 ## 工具只有一个标准：它帮我交了作业没有
-![配图](/img/ai-money-paper-zero/ai_money_paper_05.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_05.jpg)
 
 我不再需要六个 CLI 工具。我只需要一个顺手的，然后用它把论文写完。
 
@@ -88,7 +88,7 @@ abbrlink: ai-money-paper-zero
 如果你发现自己花在研究工具上的时间，比花在使用工具完成任务上的时间还多——那你不是在提效，你是在消费。
 
 ## 一笔账
-![配图](/img/ai-money-paper-zero/ai_money_paper_06.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_06.jpg)
 
 我粗略算了一下，过去三个月我在 AI 工具上的花费：各种 API 调用、订阅、服务器——加起来大概够交一个月的伙食费了。
 
@@ -99,7 +99,7 @@ abbrlink: ai-money-paper-zero
 这笔账怎么算都不划算。
 
 ## 写在最后
-![配图](/img/ai-money-paper-zero/ai_money_paper_07.png)
+![配图](/img/ai-money-paper-zero/ai_money_paper_07.jpg)
 
 如果你也是研究生，也在用各种 AI 工具，不妨今晚问自己一个问题：
 

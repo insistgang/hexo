@@ -6,11 +6,11 @@ tags:
   - 工作流
 categories:
   - 杂谈
-cover: /img/ai-tool-division/12_00_ai_tool_division_cover.png
+cover: /img/ai-tool-division/12_00_ai_tool_division_cover.jpg
 abbrlink: ai-tool-division
 ---
 
-![封面](/img/ai-tool-division/12_00_ai_tool_division_cover.png)
+![封面](/img/ai-tool-division/12_00_ai_tool_division_cover.jpg)
 
 我现在每天同时用好几个 AI 工具：Claude Code、Gemini CLI、Kimi、DeepSeek、ChatGPT、OpenClaw……
 
@@ -22,7 +22,7 @@ abbrlink: ai-tool-division
 
 ## 我的分工逻辑
 
-![第一章配图](/img/ai-tool-division/12_01_division_logic.png)
+![第一章配图](/img/ai-tool-division/12_01_division_logic.jpg)
 
 **想通一个概念、学一个新东西 → ChatGPT**
 
@@ -56,7 +56,7 @@ ChatGPT 的知识面最广，解释能力最强。你问它一个你不懂的概
 
 ## 最常犯的错误：一个工具打天下
 
-![第二章配图](/img/ai-tool-division/12_02_one_tool_mistake.png)
+![第二章配图](/img/ai-tool-division/12_02_one_tool_mistake.jpg)
 
 我以前的问题就是什么都用 ChatGPT。
 
@@ -70,7 +70,7 @@ ChatGPT 的知识面最广，解释能力最强。你问它一个你不懂的概
 
 ## 一个实际的选择流程
 
-![第三章配图](/img/ai-tool-division/12_03_decision_flow.png)
+![第三章配图](/img/ai-tool-division/12_03_decision_flow.jpg)
 
 现在我遇到一个任务，脑子里会自动跑一遍：
 
@@ -90,7 +90,7 @@ ChatGPT 的知识面最广，解释能力最强。你问它一个你不懂的概
 
 ## 国产工具的进步确实很快
 
-![第四章配图](/img/ai-tool-division/12_04_domestic_tools.png)
+![第四章配图](/img/ai-tool-division/12_04_domestic_tools.jpg)
 
 顺便说一句，国产 AI 工具这两年进步很明显。
 
@@ -102,7 +102,7 @@ ChatGPT 的知识面最广，解释能力最强。你问它一个你不懂的概
 
 ## 说到底
 
-![第五章配图](/img/ai-tool-division/12_05_key_point.png)
+![第五章配图](/img/ai-tool-division/12_05_key_point.jpg)
 
 工具选择这件事，没有标准答案。
 

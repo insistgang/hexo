@@ -8,11 +8,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/qwen-code-model-analysis/00_cover.png
+cover: /img/qwen-code-model-analysis/00_cover.jpg
 abbrlink: qwen-code-model-analysis
 ---
 
-![封面](/img/qwen-code-model-analysis/00_cover.png)
+![封面](/img/qwen-code-model-analysis/00_cover.jpg)
 
 > 2026年AI编程模型选型指南：Qwen Code 10款模型深度横评
 
@@ -20,7 +20,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 开篇：一个困扰开发者的难题
 
-![第一章配图](/img/qwen-code-model-analysis/01_developer_dilemma.png)
+![第一章配图](/img/qwen-code-model-analysis/01_developer_dilemma.jpg)
 
 "我想用AI写代码，但模型太多了——选GPT还是Claude？国产的行不行？API太贵怎么办？"
 
@@ -34,7 +34,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 一、Qwen Code是什么？
 
-![第二章配图](/img/qwen-code-model-analysis/02_what_is_qwen_code.png)
+![第二章配图](/img/qwen-code-model-analysis/02_what_is_qwen_code.jpg)
 
 **Qwen Code**是阿里基于通义千问推出的AI编程助手，支持：
 
@@ -55,7 +55,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 二、10款模型全解析
 
-![第三章配图](/img/qwen-code-model-analysis/03_ten_models.png)
+![第三章配图](/img/qwen-code-model-analysis/03_ten_models.jpg)
 
 ### Qwen3系列（阿里自研）
 
@@ -194,7 +194,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 三、能力横评矩阵
 
-![第四章配图](/img/qwen-code-model-analysis/04_comparison_matrix.png)
+![第四章配图](/img/qwen-code-model-analysis/04_comparison_matrix.jpg)
 
 | 模型| 代码能力 | 推理能力 | 上下文 | 速度 | 成本 | 综合 |
 |------|---------|---------|--------|------|------|------|
@@ -211,7 +211,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 四、Coding Plan的战略解读
 
-![第五章配图](/img/qwen-code-model-analysis/05_strategy_analysis.png)
+![第五章配图](/img/qwen-code-model-analysis/05_strategy_analysis.jpg)
 
 ### 为什么阿里要引入竞品？
 
@@ -240,7 +240,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 五、选型决策指南
 
-![第六章配图](/img/qwen-code-model-analysis/06_selection_guide.png)
+![第六章配图](/img/qwen-code-model-analysis/06_selection_guide.jpg)
 
 ### 🎯 按场景推荐
 
@@ -282,7 +282,7 @@ abbrlink: qwen-code-model-analysis
 
 ## 六、实操配置教程
 
-![第七章配图](/img/qwen-code-model-analysis/07_practical_tutorial.png)
+![第七章配图](/img/qwen-code-model-analysis/07_practical_tutorial.jpg)
 
 ### 1. 安装Qwen Code
 
@@ -328,7 +328,7 @@ qwen-code --model glm-5 "优化这段代码"
 
 ## 七、总结与展望
 
-![第八章配图](/img/qwen-code-model-analysis/08_summary_outlook.png)
+![第八章配图](/img/qwen-code-model-analysis/08_summary_outlook.jpg)
 
 百炼Coding Plan做了一个大胆的尝试：**与其和竞品死磕，不如把大家都请进来。**
 

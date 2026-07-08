@@ -8,13 +8,13 @@ tags:
 categories:
   - 杂谈
   - 深度分析
-cover: /img/ai-coding-era-career-path/00_cover.png
+cover: /img/ai-coding-era-career-path/00_cover.jpg
 abbrlink: ai-coding-era-career-path
 swiper_index: 1
 swiper_desc: "AI 编程工具时代，真正稀缺的不是行数，而是需求判断和商业闭环"
 ---
 
-![封面](/img/ai-coding-era-career-path/00_cover.png)
+![封面](/img/ai-coding-era-career-path/00_cover.jpg)
 
 **——一场关于 AI 工具时代个人发展路径的深度对话**
 
@@ -39,7 +39,7 @@ swiper_desc: "AI 编程工具时代，真正稀缺的不是行数，而是需求
 
 ## 一个典型的"AI原住民"画像
 
-![第一章配图](/img/ai-coding-era-career-path/01_ai_native_profile.png)
+![第一章配图](/img/ai-coding-era-career-path/01_ai_native_profile.jpg)
 
 故事的主角背景并不复杂：本科经济学，研究生金融学，都在美国读的。编程基础有一些，系统学过Python，但自认不是传统意义上的程序员。
 
@@ -61,7 +61,7 @@ swiper_desc: "AI 编程工具时代，真正稀缺的不是行数，而是需求
 
 ## 那盆冷水：三个被忽视的问题
 
-![第二章配图](/img/ai-coding-era-career-path/02_cold_water_problems.png)
+![第二章配图](/img/ai-coding-era-career-path/02_cold_water_problems.jpg)
 
 然而，当更有经验的人审视这条路径时，提出了三个尖锐的问题。
 
@@ -94,7 +94,7 @@ swiper_desc: "AI 编程工具时代，真正稀缺的不是行数，而是需求
 
 ## 真正该做的四件事
 
-![第三章配图](/img/ai-coding-era-career-path/03_four_things_to_do.png)
+![第三章配图](/img/ai-coding-era-career-path/03_four_things_to_do.jpg)
 
 对话中给出的建议，我觉得对所有在 AI 浪潮中跃跃欲试的人都有参考价值。
 
@@ -120,7 +120,7 @@ AI 时代的创业依然需要团队。你会写代码，但你会卖东西吗�
 
 ## 一个容易掉进去的认知陷阱
 
-![第四章配图](/img/ai-coding-era-career-path/04_cognition_trap.png)
+![第四章配图](/img/ai-coding-era-career-path/04_cognition_trap.jpg)
 
 这段对话里最有穿透力的一句话是：**不要错把平台当实力。**
 
@@ -134,7 +134,7 @@ AI 工具确实在重新定义个人的生产力边界。但工具是公共的�
 
 ## 写在最后
 
-![第五章配图](/img/ai-coding-era-career-path/05_conclusion.png)
+![第五章配图](/img/ai-coding-era-career-path/05_conclusion.jpg)
 
 AI 编程工具给了每个人一把好刀。但拿到好刀的人，首先要想清楚三个问题：
 

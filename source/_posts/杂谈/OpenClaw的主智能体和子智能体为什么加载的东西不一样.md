@@ -7,11 +7,11 @@ tags:
   - AI架构
 categories:
   - 杂谈
-cover: /img/openclaw-architecture/17_00_openclaw_architecture_cover.png
+cover: /img/openclaw-architecture/17_00_openclaw_architecture_cover.jpg
 abbrlink: openclaw-architecture
 ---
 
-![封面](/img/openclaw-architecture/17_00_openclaw_architecture_cover.png)
+![封面](/img/openclaw-architecture/17_00_openclaw_architecture_cover.jpg)
 
 我在配置 OpenClaw 多 Agent 工作流的时候，发现一个有意思的设计：主智能体启动时加载 7 个文件，子智能体只加载 2 个。
 
@@ -25,7 +25,7 @@ abbrlink: openclaw-architecture
 
 ## 主智能体加载了什么？
 
-![第一章配图](/img/openclaw-architecture/17_01_main_agent_layers.png)
+![第一章配图](/img/openclaw-architecture/17_01_main_agent_layers.jpg)
 
 主智能体启动时，按顺序加载 7 层文件：
 
@@ -49,7 +49,7 @@ abbrlink: openclaw-architecture
 
 ## 子智能体只加载两个文件
 
-![第二章配图](/img/openclaw-architecture/17_02_sub_agent_simple.png)
+![第二章配图](/img/openclaw-architecture/17_02_sub_agent_simple.jpg)
 
 子智能体启动时，只加载 AGENTS.md 和 TOOLS.md。
 
@@ -61,7 +61,7 @@ abbrlink: openclaw-architecture
 
 ## 为什么子智能体不需要人格？
 
-![第三章配图](/img/openclaw-architecture/17_03_why_no_personality.png)
+![第三章配图](/img/openclaw-architecture/17_03_why_no_personality.jpg)
 
 我一开始觉得"不加载人格"是偷懒，后来理解了背后的三个原因。
 
@@ -87,7 +87,7 @@ SOUL.md、IDENTITY.md、USER.md、memory 文件加起来，可能要占 2000-600
 
 ## 本质上就是一个 CEO + 执行团队的架构
 
-![第四章配图](/img/openclaw-architecture/17_04_ceo_architecture.png)
+![第四章配图](/img/openclaw-architecture/17_04_ceo_architecture.jpg)
 
 想通这个之后，OpenClaw 的整体架构就很清晰了。
 
@@ -101,7 +101,7 @@ SOUL.md、IDENTITY.md、USER.md、memory 文件加起来，可能要占 2000-600
 
 ## 一个实际的工作流示例
 
-![第五章配图](/img/openclaw-architecture/17_05_workflow_example.png)
+![第五章配图](/img/openclaw-architecture/17_05_workflow_example.jpg)
 
 比如我让 OpenClaw 帮我写一篇公众号文章。
 
@@ -117,7 +117,7 @@ SOUL.md、IDENTITY.md、USER.md、memory 文件加起来，可能要占 2000-600
 
 ## 这个设计对我配置多 Agent 工作流的启发
 
-![第六章配图](/img/openclaw-architecture/17_06_config_insights.png)
+![第六章配图](/img/openclaw-architecture/17_06_config_insights.jpg)
 
 理解了这个架构之后，我配置 OpenClaw 的思路变了：
 

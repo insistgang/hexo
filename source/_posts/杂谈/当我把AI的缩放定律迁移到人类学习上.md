@@ -8,11 +8,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/scaling-laws-human-learning/00_scaling_laws_human_learning.png
+cover: /img/scaling-laws-human-learning/00_scaling_laws_human_learning.jpg
 abbrlink: scaling-laws-human-learning
 ---
 
-![封面](/img/scaling-laws-human-learning/00_scaling_laws_human_learning.png)
+![封面](/img/scaling-laws-human-learning/00_scaling_laws_human_learning.jpg)
 
 今天读了OpenAI的经典论文《Scaling Laws for Neural Language Models》。
 
@@ -23,7 +23,7 @@ abbrlink: scaling-laws-human-learning
 ---
 
 ## 论文到底说了什么？
-![第一章配图](/img/scaling-laws-human-learning/01_paper_core_findings.png)
+![第一章配图](/img/scaling-laws-human-learning/01_paper_core_findings.jpg)
 
 一句话概括：
 
@@ -46,7 +46,7 @@ abbrlink: scaling-laws-human-learning
 ---
 
 ## 最反直觉的结论
-![第二章配图](/img/scaling-laws-human-learning/02_counterintuitive_conclusion.png)
+![第二章配图](/img/scaling-laws-human-learning/02_counterintuitive_conclusion.jpg)
 
 论文里有一个让我印象很深的发现：
 
@@ -63,7 +63,7 @@ abbrlink: scaling-laws-human-learning
 ---
 
 ## 我开始想：人类学习是不是也有"缩放定律"？
-![第三章配图](/img/scaling-laws-human-learning/03_human_learning_scaling.png)
+![第三章配图](/img/scaling-laws-human-learning/03_human_learning_scaling.jpg)
 
 如果把深度学习的概念迁移到人类学习上：
 
@@ -169,7 +169,7 @@ Scaling Law是幂律关系，特点是：
 ---
 
 ## 总结：人类学习的缩放定律
-![第四章配图](/img/scaling-laws-human-learning/04_learning_scaling_summary.png)
+![第四章配图](/img/scaling-laws-human-learning/04_learning_scaling_summary.jpg)
 
 读完这篇论文，我试着总结一个"人类学习的缩放定律"：
 
@@ -188,7 +188,7 @@ Scaling Law是幂律关系，特点是：
 ---
 
 ## 写在最后
-![第五章配图](/img/scaling-laws-human-learning/05_closing_reflection.png)
+![第五章配图](/img/scaling-laws-human-learning/05_closing_reflection.jpg)
 
 这篇论文之所以经典，不是因为它发明了什么高级技术，而是因为它**发现了一个简单的规律，然后整个行业都按这个规律走了**。
 

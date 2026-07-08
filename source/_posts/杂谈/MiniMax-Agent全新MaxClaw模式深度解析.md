@@ -92,7 +92,7 @@ MaxClaw 支持接入飞书、钉钉、Telegram、Discord、Slack、WhatsApp 等�
 
 ## 四、Expert 板块：万人共建的专家生态
 
-![Expert板块](/img/maxclaw-deep-dive/MaxClaw_05_expert_ecosystem.png)
+![Expert板块](/img/maxclaw-deep-dive/MaxClaw_05_expert_ecosystem.jpg)
 
 MaxClaw 的 Expert 板块是它区别于其他 Agent 工具的核心差异化优势。
 

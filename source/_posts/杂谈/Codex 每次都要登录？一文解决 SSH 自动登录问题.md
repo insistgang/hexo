@@ -21,7 +21,7 @@ abbrlink: codex-ssh-auto-login-fix
 
 ## 😫 问题现象
 
-![第一章配图](/img/codex-ssh-auto-login-fix/codex-login_01_problem_codex.png)
+![第一章配图](/img/codex-ssh-auto-login-fix/codex-login_01_problem_codex.jpg)
 
 SSH 登录服务器后启动 Codex，每次都弹出这个界面：
 
@@ -41,7 +41,7 @@ Press Enter to continue
 
 ## 🔍 问题根因
 
-![第二章配图](/img/codex-ssh-auto-login-fix/codex-login_02_root_cause_codex.png)
+![第二章配图](/img/codex-ssh-auto-login-fix/codex-login_02_root_cause_codex.jpg)
 
 Codex 的配置分为两层：
 
@@ -91,7 +91,7 @@ Logged in using an API key - sk-xx***xx
 
 ## 📁 修复后发生了什么？
 
-![第四章配图](/img/codex-ssh-auto-login-fix/codex-login_04_result_codex.png)
+![第四章配图](/img/codex-ssh-auto-login-fix/codex-login_04_result_codex.jpg)
 
 Codex 创建了核心认证文件 `~/.codex/auth.json`：
 
@@ -108,7 +108,7 @@ Codex 创建了核心认证文件 `~/.codex/auth.json`：
 
 ## 💡 迁移到新服务器
 
-![第五章配图](/img/codex-ssh-auto-login-fix/codex-login_05_migration_codex.png)
+![第五章配图](/img/codex-ssh-auto-login-fix/codex-login_05_migration_codex.jpg)
 
 如果换了服务器，最简单的方式：
 
@@ -126,7 +126,7 @@ echo "你的API-Key" | codex login --with-api-key
 
 ## 📝 总结
 
-![第六章配图](/img/codex-ssh-auto-login-fix/codex-login_06_summary_codex.png)
+![第六章配图](/img/codex-ssh-auto-login-fix/codex-login_06_summary_codex.jpg)
 
 | 问题 | 解决方案 |
 |------|----------|

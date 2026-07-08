@@ -10,7 +10,7 @@ tags:
 categories:
   - 杂谈
   - 技术分享
-cover: /img/cos.png
+cover: /img/cos.jpg
 abbrlink: e-disk-cleanup
 ---
 

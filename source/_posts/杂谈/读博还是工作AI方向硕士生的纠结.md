@@ -7,11 +7,11 @@ tags:
   - AI
 categories:
   - 杂谈
-cover: /img/phd-vs-work/05_00_phd_vs_work_cover.png
+cover: /img/phd-vs-work/05_00_phd_vs_work_cover.jpg
 abbrlink: phd-vs-work
 ---
 
-![封面](/img/phd-vs-work/05_00_phd_vs_work_cover.png)
+![封面](/img/phd-vs-work/05_00_phd_vs_work_cover.jpg)
 
 这个问题我想了很久。
 
@@ -25,7 +25,7 @@ abbrlink: phd-vs-work
 
 ## 学术界的风险，比你想象的大
 
-![第一章配图](/img/phd-vs-work/05_01_academia_risks.png)
+![第一章配图](/img/phd-vs-work/05_01_academia_risks.jpg)
 
 AI 领域有一个很残酷的现实：技术迭代太快了。
 
@@ -43,7 +43,7 @@ AI 领域有一个很残酷的现实：技术迭代太快了。
 
 ## 工业界的逻辑：经验比学历值钱
 
-![第二章配图](/img/phd-vs-work/05_02_industry_logic.png)
+![第二章配图](/img/phd-vs-work/05_02_industry_logic.jpg)
 
 我跟几个在 AI 公司工作的师兄聊过，他们给我最大的感受是：**工业界招人，看的是你能解决什么问题，不是你有什么学历。**
 
@@ -57,7 +57,7 @@ AI 领域有一个很残酷的现实：技术迭代太快了。
 
 ## 工业界最缺什么人？
 
-![第三章配图](/img/phd-vs-work/05_03_industry_demand.png)
+![第三章配图](/img/phd-vs-work/05_03_industry_demand.jpg)
 
 从我了解到的信息来看，AI 行业现在最稀缺的不是算法工程师，而是 Infra 人才。
 
@@ -71,7 +71,7 @@ Infra 就是基础设施——训练框架（DeepSpeed、Megatron）、推理优
 
 ## 那我为什么还是想读博？
 
-![第四章配图](/img/phd-vs-work/05_04_why_phd.png)
+![第四章配图](/img/phd-vs-work/05_04_why_phd.jpg)
 
 说了这么多工业界的好处，但我自己还是倾向读博。不是因为不认同上面的分析，而是因为几个个人原因：
 
@@ -87,7 +87,7 @@ Infra 就是基础设施——训练框架（DeepSpeed、Megatron）、推理优
 
 ## 给同样在纠结的人
 
-![第五章配图](/img/phd-vs-work/05_05_decision_advice.png)
+![第五章配图](/img/phd-vs-work/05_05_decision_advice.jpg)
 
 如果你也在犹豫读博还是工作，几个建议：
 

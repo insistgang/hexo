@@ -7,11 +7,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/ai-skill-monetization-truth/ai_skill_cover.png
+cover: /img/ai-skill-monetization-truth/ai_skill_cover.jpg
 abbrlink: ai-skill-monetization-truth
 ---
 
-![封面](/img/ai-skill-monetization-truth/ai_skill_cover.png)
+![封面](/img/ai-skill-monetization-truth/ai_skill_cover.jpg)
 
 最近和一个朋友聊了很久，关于AI技能怎么变现的问题。
 
@@ -22,7 +22,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 01 一个很朴素的商业逻辑
-![配图](/img/ai-skill-monetization-truth/ai_skill_01.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_01.jpg)
 
 我朋友提了一个链条：
 
@@ -45,7 +45,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 02 豆浆鸡蛋的困境
-![配图](/img/ai-skill-monetization-truth/ai_skill_02.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_02.jpg)
 
 我跟他说了一个比喻：你发现人人都吃早餐，于是你做了豆浆鸡蛋。但人人都吃早餐，不代表人人都会买你的豆浆。
 
@@ -66,7 +66,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 03 别卖Skill，卖结果
-![配图](/img/ai-skill-monetization-truth/ai_skill_03.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_03.jpg)
 
 聊到后面，我朋友说了一句话，我觉得特别有意思：
 
@@ -83,7 +83,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 04 一个血淋淋的反面教材
-![配图](/img/ai-skill-monetization-truth/ai_skill_04.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_04.jpg)
 
 聊天过程中，我们实际操作了一件事：给PPT去水印。
 
@@ -104,7 +104,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 05 Token不值钱，结果才值钱
-![配图](/img/ai-skill-monetization-truth/ai_skill_05.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_05.jpg)
 
 我一直在公众号里强调一个观点：**Token本身没有价值，Token转化成你需要的结果，才有价值。**
 
@@ -123,7 +123,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 06 短期最现实的路径
-![配图](/img/ai-skill-monetization-truth/ai_skill_06.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_06.jpg)
 
 如果你也在想AI技能变现，我的建议是这样的：
 
@@ -148,7 +148,7 @@ abbrlink: ai-skill-monetization-truth
 ---
 
 ## 07 写在最后
-![配图](/img/ai-skill-monetization-truth/ai_skill_07.png)
+![配图](/img/ai-skill-monetization-truth/ai_skill_07.jpg)
 
 我朋友说了一句话，我觉得可以作为结尾：
 

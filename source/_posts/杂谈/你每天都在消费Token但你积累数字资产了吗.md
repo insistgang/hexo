@@ -8,11 +8,11 @@ tags:
 categories:
   - 杂谈
   - 研究生成长
-cover: /img/digital-asset-accumulation/digital_asset_cover.png
+cover: /img/digital-asset-accumulation/digital_asset_cover.jpg
 abbrlink: digital-asset-accumulation
 ---
 
-![封面](/img/digital-asset-accumulation/digital_asset_cover.png)
+![封面](/img/digital-asset-accumulation/digital_asset_cover.jpg)
 
 我发现一个现象：很多人用AI用得很勤，每天和大模型聊几十轮，生成PPT、写文案、做总结，但聊完就关了，什么都没留下。
 
@@ -25,7 +25,7 @@ Token花了，结果没攒下来。
 ---
 
 ## 01 AI最大的价值，不是帮你干活
-![配图](/img/digital-asset-accumulation/digital_asset_01.png)
+![配图](/img/digital-asset-accumulation/digital_asset_01.jpg)
 
 很多人对AI的理解停留在"效率工具"——帮我写个文案、做个PPT、总结个文档。
 
@@ -44,7 +44,7 @@ Token花了，结果没攒下来。
 ---
 
 ## 02 什么是数字资产？
-![配图](/img/digital-asset-accumulation/digital_asset_02.png)
+![配图](/img/digital-asset-accumulation/digital_asset_02.jpg)
 
 我朋友提了一个概念，我觉得值得每个人认真想想：**数字资产。**
 
@@ -63,7 +63,7 @@ Token花了，结果没攒下来。
 ---
 
 ## 03 为什么一定要"写出来"？
-![配图](/img/digital-asset-accumulation/digital_asset_03.png)
+![配图](/img/digital-asset-accumulation/digital_asset_03.jpg)
 
 我朋友问了我一个问题："你懂这一套、懂那一套，但如果你不写出来，AI怎么知道你懂？"
 
@@ -84,7 +84,7 @@ Token花了，结果没攒下来。
 ---
 
 ## 04 AI正在让"会学习"变成最大的竞争力
-![配图](/img/digital-asset-accumulation/digital_asset_04.png)
+![配图](/img/digital-asset-accumulation/digital_asset_04.jpg)
 
 聊天过程中，我们讨论了一个有点敏感但很现实的话题：AI对教育行业的冲击。
 
@@ -99,7 +99,7 @@ Token花了，结果没攒下来。
 ---
 
 ## 05 工具不重要，留下什么才重要
-![配图](/img/digital-asset-accumulation/digital_asset_05.png)
+![配图](/img/digital-asset-accumulation/digital_asset_05.jpg)
 
 我和朋友这次聊天，前前后后折腾了好几个工具——MiniMax、Claude、Kimi、豆包、Copilot。每个工具都有自己的优势和局限。
 
@@ -116,7 +116,7 @@ Token花了，结果没攒下来。
 ---
 
 ## 06 写在最后
-![配图](/img/digital-asset-accumulation/digital_asset_06.png)
+![配图](/img/digital-asset-accumulation/digital_asset_06.jpg)
 
 我们这一代人正处在一个很特殊的窗口期。
 
