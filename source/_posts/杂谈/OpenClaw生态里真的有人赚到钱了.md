@@ -7,11 +7,11 @@ tags:
   - AI商业化
 categories:
   - 杂谈
-cover: /img/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.png
+cover: /img/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.jpg
 abbrlink: openclaw-ecosystem-opportunity
 ---
 
-![封面](/img/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.png)
+![封面](/img/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.jpg)
 
 最近在 OpenClaw 社群、小红书、还有朋友圈里，我陆续看到一些让我坐不住的东西。
 
@@ -35,7 +35,7 @@ abbrlink: openclaw-ecosystem-opportunity
 
 ## 先说一个反直觉的结论
 
-![第一章配图](/img/openclaw-ecosystem-opportunity/01_counterintuitive_conclusion.png)
+![第一章配图](/img/openclaw-ecosystem-opportunity/01_counterintuitive_conclusion.jpg)
 
 OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，怎么赚钱？
 
@@ -51,7 +51,7 @@ OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，�
 
 ## 方向一：部署服务——最朴素，但真的有人靠这个月入两万
 
-![第二章配图](/img/openclaw-ecosystem-opportunity/02_deployment_service.png)
+![第二章配图](/img/openclaw-ecosystem-opportunity/02_deployment_service.jpg)
 
 我在社群里看到一个哥们，做的事情特别简单：帮人装 OpenClaw。
 
@@ -71,7 +71,7 @@ OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，�
 
 ## 方向二：培训服务——你不需要是专家，只需要比学员多走一步
 
-![第三章配图](/img/openclaw-ecosystem-opportunity/03_training_service.png)
+![第三章配图](/img/openclaw-ecosystem-opportunity/03_training_service.jpg)
 
 小红书上有个博主让我印象很深。他不是什么大佬，就是比大多数人早用了几个月 OpenClaw，然后把自己踩过的坑录成了视频教程。
 
@@ -91,7 +91,7 @@ OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，�
 
 ## 方向三：托管服务——最像"睡后收入"，但需要运维底子
 
-![第四章配图](/img/openclaw-ecosystem-opportunity/04_hosting_service.png)
+![第四章配图](/img/openclaw-ecosystem-opportunity/04_hosting_service.jpg)
 
 这个方向我在朋友圈里看到有人在做，模式很简单：
 
@@ -115,7 +115,7 @@ OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，�
 
 ## 方向四：行业定制——最难，但也最值钱
 
-![第五章配图](/img/openclaw-ecosystem-opportunity/05_industry_customization.png)
+![第五章配图](/img/openclaw-ecosystem-opportunity/05_industry_customization.jpg)
 
 这是我在社群里看到的最让我兴奋的方向。
 
@@ -139,7 +139,7 @@ OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，�
 
 ## 我的真实想法
 
-![第六章配图](/img/openclaw-ecosystem-opportunity/06_real_thoughts.png)
+![第六章配图](/img/openclaw-ecosystem-opportunity/06_real_thoughts.jpg)
 
 看完这些案例，我并不觉得每个方向都适合所有人。
 
@@ -165,7 +165,7 @@ OpenClaw 是开源免费的。很多人的第一反应是：免费的东西，�
 
 共勉。
 
-![结语配图](/img/openclaw-ecosystem-opportunity/07_action_matters.png)
+![结语配图](/img/openclaw-ecosystem-opportunity/07_action_matters.jpg)
 
 ---
 

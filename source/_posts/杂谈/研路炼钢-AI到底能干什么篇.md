@@ -26,7 +26,7 @@ abbrlink: ai-usage
 
 ## 01｜我的AI全家桶
 
-![配图](/img/ai-usage/03_01_ai_bundle.png)
+![配图](/img/ai-usage/03_01_ai_bundle.jpg)
 
 先交代一下我自己的使用情况。
 
@@ -44,7 +44,7 @@ N师兄也认同这个判断："你花了钱，提升了效率，获得了结果
 
 ## 02｜AI 最适合接管哪类编程任务
 
-![配图](/img/ai-usage/03_02_ai_replaces.png)
+![配图](/img/ai-usage/03_02_ai_replaces.jpg)
 
 这是我们聊得最深的一个话题。
 
@@ -67,7 +67,7 @@ N师兄也认同这个判断："你花了钱，提升了效率，获得了结果
 
 ## 03｜合伙人的AI幻灭记
 
-![配图](/img/ai-usage/03_03_ai_disillusion.png)
+![配图](/img/ai-usage/03_03_ai_disillusion.jpg)
 
 N师兄讲了一个特别有意思的故事。
 
@@ -93,7 +93,7 @@ N师兄总结了两个核心原因：
 
 ## 04｜为什么前端最容易被 AI 提效
 
-![配图](/img/ai-usage/03_04_frontend_ai.png)
+![配图](/img/ai-usage/03_04_frontend_ai.jpg)
 
 我们还聊到一个有意思的话题：为什么AI写前端代码特别好？
 
@@ -117,7 +117,7 @@ N师兄的分析是这样的——
 
 ## 05｜"我比任何人都希望AI能一句话生成一个腾讯帝国"
 
-![配图](/img/ai-usage/03_05_ai_dream.png)
+![配图](/img/ai-usage/03_05_ai_dream.jpg)
 
 N师兄说了一段话，我觉得是整顿饭最清醒的判断：
 
@@ -133,7 +133,7 @@ N师兄说了一段话，我觉得是整顿饭最清醒的判断：
 
 ## 06｜研究生阶段，AI到底怎么用
 
-![配图](/img/ai-usage/03_06_ai_研究生.png)
+![配图](/img/ai-usage/03_06_ai_研究生.jpg)
 
 聊到最后，我们达成的共识大概是这样的：
 

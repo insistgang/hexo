@@ -7,11 +7,11 @@ tags:
   - 效率
 categories:
   - 杂谈
-cover: /img/claude-half-year/20_00_claude_half_year_cover.png
+cover: /img/claude-half-year/20_00_claude_half_year_cover.jpg
 abbrlink: claude-half-year
 ---
 
-![封面](/img/claude-half-year/20_00_claude_half_year_cover.png)
+![封面](/img/claude-half-year/20_00_claude_half_year_cover.jpg)
 
 标题党文章里说"Claude 让效率提升 100 倍"，这种话听听就好。
 
@@ -21,7 +21,7 @@ abbrlink: claude-half-year
 
 ## 最好用的场景：帮你读东西
 
-![第一章配图](/img/claude-half-year/20_01_best_reading.png)
+![第一章配图](/img/claude-half-year/20_01_best_reading.jpg)
 
 这是我用得最多的功能，也是 Claude 最擅长的。
 
@@ -35,7 +35,7 @@ abbrlink: claude-half-year
 
 ## 第二好用的场景：帮你改东西
 
-![第二章配图](/img/claude-half-year/20_02_second_best_editing.png)
+![第二章配图](/img/claude-half-year/20_02_second_best_editing.jpg)
 
 写完一段文字、一封邮件、一段代码，让 Claude 帮你优化——这个场景的效果非常稳定。
 
@@ -49,7 +49,7 @@ abbrlink: claude-half-year
 
 ## 第三好用的场景：帮你想框架
 
-![第三章配图](/img/claude-half-year/20_03_third_framework.png)
+![第三章配图](/img/claude-half-year/20_03_third_framework.jpg)
 
 当你要写一篇文章但不知道怎么组织结构、要做一个项目但不知道从哪开始、要准备一个汇报但不知道讲几个点——让 Claude 先出一个框架。
 
@@ -61,7 +61,7 @@ abbrlink: claude-half-year
 
 ## 效果一般的场景：帮你从零创作
 
-![第四章配图](/img/claude-half-year/20_04_weak_scratch.png)
+![第四章配图](/img/claude-half-year/20_04_weak_scratch.jpg)
 
 让 Claude 从零写一篇完整的文章，做一份完整的 PPT、设计一个完整的方案——效果就没那么好了。
 
@@ -73,7 +73,7 @@ abbrlink: claude-half-year
 
 ## 完全不行的场景：查事实
 
-![第五章配图](/img/claude-half-year/20_05_fact_checking_weak.png)
+![第五章配图](/img/claude-half-year/20_05_fact_checking_weak.jpg)
 
 这个前面那篇"AI 编造文献"里已经说过了。AI 查事实、找数据、搜文献，可信度很低。它会一本正经地编出完全不存在的东西。
 
@@ -83,7 +83,7 @@ abbrlink: claude-half-year
 
 ## 一个提升效果的通用技巧
 
-![第六章配图](/img/claude-half-year/20_06_role_prompt.png)
+![第六章配图](/img/claude-half-year/20_06_role_prompt.jpg)
 
 不管用在什么场景，有一个技巧是通用的：**给 AI 一个角色。**
 
@@ -97,7 +97,7 @@ abbrlink: claude-half-year
 
 ## 说到底
 
-![第七章配图](/img/claude-half-year/20_07_key_point.png)
+![第七章配图](/img/claude-half-year/20_07_key_point.jpg)
 
 Claude 不是万能的。它最擅长的是"在你已有内容的基础上帮你做得更好"——读、改、优化、扩展。它最不擅长的是"从零开始替你创造"和"查找事实"。
 

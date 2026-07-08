@@ -8,11 +8,11 @@ tags:
 categories:
   - 杂谈
   - 成长记录
-cover: /img/shaoshaotoken-completion/shaoshaotoken_00_cover.png
+cover: /img/shaoshaotoken-completion/shaoshaotoken_00_cover.jpg
 abbrlink: shaoshaotoken-completion
 ---
 
-![封面](/img/shaoshaotoken-completion/shaoshaotoken_00_cover.png)
+![封面](/img/shaoshaotoken-completion/shaoshaotoken_00_cover.jpg)
 
 # 少烧 token，多出 completion
 
@@ -23,7 +23,7 @@ abbrlink: shaoshaotoken-completion
 ---
 
 ## 我的"多线程"人生
-![配图](/img/shaoshaotoken-completion/shaoshaotoken_01.png)
+![配图](/img/shaoshaotoken-completion/shaoshaotoken_01.jpg)
 
 我的桌面永远开着十几个软件。浏览器永远有三四十个标签页。微信、论文PDF、代码编辑器、公众号后台、抖音——全都同时开着，好像它们同时跑着我就在同时进步。
 
@@ -34,7 +34,7 @@ abbrlink: shaoshaotoken-completion
 仔细一想，确实是这样。我的 CPU 看着没满载，但上下文切换的开销已经把我拖垮了。每切换一次任务，大脑就要重新加载一遍上下文——论文写到哪了？代码跑到哪步了？那个表格填了没？这些隐性消耗，比任何一个任务本身都耗能。
 
 ## "什么都培养了，就等于什么都没有培养"
-![配图](/img/shaoshaotoken-completion/shaoshaotoken_02.png)
+![配图](/img/shaoshaotoken-completion/shaoshaotoken_02.jpg)
 
 这是我跟 AI 聊到一半时脱口而出的一句话。说完之后自己愣了一下——因为我知道，这句话精准地戳中了我的核心问题。
 
@@ -45,7 +45,7 @@ abbrlink: shaoshaotoken-completion
 但现实是什么呢？科研绘图画了不到一个小时就崩溃了。论文草稿写了两个月还是草稿。工具折腾了一堆，但真正的交付物——投出去的论文——一篇都没有。
 
 ## 一直在烧 token，没有产出 completion
-![配图](/img/shaoshaotoken-completion/shaoshaotoken_03.png)
+![配图](/img/shaoshaotoken-completion/shaoshaotoken_03.jpg)
 
 如果把人比作一个大模型，我每天确实在疯狂消耗 token。
 
@@ -58,7 +58,7 @@ abbrlink: shaoshaotoken-completion
 就像一个模型的 context window 被塞满了噪声，真正的 instruction 被淹没了，输出质量自然很差。
 
 ## 无序，是我的常态
-![配图](/img/shaoshaotoken-completion/shaoshaotoken_04.png)
+![配图](/img/shaoshaotoken-completion/shaoshaotoken_04.jpg)
 
 我在语音里说了一段很长的话，大意是：
 
@@ -71,7 +71,7 @@ abbrlink: shaoshaotoken-completion
 论文改了很多稿，最终交出一个有序的结果——那个过程中的无序是有方向的。但我现在的无序，更像同时打开十个文件夹，每个翻两页就跳到下一个，最后一个都没看完。
 
 ## 做得少，反而产出多
-![配图](/img/shaoshaotoken-completion/shaoshaotoken_05.png)
+![配图](/img/shaoshaotoken-completion/shaoshaotoken_05.jpg)
 
 这是一个反直觉的道理，但我越来越觉得它是对的。
 
@@ -88,7 +88,7 @@ Claude 最后问我：你的下一步计划是什么？
 打开论文，挑一张图，画完它。画完这一张，今天的 completion 就有了。
 
 ## 写在最后
-![配图](/img/shaoshaotoken-completion/shaoshaotoken_06.png)
+![配图](/img/shaoshaotoken-completion/shaoshaotoken_06.jpg)
 
 今天是周六，我决定休息。不是逃避，是我意识到，连续空转比不转更消耗能量。
 

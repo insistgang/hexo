@@ -22,7 +22,7 @@ swiper_desc: "MiniMax Agent 深度分析与场景应用"
 
 ## 一、产品定位解构
 
-![配图](/img/minimax-agent-analysis/section1_product_positioning.png)
+![配图](/img/minimax-agent-analysis/section1_product_positioning.jpg)
 
 MiniMax Agent 的本质定位不是"文生图工具"或"PPT 生成器"，而是一个**面向非工程用户的全模态 Agent 平台**。它试图用极低的使用门槛，将 LLM 的代码执行、多模态生成、工具调用等能力封装为"一句话交付结果"的体验。
 
@@ -35,7 +35,7 @@ MiniMax Agent 的本质定位不是"文生图工具"或"PPT 生成器"，而是�
 
 ## 二、核心应用场景（按科研实用性重排序）
 
-![配图](/img/minimax-agent-analysis/section2_core_applications.png)
+![配图](/img/minimax-agent-analysis/section2_core_applications.jpg)
 
 ### Tier 1：对科研工作流直接有价值的场景
 
@@ -82,7 +82,7 @@ MiniMax Agent 的本质定位不是"文生图工具"或"PPT 生成器"，而是�
 
 ## 四、关键判断：什么时候该用 MiniMax Agent？
 
-![配图](/img/minimax-agent-analysis/section4_when_to_use.png)
+![配图](/img/minimax-agent-analysis/section4_when_to_use.jpg)
 
 ### ✅ 适合使用 MiniMax 的场景
 

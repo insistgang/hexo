@@ -7,11 +7,11 @@ tags:
   - 论文
 categories:
   - 杂谈
-cover: /img/sci-submission-checklist/06_00_sci_submission_cover.png
+cover: /img/sci-submission-checklist/06_00_sci_submission_cover.jpg
 abbrlink: sci-submission-checklist
 ---
 
-![封面](/img/sci-submission-checklist/06_00_sci_submission_cover.png)
+![封面](/img/sci-submission-checklist/06_00_sci_submission_cover.jpg)
 
 辛辛苦苦写了几个月的论文，投出去当天就被退回了。
 
@@ -29,7 +29,7 @@ abbrlink: sci-submission-checklist
 
 ## 五类文件，缺一类都可能被退
 
-![第一章配图](/img/sci-submission-checklist/06_01_five_document_types.png)
+![第一章配图](/img/sci-submission-checklist/06_01_five_document_types.jpg)
 
 SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、审稿人建议、声明文件。
 
@@ -45,7 +45,7 @@ SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、�
 
 ## 图表文件，分辨率是重灾区
 
-![第二章配图](/img/sci-submission-checklist/06_02_figure_specs.png)
+![第二章配图](/img/sci-submission-checklist/06_02_figure_specs.jpg)
 
 图片要求高清格式，一般 TIFF 或 EPS，分辨率至少 300 dpi，彩色图要 600 dpi。命名规范用 Fig1.tif、Fig2.eps 这种，不要用"图片最终版v3.jpg"。
 
@@ -57,7 +57,7 @@ SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、�
 
 ## Cover Letter：编辑看的第一眼
 
-![第三章配图](/img/sci-submission-checklist/06_03_cover_letter.png)
+![第三章配图](/img/sci-submission-checklist/06_03_cover_letter.jpg)
 
 很多人把 Cover Letter 当形式，随便写几句。但编辑第一眼看的就是这封信——写得好增加送审概率，写得烂可能直接拒稿。
 
@@ -79,7 +79,7 @@ SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、�
 
 ## 建议审稿人：不是随便填的
 
-![第四章配图](/img/sci-submission-checklist/06_04_reviewer_selection.png)
+![第四章配图](/img/sci-submission-checklist/06_04_reviewer_selection.jpg)
 
 一般要求 3-5 个建议审稿人。选人的原则：近三年在相关领域发过高水平论文、引用过你的工作或你引用过他们的、研究方向高度相关。
 
@@ -91,7 +91,7 @@ SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、�
 
 ## 声明文件，越来越多期刊要求
 
-![第五章配图](/img/sci-submission-checklist/06_05_declaration_files.png)
+![第五章配图](/img/sci-submission-checklist/06_05_declaration_files.jpg)
 
 利益冲突声明（Conflict of Interest）和作者贡献声明（Author Contributions）几乎是必须的。基金支持声明写上课题号。如果涉及人或动物实验，伦理审批声明和知情同意声明也必须有。
 
@@ -103,7 +103,7 @@ SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、�
 
 ## 我的投稿检查清单
 
-![第六章配图](/img/sci-submission-checklist/06_06_submission_checklist.png)
+![第六章配图](/img/sci-submission-checklist/06_06_submission_checklist.jpg)
 
 每次投稿前我会过一遍这个清单：
 
@@ -123,7 +123,7 @@ SCI 投稿的文件大致分五类：核心文件、图表文件、投稿信、�
 
 ## 时间建议
 
-![第七章配图](/img/sci-submission-checklist/06_07_timing_advice.png)
+![第七章配图](/img/sci-submission-checklist/06_07_timing_advice.jpg)
 
 投稿前三天准备所有文件，前两天对着清单打钩，前一天生成预览再检查一遍，投稿当天上传提交。
 

@@ -11,17 +11,17 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/qwen-coding-plan/cover.png
+cover: /img/qwen-coding-plan/cover.jpg
 abbrlink: qwen-coding-plan-report
 ---
 
-![封面 - 通义千问 Coding Plan 调研报告](/img/qwen-coding-plan/cover.png)
+![封面 - 通义千问 Coding Plan 调研报告](/img/qwen-coding-plan/cover.jpg)
 
 ## 概述
 
 本报告旨在对阿里云百炼平台推出的 **通义千问 (Qwen) Coding Plan** 进行全面调研，并总结其在 API 连接性、支持模型、视觉能力、语音功能、MCP 扩展、网页搜索及 GitHub 开源代码查找等方面的具体能力。通义千问作为国产大模型的代表，其 Coding Plan 旨在为开发者提供高效、高性价比的 AI 编码辅助服务。
 
-![核心能力](/img/qwen-coding-plan/01-core.png)
+![核心能力](/img/qwen-coding-plan/01-core.jpg)
 
 ## 一、 通义千问 (Qwen) Coding Plan 核心能力
 
@@ -87,7 +87,7 @@ Coding Plan 本身不直接内置网页搜索或 GitHub 搜索功能，但可以
 | **网页搜索** | ✅ 可通过 MCP 扩展 | 配置支持联网搜索的 MCP 服务器（如 `brave-search` 或 `google-search`），或利用第三方工具内置的联网搜索插件 [5]。 |
 | **GitHub 搜索** | ✅ 可通过 MCP 扩展 | 配置 GitHub MCP 服务器，使 Qwen Code 能够搜索、读取 GitHub 上的开源代码和项目信息 [5]。 |
 
-![费用与订阅](/img/qwen-coding-plan/02-pricing.png)
+![费用与订阅](/img/qwen-coding-plan/02-pricing.jpg)
 
 ## 二、 费用与订阅
 
@@ -100,7 +100,7 @@ Coding Plan 采用固定月费订阅模式，提供月度请求额度，旨在�
 
 > [a] 一次复杂提问可能触发 10 到 20 次模型调用，每次模型调用均计入一次额度消耗。实际额度消耗取决于任务复杂度、上下文大小、工具调用次数等多种因素 [1]。
 
-![注意事项](/img/qwen-coding-plan/03-notice.png)
+![注意事项](/img/qwen-coding-plan/03-notice.jpg)
 
 ## 三、 注意事项
 

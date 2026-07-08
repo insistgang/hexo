@@ -9,11 +9,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_01_cover_minimax_agent_vs_qoderwork.png
+cover: /img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_01_cover_minimax_agent_vs_qoderwork.jpg
 abbrlink: minimax-agent-vs-qoderwork
 ---
 
-![封面](/img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_01_cover_minimax_agent_vs_qoderwork.png)
+![封面](/img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_01_cover_minimax_agent_vs_qoderwork.jpg)
 
 > 2026年，AI终于从"聊天框"走向了"桌面"。MiniMax和阿里几乎同时出手，一个要当你的"云端专家"，一个要当你的"桌面同事"。作为一个重度AI工具用户，我花了两周时间深度体验了两款产品，今天来聊聊它们的真实差距。
 
@@ -73,7 +73,7 @@ QoderWork的定位完全不同。它是2026年1月30日阿里发布的桌面Agen
 
 ## 三、核心能力深度对比
 
-![三、核心能力深度对比](/img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_04_core_abilities.png)
+![三、核心能力深度对比](/img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_04_core_abilities.jpg)
 
 ### 1. 内容创作能力
 

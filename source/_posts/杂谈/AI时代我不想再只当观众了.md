@@ -7,11 +7,11 @@ tags:
   - 行动指南
 categories:
   - 杂谈
-cover: /img/ai-anxiety-action-guide/00_cover.png
+cover: /img/ai-anxiety-action-guide/00_cover.jpg
 abbrlink: ai-anxiety-action-guide
 ---
 
-![封面](/img/ai-anxiety-action-guide/00_cover.png)
+![封面](/img/ai-anxiety-action-guide/00_cover.jpg)
 
 每天刷新闻，都是"某某大模型又刷新纪录"、"AI 取代 XX 岗位"。
 
@@ -37,7 +37,7 @@ FOMO（错失恐惧症）在 AI 时代被拉满了。你觉得自己落后了，
 
 ## 第一层：本周就能开始
 
-![第一层配图](/img/ai-anxiety-action-guide/01_first_layer_this_week.png)
+![第一层配图](/img/ai-anxiety-action-guide/01_first_layer_this_week.jpg)
 
 ### 1. 把 AI 变成你的「外接大脑」
 
@@ -79,7 +79,7 @@ FOMO（错失恐惧症）在 AI 时代被拉满了。你觉得自己落后了，
 
 ## 第二层：用 1-3 个月建立护城河
 
-![第二层配图](/img/ai-anxiety-action-guide/02_second_layer_moat.png)
+![第二层配图](/img/ai-anxiety-action-guide/02_second_layer_moat.jpg)
 
 ### 3. 做一个「小而美」的 AI 工具
 
@@ -117,7 +117,7 @@ FOMO（错失恐惧症）在 AI 时代被拉满了。你觉得自己落后了，
 
 ## 第三层：3-12 个月的长期布局
 
-![第三层配图](/img/ai-anxiety-action-guide/03_third_layer_long_term.png)
+![第三层配图](/img/ai-anxiety-action-guide/03_third_layer_long_term.jpg)
 
 ### 5. 成为某个细分领域的「AI 专家」
 
@@ -148,7 +148,7 @@ AI 是锤子，你要找到属于自己的那颗钉子。
 
 ## 给你的「最小可行行动」
 
-![最小可行行动配图](/img/ai-anxiety-action-guide/04_minimum_viable_action.png)
+![最小可行行动配图](/img/ai-anxiety-action-guide/04_minimum_viable_action.jpg)
 
 如果上面说的你都觉得好，但不知道先做哪个——
 
@@ -173,7 +173,7 @@ AI 是锤子，你要找到属于自己的那颗钉子。
 
 ## 写在最后
 
-![结尾配图](/img/ai-anxiety-action-guide/05_ending.png)
+![结尾配图](/img/ai-anxiety-action-guide/05_ending.jpg)
 
 AI 时代最大的机遇，不是取代别人，而是**放大你自己**。
 

@@ -11,11 +11,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/coding-plan-report/cover.png
+cover: /img/coding-plan-report/cover.jpg
 abbrlink: coding-plan-api-report
 ---
 
-![封面 - 国产顶级 Coding Plan API 研究报告](/img/coding-plan-report/cover.png)
+![封面 - 国产顶级 Coding Plan API 研究报告](/img/coding-plan-report/cover.jpg)
 
 
 > 研究日期：2026-02-21 ~ 2026-02-22
@@ -34,7 +34,7 @@ abbrlink: coding-plan-api-report
 
 
 
-![GLM 平台架构](/img/coding-plan-report/01-glm.png)
+![GLM 平台架构](/img/coding-plan-report/01-glm.jpg)
 
 ## 一、GLM (智谱AI)
 
@@ -74,7 +74,7 @@ abbrlink: coding-plan-api-report
 
 
 
-![Kimi 平台特性](/img/coding-plan-report/02-kimi.png)
+![Kimi 平台特性](/img/coding-plan-report/02-kimi.jpg)
 
 ## 二、Kimi (月之暗面)
 
@@ -128,7 +128,7 @@ headers = {
 
 
 
-![MiniMax 架构](/img/coding-plan-report/03-minimax.png)
+![MiniMax 架构](/img/coding-plan-report/03-minimax.jpg)
 
 ## 三、MiniMax
 
@@ -208,7 +208,7 @@ MCP 工具:
 
 
 
-![三大平台对比](/img/coding-plan-report/04-comparison.png)
+![三大平台对比](/img/coding-plan-report/04-comparison.jpg)
 
 ## 四、对比总结
 
@@ -245,7 +245,7 @@ MCP 工具:
 
 
 
-![API 调用示例](/img/coding-plan-report/05-code.png)
+![API 调用示例](/img/coding-plan-report/05-code.jpg)
 
 ## 五、代码示例
 
@@ -361,7 +361,7 @@ print(response.json()["content"])
 
 
 
-![使用注意事项](/img/coding-plan-report/06-notes.png)
+![使用注意事项](/img/coding-plan-report/06-notes.jpg)
 
 ## 六、注意事项
 

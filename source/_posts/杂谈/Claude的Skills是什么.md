@@ -8,11 +8,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/claude-skills-intro/00_cover.png
+cover: /img/claude-skills-intro/00_cover.jpg
 abbrlink: claude-skills-intro
 ---
 
-![封面](/img/claude-skills-intro/00_cover.png)
+![封面](/img/claude-skills-intro/00_cover.jpg)
 
 ---
 
@@ -26,7 +26,7 @@ abbrlink: claude-skills-intro
 
 ## Skills的本质：写给AI看的操作手册
 
-![第一章配图](/img/claude-skills-intro/01_skills_nature.png)
+![第一章配图](/img/claude-skills-intro/01_skills_nature.jpg)
 
 很多人第一反应是——Skills是不是某种插件？某种程序？需要安装、编译、配置？
 
@@ -42,7 +42,7 @@ Skills就是贴在Claude"后厨墙上"的那张操作流程。
 
 ## 它是怎么工作的？
 
-![第二章配图](/img/claude-skills-intro/02_how_it_works.png)
+![第二章配图](/img/claude-skills-intro/02_how_it_works.jpg)
 
 整个执行机制分三步：
 
@@ -60,7 +60,7 @@ Skills就是贴在Claude"后厨墙上"的那张操作流程。
 
 ## 一个Skill长什么样？
 
-![第三章配图](/img/claude-skills-intro/03_skill_structure.png)
+![第三章配图](/img/claude-skills-intro/03_skill_structure.jpg)
 
 结构非常简单。最基础的Skill就是一个文件夹加一个核心文件：
 
@@ -74,7 +74,7 @@ SKILL.md本身就是一份普通的Markdown文档，开头用几行元信息说�
 
 ## 三个层级，各司其职
 
-![第四章配图](/img/claude-skills-intro/04_three_tiers.png)
+![第四章配图](/img/claude-skills-intro/04_three_tiers.jpg)
 
 目前Skills分为三类：
 
@@ -88,7 +88,7 @@ SKILL.md本身就是一份普通的Markdown文档，开头用几行元信息说�
 
 ## 为什么这个设计很聪明？
 
-![第五章配图](/img/claude-skills-intro/05_design_wisdom.png)
+![第五章配图](/img/claude-skills-intro/05_design_wisdom.jpg)
 
 Skills的设计思路，揭示了当前AI工具一个重要的使用逻辑：**与其每次都用自然语言解释你要什么，不如把最佳实践固化下来，让AI每次自动遵循。**
 
@@ -100,7 +100,7 @@ Skills的设计思路，揭示了当前AI工具一个重要的使用逻辑：**�
 
 ## 普通用户能从中学到什么？
 
-![第六章配图](/img/claude-skills-intro/06_user_learn.png)
+![第六章配图](/img/claude-skills-intro/06_user_learn.jpg)
 
 即使你不打算自己写Skill，理解这个机制也有价值。它告诉我们一个更普适的道理：
 

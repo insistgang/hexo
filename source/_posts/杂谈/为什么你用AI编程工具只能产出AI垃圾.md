@@ -7,11 +7,11 @@ tags:
   - 效率
 categories:
   - 杂谈
-cover: /img/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.png
+cover: /img/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.jpg
 abbrlink: ai-coding-six-stages
 ---
 
-![封面](/img/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.png)
+![封面](/img/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.jpg)
 
 我现在每天都在用 Claude Code、Gemini CLI、Cursor 这些工具写代码。但说实话，刚开始的时候，产出的东西确实很"AI"——紫色渐变、千篇一律的布局、通用模板感极强。
 
@@ -23,7 +23,7 @@ abbrlink: ai-coding-six-stages
 
 ## 第一阶段：命令式使用
 
-![第一章配图](/img/ai-coding-six-stages/19_01_stage_one_command.png)
+![第一章配图](/img/ai-coding-six-stages/19_01_stage_one_command.jpg)
 
 大部分人刚上手都是这个状态：打开工具，输入"给我做一个 XX 网站"，然后等结果。
 
@@ -37,7 +37,7 @@ abbrlink: ai-coding-six-stages
 
 ## 第二阶段：对话式协作
 
-![第二章配图](/img/ai-coding-six-stages/19_02_stage_two_dialogue.png)
+![第二章配图](/img/ai-coding-six-stages/19_02_stage_two_dialogue.jpg)
 
 到了这个阶段，你开始跟 AI "聊"了。不再只是下指令，而是让它先提问、先规划。
 
@@ -49,7 +49,7 @@ abbrlink: ai-coding-six-stages
 
 ## 第三阶段：上下文管理
 
-![第三章配图](/img/ai-coding-six-stages/19_03_stage_three_context.png)
+![第三章配图](/img/ai-coding-six-stages/19_03_stage_three_context.jpg)
 
 这是我踩过最大坑的一层。
 
@@ -65,7 +65,7 @@ AI 的上下文窗口是有限的。当对话太长、塞进去的信息太多�
 
 ## 第四阶段：工具选型
 
-![第四章配图](/img/ai-coding-six-stages/19_04_stage_four_tools.png)
+![第四章配图](/img/ai-coding-six-stages/19_04_stage_four_tools.jpg)
 
 当你手里有 Claude Code、Gemini CLI、Cursor、Copilot 好几个工具的时候，很容易陷入"全都要"的状态。每出一个新插件、新 MCP 服务，都想装上试试。
 
@@ -79,7 +79,7 @@ AI 的上下文窗口是有限的。当对话太长、塞进去的信息太多�
 
 ## 第五阶段：流程标准化
 
-![第五章配图](/img/ai-coding-six-stages/19_05_stage_five_standardization.png)
+![第五章配图](/img/ai-coding-six-stages/19_05_stage_five_standardization.jpg)
 
 如果有一类任务你经常做——比如写 React 组件、生成 API 文档、清洗数据——那就把它变成一个可复用的 Skill 或 prompt 模板。
 
@@ -91,7 +91,7 @@ AI 的上下文窗口是有限的。当对话太长、塞进去的信息太多�
 
 ## 第六阶段：多实例协作
 
-![第六章配图](/img/ai-coding-six-stages/19_06_stage_six_collaboration.png)
+![第六章配图](/img/ai-coding-six-stages/19_06_stage_six_collaboration.jpg)
 
 这是目前我在探索的阶段。同时开多个终端，每个终端跑不同的任务，或者用 OpenClaw 配置多个子智能体并行工作。
 
@@ -105,7 +105,7 @@ OpenClaw 的子代理模式可以让多个 AI 实例各干各的，完成后汇�
 
 ## 你卡在哪一层？
 
-![第七章配图](/img/ai-coding-six-stages/19_07_self_check.png)
+![第七章配图](/img/ai-coding-six-stages/19_07_self_check.jpg)
 
 快速自测：
 

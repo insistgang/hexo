@@ -7,11 +7,11 @@ tags:
   - 论文
 categories:
   - 杂谈
-cover: /img/ai-fake-paper/14_00_ai_fake_paper_cover.png
+cover: /img/ai-fake-paper/14_00_ai_fake_paper_cover.jpg
 abbrlink: ai-fake-paper
 ---
 
-![封面](/img/ai-fake-paper/14_00_ai_fake_paper_cover.png)
+![封面](/img/ai-fake-paper/14_00_ai_fake_paper_cover.jpg)
 
 前阵子写论文找参考文献，我让 DeepSeek 帮忙推荐几篇 Transformer 在目标检测领域的综述。
 
@@ -29,7 +29,7 @@ abbrlink: ai-fake-paper
 
 ## AI 为什么会编文献？
 
-![第一章配图](/img/ai-fake-paper/14_01_why_ai_fabricates.png)
+![第一章配图](/img/ai-fake-paper/14_01_why_ai_fabricates.jpg)
 
 先说清楚一件事：**AI 不是在骗你，它只是在"预测"。**
 
@@ -43,7 +43,7 @@ abbrlink: ai-fake-paper
 
 ## 我现在的做法
 
-![第二章配图](/img/ai-fake-paper/14_02_verification_method.png)
+![第二章配图](/img/ai-fake-paper/14_02_verification_method.jpg)
 
 踩过一次坑之后，我总结了一套流程，每次用 AI 查文献都会走一遍。
 
@@ -83,7 +83,7 @@ AI 编造的文献，作者名字往往"看起来像真名但查无此人"。在
 
 ## 一个正确使用 AI 查文献的完整流程
 
-![第三章配图](/img/ai-fake-paper/14_03_complete_workflow.png)
+![第三章配图](/img/ai-fake-paper/14_03_complete_workflow.jpg)
 
 现在我的流程是这样的：
 
@@ -101,7 +101,7 @@ AI 编造的文献，作者名字往往"看起来像真名但查无此人"。在
 
 ## 说到底
 
-![第四章配图](/img/ai-fake-paper/14_04_key_point.png)
+![第四章配图](/img/ai-fake-paper/14_04_key_point.jpg)
 
 AI 编造文献这件事，不是 AI 的错，也不是你的错。它是工具的局限性。
 

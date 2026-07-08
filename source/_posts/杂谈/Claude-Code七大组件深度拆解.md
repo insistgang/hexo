@@ -8,13 +8,13 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/claude-code-seven-components-deep-dive/00_cover.png
+cover: /img/claude-code-seven-components-deep-dive/00_cover.jpg
 abbrlink: claude-code-components
 swiper_index: 2
 swiper_desc: "深入解析 Claude Code 的核心架构与工作流"
 ---
 
-![封面](/img/claude-code-seven-components-deep-dive/00_cover.png)
+![封面](/img/claude-code-seven-components-deep-dive/00_cover.jpg)
 
 > 先用一个类比搞懂全局，再逐个击破，最后串联成完整工作流
 
@@ -22,7 +22,7 @@ swiper_desc: "深入解析 Claude Code 的核心架构与工作流"
 
 ## 为什么写这篇
 
-![为什么写这篇](/img/claude-code-seven-components-deep-dive/01_why_write_this.png)
+![为什么写这篇](/img/claude-code-seven-components-deep-dive/01_why_write_this.jpg)
 
 Claude Code 的功能越来越多，但大多数人只会用最基础的对话。问题不是工具不强，而是**组件太多、关系不清楚、不知道该从哪个开始**。
 
@@ -32,7 +32,7 @@ Claude Code 的功能越来越多，但大多数人只会用最基础的对话�
 
 ## 全局类比：Claude Code 是一个什么结构？
 
-![全局类比](/img/claude-code-seven-components-deep-dive/02_global_analogy.png)
+![全局类比](/img/claude-code-seven-components-deep-dive/02_global_analogy.jpg)
 
 把 Claude Code 想象成一个**新员工入职系统**：
 
@@ -51,7 +51,7 @@ Claude Code 的功能越来越多，但大多数人只会用最基础的对话�
 
 ## 1. CLAUDE.md — 项目记忆
 
-![CLAUDE.md](/img/claude-code-seven-components-deep-dive/03_claude_md.png)
+![CLAUDE.md](/img/claude-code-seven-components-deep-dive/03_claude_md.jpg)
 
 ### 是什么
 
@@ -118,7 +118,7 @@ src/、tests/、docs/ 各放什么，关键文件在哪
 
 ## 2. Skills（含 Commands）— 工作流模板
 
-![Skills](/img/claude-code-seven-components-deep-dive/04_skills.png)
+![Skills](/img/claude-code-seven-components-deep-dive/04_skills.jpg)
 
 ### 是什么
 
@@ -221,7 +221,7 @@ description: 'RESTful API开发规范。当涉及接口设计、路由配置、�
 
 ## 3. MCP — 外部工具接口
 
-![MCP](/img/claude-code-seven-components-deep-dive/05_mcp.png)
+![MCP](/img/claude-code-seven-components-deep-dive/05_mcp.jpg)
 
 ### 是什么
 
@@ -279,7 +279,7 @@ MCP 配置存储在 `~/.claude.json`：
 
 ## 4. Hooks — 事件钩子
 
-![Hooks](/img/claude-code-seven-components-deep-dive/06_hooks.png)
+![Hooks](/img/claude-code-seven-components-deep-dive/06_hooks.jpg)
 
 ### 是什么
 
@@ -395,7 +395,7 @@ Hook 命令通过 stdin 接收 JSON 格式的输入，包含即将执行的命�
 
 ## 5. Subagents — 分身术
 
-![Subagents](/img/claude-code-seven-components-deep-dive/07_subagents.png)
+![Subagents](/img/claude-code-seven-components-deep-dive/07_subagents.jpg)
 
 ### 是什么
 
@@ -485,7 +485,7 @@ model: haiku
 
 ## 6. Plugins — 预制技能包
 
-![Plugins](/img/claude-code-seven-components-deep-dive/08_plugins.png)
+![Plugins](/img/claude-code-seven-components-deep-dive/08_plugins.jpg)
 
 ### 是什么
 
@@ -554,7 +554,7 @@ my-plugin/
 
 ## 7. 全局串联：七大组件的协同工作流
 
-![协同工作流](/img/claude-code-seven-components-deep-dive/09_workflow.png)
+![协同工作流](/img/claude-code-seven-components-deep-dive/09_workflow.jpg)
 
 一个真实的开发场景——"实现一个新功能并提交PR"：
 
@@ -588,7 +588,7 @@ CLAUDE.md
 
 ## 八、推荐上手路径
 
-![推荐上手路径](/img/claude-code-seven-components-deep-dive/10_learning_path.png)
+![推荐上手路径](/img/claude-code-seven-components-deep-dive/10_learning_path.jpg)
 
 不要试图一次性配好所有组件。按这个顺序来：
 
@@ -625,7 +625,7 @@ CLAUDE.md
 
 ## 九、常见误区
 
-![常见误区](/img/claude-code-seven-components-deep-dive/11_misconceptions.png)
+![常见误区](/img/claude-code-seven-components-deep-dive/11_misconceptions.jpg)
 
 **❌ "Skills 越多越好"**
 → Skills 只在激活时加载完整内容，数量多不影响启动速度。但描述写得太模糊会导致误匹配。每个 Skill 的 description 要精准。
@@ -646,7 +646,7 @@ CLAUDE.md
 
 ## 参考资源
 
-![参考资源](/img/claude-code-seven-components-deep-dive/12_references.png)
+![参考资源](/img/claude-code-seven-components-deep-dive/12_references.jpg)
 
 | 资源 | 链接 |
 |------|------|

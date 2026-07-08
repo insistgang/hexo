@@ -9,11 +9,11 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/claude-code-glm5-tutorial/claude-code-glm5_00_cover.png
+cover: /img/claude-code-glm5-tutorial/claude-code-glm5_00_cover.jpg
 abbrlink: claude-code-glm5-tutorial
 ---
 
-![封面](/img/claude-code-glm5-tutorial/claude-code-glm5_00_cover.png)
+![封面](/img/claude-code-glm5-tutorial/claude-code-glm5_00_cover.jpg)
 
 这篇是我实测可用的一套配置，目标是：让 `claude` 命令走 GLM-5 的 Anthropic 兼容接口，稳定可用、少踩坑。
 
@@ -21,7 +21,7 @@ abbrlink: claude-code-glm5-tutorial
 
 ## 一、准备条件
 
-![第一章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_01_preparation.png)
+![第一章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_01_preparation.jpg)
 
 1. 已安装 Node.js（建议 18+）
 2. 已安装 Claude Code CLI
@@ -39,7 +39,7 @@ claude --version
 
 ## 二、核心配置（推荐）
 
-![第二章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_02_config.png)
+![第二章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_02_config.jpg)
 
 编辑 `~/.claude/settings.json`：
 
@@ -89,7 +89,7 @@ source ~/.bashrc
 
 ## 四、验证是否成功
 
-![第四章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_04_verification.png)
+![第四章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_04_verification.jpg)
 
 ```bash
 claude auth status
@@ -137,7 +137,7 @@ curl -I https://open.bigmodel.cn
 
 ## 六、安全建议（公众号可直接放）
 
-![第六章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_06_security.png)
+![第六章配图](/img/claude-code-glm5-tutorial/claude-code-glm5_06_security.jpg)
 
 - Token 不要截图、不要提交到 Git
 - 建议定期轮换 Token
