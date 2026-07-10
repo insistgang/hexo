@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - hexo
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: deploy-hexo
@@ -15,6 +16,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,17 +32,37 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Configure Git identity
+      - name: Test site audit
+        run: npm test
+
+      - name: Build site
+        run: npm run build
+
+      - name: Audit generated site
+        run: npm run audit
+
+      - name: Configure SSH deployment
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          HEXO_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::error::GH_TOKEN secret is required to push to insistgang/insistgang.github.io"
+          if [ -z "$HEXO_DEPLOY_KEY" ]; then
+            echo "::error::HEXO_DEPLOY_KEY secret is required to publish the site"
             exit 1
           fi
+          install -d -m 700 "$HOME/.ssh"
+          printf '%s\n' "$HEXO_DEPLOY_KEY" > "$HOME/.ssh/hexo_deploy_key"
+          chmod 600 "$HOME/.ssh/hexo_deploy_key"
+          printf '%s\n' \
+            'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' \
+            > "$HOME/.ssh/known_hosts"
+          printf '%s\n' \
+            'Host github.com' \
+            '  IdentityFile ~/.ssh/hexo_deploy_key' \
+            '  IdentitiesOnly yes' \
+            > "$HOME/.ssh/config"
+          chmod 600 "$HOME/.ssh/config" "$HOME/.ssh/known_hosts"
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: npx --no-install hexo deploy

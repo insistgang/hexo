@@ -6,10 +6,12 @@
     "node": ">=18.x"
   },
   "scripts": {
+    "audit": "node tools/audit-generated-site.js",
     "build": "hexo clean && hexo generate && touch public/.nojekyll",
     "clean": "hexo clean",
     "deploy": "npm run build && hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "test": "node --test test/*.test.js"
   },
   "hexo": {
     "version": "7.3.0"

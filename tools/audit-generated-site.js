@@ -94,8 +94,8 @@ function auditSite(publicDir) {
     .map((file) => {
       const extension = path.extname(file).toLowerCase().slice(1).replace('jpeg', 'jpg');
       if (!IMAGE_EXTENSIONS.has(extension)) return null;
-      const actual = detectImageType(file);
-      if (!actual || actual === extension) return null;
+      const actual = detectImageType(file) || 'unknown';
+      if (actual === extension) return null;
       return {
         asset: path.relative(root, file).split(path.sep).join('/'),
         extension,
