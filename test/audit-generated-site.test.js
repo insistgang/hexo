@@ -4,7 +4,7 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 
-const { auditSite } = require('./audit-generated-site');
+const { auditSite } = require('../tools/audit-generated-site');
 
 function createSite() {
   const publicDir = fs.mkdtempSync(path.join(os.tmpdir(), 'hexo-site-audit-'));
@@ -72,5 +72,22 @@ test('reports when an image extension does not match its file signature', (t) =>
 
   assert.deepEqual(result.extensionMismatches, [
     { asset: 'img/photo.png', extension: 'png', actual: 'jpg' },
+  ]);
+});
+
+test('reports an image whose file signature cannot be recognized', (t) => {
+  const publicDir = createSite();
+  t.after(() => fs.rmSync(publicDir, { recursive: true, force: true }));
+
+  fs.writeFileSync(path.join(publicDir, 'img', 'broken.png'), 'not an image');
+  fs.writeFileSync(
+    path.join(publicDir, 'index.html'),
+    `<img src="/img/broken.png">`,
+  );
+
+  const result = auditSite(publicDir);
+
+  assert.deepEqual(result.extensionMismatches, [
+    { asset: 'img/broken.png', extension: 'png', actual: 'unknown' },
   ]);
 });
