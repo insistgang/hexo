@@ -31,6 +31,8 @@ abbrlink: ai-personal-control-tower
 
 ## 01｜我以为自己缺的是一个更强的 Agent
 
+![多 Agent 失控扩张](/img/ai-personal-control-tower/03_agent-sprawl.webp)
+
 最开始，我的解决办法很直接：任务多，就多开几个窗口；一个模型不够，就再加一个 Agent。
 
 这套方法确实有效。AI 可以读论文、写代码、做图、检查材料，也可以同时推进几个互不相关的项目。以前需要排队处理的事情，现在可以并行。
@@ -44,6 +46,8 @@ abbrlink: ai-personal-control-tower
 如果没有一个明确的收口机制，多 Agent 最后会变成多条无人验收的流水线。
 
 ## 02｜一直在烧 token，不代表真的有 completion
+
+![从 token 消耗到可验收交付](/img/ai-personal-control-tower/04_token-without-completion.webp)
 
 对不了解大模型的人解释一下：token 可以理解成系统投入的计算和上下文，completion 则是最终生成的结果。
 
@@ -81,6 +85,8 @@ abbrlink: ai-personal-control-tower
 这相当于把“思考先做什么”和“具体怎么做”拆成了两个不同的进程。
 
 ## 04｜所有项目必须说同一种状态语言
+
+![项目统一状态语言](/img/ai-personal-control-tower/05_shared-state-language.webp)
 
 论文、代码、博客和知识库看起来完全不同，但对主控来说，它们都可以用同一组字段描述：
 
@@ -127,6 +133,8 @@ Top 3 解决“当日什么最重要”；WIP 上限解决“我现在到底在�
 
 ## 06｜项目窗口结束时，必须交一张“回执”
 
+![项目窗口标准回执](/img/ai-personal-control-tower/06_project-receipt.webp)
+
 以前一个窗口完成任务后，我常常只收到一句“已经优化好了”。这句话几乎没有管理价值。
 
 现在我要求每个窗口结束时固定回答六个问题：
@@ -148,6 +156,8 @@ Git 是否干净并已同步？
 
 ## 07｜把执行外包，不把方向外包
 
+![AI 执行与人的方向边界](/img/ai-personal-control-tower/07_human-direction-boundary.webp)
+
 “把整个人外包给 AI”听起来很爽，但它也有一个危险：我可能慢慢把价值判断一起交出去。
 
 AI 可以根据死线、风险、收益和切换成本推荐优先级，也可以自动检查项目状态。但哪些事情值得长期投入，哪些关系需要保护，什么时候应该暂停，哪些结果愿意公开，仍然应该由我决定。
@@ -159,6 +169,8 @@ AI 可以根据死线、风险、收益和切换成本推荐优先级，也可�
 主控不是替我生活，而是减少我反复记忆、切换和追踪的成本。它把脑内负担移到盘上，但不会替我决定人生主线。
 
 ## 写在最后
+
+![个人控制塔的每日闭环](/img/ai-personal-control-tower/08_closed-loop-ending.webp)
 
 这套方法最后可以压缩成一个很简单的日循环。
 
