@@ -26,3 +26,6 @@ Thumbs.db
 
 # Claude Code
 .claude/
+
+# Obsidian 本地工作区状态（不入库）
+.obsidian/
