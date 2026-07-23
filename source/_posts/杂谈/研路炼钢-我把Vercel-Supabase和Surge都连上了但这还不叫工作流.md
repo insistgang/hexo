@@ -11,11 +11,11 @@ tags:
 categories:
   - 杂谈
   - 技术实践
-cover: /img/three-cloud-sop/00_cover.png
+cover: /img/three-cloud-sop/00_cover-zh-v2.png
 abbrlink: three-cloud-sop
 ---
 
-![三个云端工具组成一条可验证的闭环](/img/three-cloud-sop/00_cover.png)
+![三个云端工具组成一条可验证的闭环](/img/three-cloud-sop/00_cover-zh-v2.png)
 
 这两天，我把 Vercel、Supabase 和 Surge 依次接进了自己的工具箱。
 
@@ -29,7 +29,7 @@ Vercel 能看见项目，博客页面实际返回了 `200`；Supabase 能读到�
 
 ## 01｜三个工具都亮了绿灯
 
-![三个工具各自亮灯但尚未连成生产线](/img/three-cloud-sop/01_green-lights.png)
+![三个工具各自亮灯但尚未连成生产线](/img/three-cloud-sop/01_green-lights-zh-v2.png)
 
 先说现场。
 
@@ -51,7 +51,7 @@ Surge 更直接。命令行列出了五个站点：
 
 ## 02｜能登录、能访问、能完成，是三件事
 
-![身份可达服务可达与业务完成是三道不同的门](/img/three-cloud-sop/02_three-layers.png)
+![身份可达服务可达与业务完成是三道不同的门](/img/three-cloud-sop/02_three-layers-zh-v2.png)
 
 我现在会把“跑通”拆成三层。
 
@@ -71,7 +71,7 @@ Surge 更直接。命令行列出了五个站点：
 
 ## 03｜真正的链路：Surge → Vercel → Supabase
 
-![静态页面经服务接口安全查询云端数据库的中文流程图](/img/three-cloud-sop/03_request-chain.png)
+![静态页面经服务接口安全查询云端数据库的中文流程图](/img/three-cloud-sop/03_request-chain-zh-v2.png)
 
 这三个工具组合起来，最清晰的分工不是互相替代，而是各守一道工序。
 
@@ -100,7 +100,7 @@ Supabase 负责数据底座。表、权限策略、身份认证和持久化记�
 
 ## 04｜SOP 不是步骤清单，而是一条证据链
 
-![每一道工序都产出可验收证据的流水线](/img/three-cloud-sop/04_evidence-sop.png)
+![每一道工序都产出可验收证据的流水线](/img/three-cloud-sop/04_evidence-sop-zh-v2.png)
 
 过去我写 SOP，容易写成“先点这里，再运行那里”。这样的文档能指导操作，却不能证明结果。
 
@@ -124,7 +124,7 @@ Supabase 负责数据底座。表、权限策略、身份认证和持久化记�
 
 ## 05｜回滚能力，才决定这套系统敢不敢用
 
-![预览生产数据库和快照共同组成可回滚的安全岔道](/img/three-cloud-sop/05_rollback-safety.png)
+![预览生产数据库和快照共同组成可回滚的安全岔道](/img/three-cloud-sop/05_rollback-safety-zh-v2.png)
 
 一条只能向前冲的流水线，不叫自动化，叫风险放大器。
 
@@ -145,7 +145,7 @@ Supabase 更要克制。结构变更先备份，再做可审查的迁移；新�
 
 ## 写在最后
 
-![让一次请求完整走完并拿回证据](/img/three-cloud-sop/99_final.png)
+![让一次请求完整走完并拿回证据](/img/three-cloud-sop/99_final-zh-v2.png)
 
 这次最有价值的，不是又多装了三个工具。
 
