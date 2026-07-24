@@ -4,12 +4,11 @@ const path = require('node:path');
 const test = require('node:test');
 
 const diaryDir = path.join(__dirname, '..', 'source', '_posts', '日记');
-const dailyDiaryPattern = /^\d{4}-\d{2}-\d{2}\.md$/;
 
-test('keeps every dated diary unpublished', () => {
+test('keeps every post in the diary directory unpublished', () => {
   const publicDiaries = fs
     .readdirSync(diaryDir)
-    .filter((file) => dailyDiaryPattern.test(file))
+    .filter((file) => file.endsWith('.md'))
     .sort()
     .filter((file) => {
       const source = fs
@@ -23,6 +22,6 @@ test('keeps every dated diary unpublished', () => {
   assert.deepEqual(
     publicDiaries,
     [],
-    `Dated diaries must include "published: false": ${publicDiaries.join(', ')}`,
+    `Diary posts must include "published: false": ${publicDiaries.join(', ')}`,
   );
 });
