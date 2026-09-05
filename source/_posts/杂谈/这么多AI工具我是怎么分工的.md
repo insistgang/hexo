@@ -6,11 +6,11 @@ tags:
   - 工作流
 categories:
   - 杂谈
-cover: /img/ai-tool-division/01-cover.png
+cover: /img/ai-tool-division/01-cover.jpg
 abbrlink: ai-tool-division
 ---
 
-![封面](/img/ai-tool-division/01-cover.png)
+![封面](/img/ai-tool-division/01-cover.jpg)
 
 前阵子整理工具账单，我愣了一下：Claude、Kimi、ChatGPT、Gemini，四个 AI 订阅同时在续费。
 
@@ -34,7 +34,7 @@ abbrlink: ai-tool-division
 
 关键的领悟在这：**同一个工种里，挑一个主力就够了，别两个并着用干同一件事。** 你有两个"手"（Claude Code 和 Kimi Code），不代表要同时使唤俩去改同一份代码——那不叫高效，那叫添乱。留一个当主力，另一个当备胎。
 
-![三种 AI 工种](/img/ai-tool-division/02-three-roles.png)
+![三种 AI 工种](/img/ai-tool-division/02-three-roles.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ abbrlink: ai-tool-division
 
 到这，一个任务就闭环了：眼看→脑想→手做→眼查。
 
-![四段式任务流程](/img/ai-tool-division/03-four-steps.png)
+![四段式任务流程](/img/ai-tool-division/03-four-steps.jpg)
 
 ---
 
@@ -96,13 +96,13 @@ abbrlink: ai-tool-division
 
 这样的好处是——**你既有冗余（一个挂了不至于全停），又不会把精力分散在两套不同的操作习惯上。** 两个工具天天混着用，最后哪个的脾气你都没摸透。
 
-![三条规则](/img/ai-tool-division/04-three-rules.png)
+![三条规则](/img/ai-tool-division/04-three-rules.jpg)
 
 ---
 
 ## 写在最后
 
-![收尾金句](/img/ai-tool-division/05-closing.png)
+![收尾金句](/img/ai-tool-division/05-closing.jpg)
 
 **代码归"手"，长文档归"眼"，要个判断找"脑"；同工种留一个主力，别让它们打架。**
 
