@@ -857,7 +857,7 @@
 
         const loadExamData = async () => {
           try {
-            const res = await fetch('questions.json', { cache: 'no-store' });
+            const res = await fetch('questions.json?v=9a11f655', { cache: 'no-store' });
             if (!res.ok) throw new Error('HTTP ' + res.status);
             examData.value = await res.json();
             examFingerprint = ExamRuntime.questionFingerprint(examData.value);
