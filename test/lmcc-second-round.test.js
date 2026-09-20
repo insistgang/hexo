@@ -5,6 +5,7 @@ const test = require('node:test');
 
 const root = path.join(__dirname, '..');
 const pagePath = path.join(root, 'source', 'lmcc', 'second-round', 'index.html');
+const readerPath = path.join(root, 'source', 'lmcc', 'second-round', 'read', 'index.html');
 
 test('LMCC 第二轮入口提供训练、模拟与速查，并默认折叠答案', () => {
   const page = fs.readFileSync(pagePath, 'utf8');
@@ -28,4 +29,16 @@ test('LMCC 第二轮入口提供训练、模拟与速查，并默认折叠答案
 test('LMCC 第二轮页面可回到首轮练习页', () => {
   const page = fs.readFileSync(pagePath, 'utf8');
   assert.match(page, /href="\.\.\/"/);
+});
+
+test('LMCC 第二轮 Markdown 链接会进入受限的阅读器，而不是直出原文件', () => {
+  const page = fs.readFileSync(pagePath, 'utf8');
+  const reader = fs.readFileSync(readerPath, 'utf8');
+
+  assert.match(page, /data-markdown-reader/);
+  assert.match(page, /read\/\?file=/);
+  assert.match(reader, /new URLSearchParams/);
+  assert.match(reader, /\.\.\/materials\//);
+  assert.match(reader, /includes\('\.\.'\)/);
+  assert.match(reader, /查看原始 Markdown/);
 });
