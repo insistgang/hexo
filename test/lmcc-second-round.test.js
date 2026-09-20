@@ -31,7 +31,7 @@ test('LMCC 第二轮页面可回到首轮练习页', () => {
   assert.match(page, /href="\.\.\/"/);
 });
 
-test('LMCC 第二轮 Markdown 链接会进入受限的阅读器，而不是直出原文件', () => {
+test('LMCC 第二轮 Markdown 链接会进入受限的阅读器，且不暴露原文件入口', () => {
   const page = fs.readFileSync(pagePath, 'utf8');
   const reader = fs.readFileSync(readerPath, 'utf8');
 
@@ -40,5 +40,6 @@ test('LMCC 第二轮 Markdown 链接会进入受限的阅读器，而不是直�
   assert.match(reader, /new URLSearchParams/);
   assert.match(reader, /\.\.\/materials\//);
   assert.match(reader, /includes\('\.\.'\)/);
-  assert.match(reader, /查看原始 Markdown/);
+  assert.doesNotMatch(reader, /查看原始 Markdown/);
+  assert.doesNotMatch(reader, /original-file/);
 });

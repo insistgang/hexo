@@ -25,9 +25,9 @@
   </style>
 </head>
 <body>
-  <header><div class="shell top"><a class="back" href="../">← 返回第二轮冲刺</a><span class="source" id="source-path">正在读取资料…</span><a class="back" id="original-file" href="#" target="_blank" rel="noopener">查看原始 Markdown</a></div></header>
+  <header><div class="shell top"><a class="back" href="../">← 返回第二轮冲刺</a><span class="source" id="source-path">正在读取资料…</span></div></header>
   <main class="shell"><div class="doc-meta"><div class="crumb">LMCC-A 第二轮 · 学习资料</div><h1 id="title">加载中…</h1></div><article id="article" class="doc"><div class="status">正在排版学习资料…</div></article></main>
-  <footer>Markdown 已在浏览器中安全排版；原始文件仍可随时打开或下载。</footer>
+  <footer>LMCC-A 第二轮训练资料 · 阅读页已完成排版。</footer>
   <script>
     (function () {
       var params = new URLSearchParams(location.search);
@@ -35,7 +35,6 @@
       var article = document.getElementById('article');
       var title = document.getElementById('title');
       var sourcePath = document.getElementById('source-path');
-      var originalFile = document.getElementById('original-file');
 
       function showError(message) {
         title.textContent = '无法打开资料';
@@ -49,7 +48,6 @@
 
       var sourceUrl = '../materials/' + file.split('/').map(encodeURIComponent).join('/');
       sourcePath.textContent = file;
-      originalFile.href = sourceUrl;
       title.textContent = file.split('/').pop().replace(/\.md$/i, '');
 
       fetch(sourceUrl)
@@ -58,7 +56,7 @@
           return response.text();
         })
         .then(function (markdown) { article.innerHTML = renderMarkdown(markdown); })
-        .catch(function () { showError('资料读取失败。请返回资料库后重新打开，或使用“查看原始 Markdown”。'); });
+        .catch(function () { showError('资料读取失败。请返回资料库后重新打开。'); });
 
       function escapeHtml(value) {
         return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
