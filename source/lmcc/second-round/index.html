@@ -155,6 +155,12 @@ result = call_llm(messages)</pre></div><div class="footer-row"><a class="link" h
       document.querySelector('#timer-pause').addEventListener('click', function () { window.clearInterval(timerId); timerId = null; });
       document.querySelector('#timer-reset').addEventListener('click', function () { window.clearInterval(timerId); timerId = null; remaining = initialSeconds; renderTimer(); });
       renderTimer();
+
+      Array.prototype.slice.call(document.querySelectorAll('a[href^="materials/"][href$=".md"]')).forEach(function (link) {
+        var file = link.getAttribute('href').slice('materials/'.length);
+        link.href = 'read/?file=' + encodeURIComponent(file);
+        link.setAttribute('data-markdown-reader', 'true');
+      });
     }());
   </script>
 </body>
