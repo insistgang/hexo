@@ -50,6 +50,10 @@
 
         <!-- Timer / Answer Sheet Button -->
         <div class="flex items-center space-x-2">
+          <a href="./second-round/" class="hidden sm:flex items-center space-x-1 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs md:text-sm px-3 py-1.5 rounded-lg border border-indigo-200 transition font-semibold">
+            <span>Ⅱ</span>
+            <span>第二轮冲刺</span>
+          </a>
           <div v-if="currentMode === 'mock'" class="flex items-center space-x-1.5 bg-amber-50 border border-amber-200 px-3 py-1 rounded-full text-amber-800 text-xs md:text-sm font-semibold">
             <span>⏱️</span>
             <span>{{ formatTimer(mockTimeRemaining) }}</span>
