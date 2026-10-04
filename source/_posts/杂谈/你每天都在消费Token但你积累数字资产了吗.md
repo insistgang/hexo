@@ -8,7 +8,7 @@ tags:
 categories:
   - 杂谈
   - 研究生成长
-cover: /img/digital-asset-accumulation/digital_asset_cover.jpg
+cover: /img/cover-thumbnails/digital-asset-accumulation/digital_asset_cover.webp
 abbrlink: digital-asset-accumulation
 ---
 

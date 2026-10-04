@@ -7,7 +7,7 @@ tags:
   - AI商业化
 categories:
   - 杂谈
-cover: /img/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.jpg
+cover: /img/cover-thumbnails/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.webp
 abbrlink: openclaw-ecosystem-opportunity
 ---
 

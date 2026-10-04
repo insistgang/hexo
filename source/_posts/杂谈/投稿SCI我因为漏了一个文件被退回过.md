@@ -7,7 +7,7 @@ tags:
   - 论文
 categories:
   - 杂谈
-cover: /img/sci-submission-checklist/06_00_sci_submission_cover.jpg
+cover: /img/cover-thumbnails/sci-submission-checklist/06_00_sci_submission_cover.webp
 abbrlink: sci-submission-checklist
 ---
 

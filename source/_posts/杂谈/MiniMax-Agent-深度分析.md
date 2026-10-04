@@ -10,7 +10,7 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/minimax-agent-analysis/cover.png
+cover: /img/cover-thumbnails/minimax-agent-analysis/cover.webp
 abbrlink: minimax-agent-analysis
 swiper_index: 4
 swiper_desc: "MiniMax Agent 深度分析与场景应用"

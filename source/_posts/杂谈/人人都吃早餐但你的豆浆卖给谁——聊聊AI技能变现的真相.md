@@ -7,7 +7,7 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/ai-skill-monetization-truth/ai_skill_cover.jpg
+cover: /img/cover-thumbnails/ai-skill-monetization-truth/ai_skill_cover.webp
 abbrlink: ai-skill-monetization-truth
 ---
 

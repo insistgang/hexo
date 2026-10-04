@@ -9,7 +9,7 @@ tags:
 categories:
   - 杂谈
   - 技术分享
-cover: /img/riji.png
+cover: /img/cover-thumbnails/riji.webp
 abbrlink: appdata-deep-dive
 ---
 

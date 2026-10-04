@@ -8,7 +8,7 @@ tags:
 categories:
   - 杂谈
   - 成长记录
-cover: /img/shaoshaotoken-completion/shaoshaotoken_00_cover.jpg
+cover: /img/cover-thumbnails/shaoshaotoken-completion/shaoshaotoken_00_cover.webp
 abbrlink: shaoshaotoken-completion
 ---
 

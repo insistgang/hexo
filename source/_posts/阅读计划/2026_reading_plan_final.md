@@ -4,7 +4,7 @@ date: 2026-01-01 00:00:00
 tags:
   - 计划
   - 阅读
-cover: /img/riji.png
+cover: /img/cover-thumbnails/riji.webp
 abbrlink: reading2026final
 ---
 # 2026年阅读计划

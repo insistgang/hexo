@@ -6,7 +6,7 @@ tags:
   - 精力管理
 categories:
   - 杂谈
-cover: /img/token-conversation/03_00_token_conversation_cover.jpg
+cover: /img/cover-thumbnails/token-conversation/03_00_token_conversation_cover.webp
 abbrlink: token-conversation
 ---
 

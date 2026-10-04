@@ -8,7 +8,7 @@ tags:
 categories:
   - 杂谈
   - 研究生成长
-cover: /img/ai-money-paper-zero/ai_money_paper_cover.jpg
+cover: /img/cover-thumbnails/ai-money-paper-zero/ai_money_paper_cover.webp
 abbrlink: ai-money-paper-zero
 ---
 

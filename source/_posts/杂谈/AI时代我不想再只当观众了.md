@@ -7,7 +7,7 @@ tags:
   - 行动指南
 categories:
   - 杂谈
-cover: /img/ai-anxiety-action-guide/00_cover.jpg
+cover: /img/cover-thumbnails/ai-anxiety-action-guide/00_cover.webp
 abbrlink: ai-anxiety-action-guide
 ---
 

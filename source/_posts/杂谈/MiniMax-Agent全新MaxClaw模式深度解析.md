@@ -9,7 +9,7 @@ tags:
 categories:
   - 杂谈
   - 技术评测
-cover: /img/maxclaw-deep-dive/MaxClaw_00_maxclaw_cover.png
+cover: /img/cover-thumbnails/maxclaw-deep-dive/MaxClaw_00_maxclaw_cover.webp
 abbrlink: maxclaw-deep-dive
 ---
 

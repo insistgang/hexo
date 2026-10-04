@@ -10,7 +10,7 @@ categories:
   - 杂谈
   - AI工具实践
 abbrlink: ai-video-workflow-deleted
-cover: /img/ai-video-workflow-deleted/01-video-as-pipeline.png
+cover: /img/cover-thumbnails/ai-video-workflow-deleted/01-video-as-pipeline.webp
 ---
 
 # 我用 AI 做了一个 20 秒视频，最后把项目删了

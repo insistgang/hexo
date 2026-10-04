@@ -8,7 +8,7 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/scaling-laws-human-learning/00_scaling_laws_human_learning.jpg
+cover: /img/cover-thumbnails/scaling-laws-human-learning/00_scaling_laws_human_learning.webp
 abbrlink: scaling-laws-human-learning
 ---
 

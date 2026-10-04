@@ -8,7 +8,7 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/claude-code-seven-components-deep-dive/00_cover.jpg
+cover: /img/cover-thumbnails/claude-code-seven-components-deep-dive/00_cover.webp
 abbrlink: claude-code-components
 swiper_index: 2
 swiper_desc: "深入解析 Claude Code 的核心架构与工作流"

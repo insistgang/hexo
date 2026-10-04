@@ -9,7 +9,7 @@ tags:
   - 研路炼钢
 categories:
   - 杂谈
-cover: /img/agent-skill-sdd/00-cover.png
+cover: /img/cover-thumbnails/agent-skill-sdd/00-cover.webp
 abbrlink: agent-skill-sdd
 ---
 

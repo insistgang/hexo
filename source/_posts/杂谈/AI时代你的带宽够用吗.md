@@ -7,7 +7,7 @@ tags:
   - 个人成长
 categories:
   - 杂谈
-cover: /img/ai-era-bandwidth/00_ai_bandwidth.png
+cover: /img/cover-thumbnails/ai-era-bandwidth/00_ai_bandwidth.webp
 abbrlink: ai-era-bandwidth
 ---
 
