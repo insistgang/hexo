@@ -7,7 +7,7 @@ tags:
   - 效率
 categories:
   - 杂谈
-cover: /img/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.jpg
+cover: /img/cover-thumbnails/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.webp
 abbrlink: ai-coding-six-stages
 ---
 

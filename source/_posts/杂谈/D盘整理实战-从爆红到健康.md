@@ -9,7 +9,7 @@ tags:
 categories:
   - 杂谈
   - 技术分享
-cover: /img/linux.jpg
+cover: /img/cover-thumbnails/linux.webp
 abbrlink: d-disk-cleanup
 ---
 

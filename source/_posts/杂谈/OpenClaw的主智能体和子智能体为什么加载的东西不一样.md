@@ -7,7 +7,7 @@ tags:
   - AI架构
 categories:
   - 杂谈
-cover: /img/openclaw-architecture/17_00_openclaw_architecture_cover.jpg
+cover: /img/cover-thumbnails/openclaw-architecture/17_00_openclaw_architecture_cover.webp
 abbrlink: openclaw-architecture
 ---
 

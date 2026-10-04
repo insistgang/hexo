@@ -9,7 +9,7 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/codex-ssh-auto-login-fix/codex-login_00_cover_codex.png
+cover: /img/cover-thumbnails/codex-ssh-auto-login-fix/codex-login_00_cover_codex.webp
 abbrlink: codex-ssh-auto-login-fix
 ---
 

@@ -6,7 +6,7 @@ tags:
   - 效率
 categories:
   - 杂谈
-cover: /img/six-ai-tools/11_00_six_ai_tools_cover.jpg
+cover: /img/cover-thumbnails/six-ai-tools/11_00_six_ai_tools_cover.webp
 abbrlink: six-ai-tools
 ---
 

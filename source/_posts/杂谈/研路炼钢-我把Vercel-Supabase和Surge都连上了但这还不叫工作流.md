@@ -11,7 +11,7 @@ tags:
 categories:
   - 杂谈
   - 技术实践
-cover: /img/three-cloud-sop/00_cover-zh-v2.png
+cover: /img/cover-thumbnails/three-cloud-sop/00_cover-zh-v2.webp
 abbrlink: three-cloud-sop
 ---
 

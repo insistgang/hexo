@@ -8,7 +8,7 @@ tags:
   - 研路炼钢
 categories:
   - 杂谈
-cover: /img/ai-usage/00_yanlu_steel.png
+cover: /img/cover-thumbnails/ai-usage/00_yanlu_steel.webp
 abbrlink: ai-usage
 ---
 

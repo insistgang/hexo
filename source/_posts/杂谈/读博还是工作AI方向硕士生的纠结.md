@@ -7,7 +7,7 @@ tags:
   - AI
 categories:
   - 杂谈
-cover: /img/phd-vs-work/05_00_phd_vs_work_cover.jpg
+cover: /img/cover-thumbnails/phd-vs-work/05_00_phd_vs_work_cover.webp
 abbrlink: phd-vs-work
 ---
 

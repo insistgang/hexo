@@ -10,7 +10,7 @@ tags:
 categories:
   - 杂谈
   - 技术研究
-cover: /img/situational-awareness-essence/Situational_Awareness_00_cover.png
+cover: /img/cover-thumbnails/situational-awareness-essence/Situational_Awareness_00_cover.webp
 abbrlink: situational-awareness-essence
 ---
 

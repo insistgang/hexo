@@ -9,7 +9,7 @@
     "audit": "node tools/audit-generated-site.js",
     "build": "hexo clean && hexo generate && touch public/.nojekyll",
     "clean": "hexo clean",
-    "deploy": "npm run build && hexo deploy",
+    "deploy": "npm test && npm run build && npm run audit && hexo deploy",
     "server": "hexo server",
     "test": "node --test test/*.test.js"
   },

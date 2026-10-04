@@ -9,7 +9,7 @@ tags:
   - 研路炼钢
 categories:
   - 杂谈
-cover: /img/ai-personal-control-tower/00_ai-control-tower-cover.png
+cover: /img/cover-thumbnails/ai-personal-control-tower/00_ai-control-tower-cover.webp
 abbrlink: ai-personal-control-tower
 ---
 

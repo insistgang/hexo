@@ -7,22 +7,21 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
-highlight_copy: true # copy button
-highlight_lang: true # show the code language
-highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-highlight_height_limit: false # unit: px
-code_word_wrap: true
+code_blocks:
+  theme: light
+  macStyle: true
+  copy: true
+  language: true
+  shrink: false
+  height_limit: false
+  word_wrap: true
+  fullpage: false
 
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
@@ -42,15 +41,17 @@ social:
 # search (搜索)
 # --------------------------------------
 
-# Algolia search
-algolia_search:
-  enable: false
-  hits:
-    per_page: 6
+search:
+  use: local_search
+  placeholder: 搜索文章
+  local_search:
+    preload: false
+    top_n_per_article: 2
+    unescape: false
+    pagination:
+      enable: true
+      hitsPerPage: 8
 
-# Local search
-local_search:
-  enable: true
 
 # Math (數學)
 # --------------------------------------
@@ -734,13 +735,8 @@ rightside_item_order:
 # --------------------------------------
 # You can only choose one, or neither (只能選擇一個 或者 兩個都不選)
 
-# medium-zoom
-# https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+lightbox: fancybox
 
-# fancybox
-# http://fancyapps.com/fancybox/3/
-fancybox: true
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
@@ -808,7 +804,8 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
+  native: true
   field: site # site/post
   placeholder:
   blur: false
@@ -956,10 +953,10 @@ footer_beautify:
   bdageitem:
     - link: https://hexo.io/ #徽标指向网站链接
       shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #徽标API
-      message: 博客框架为Hexo_v4.0.0 #徽标提示语
+      message: 博客框架为Hexo_v7.3.0 #徽标提示语
     - link: https://butterfly.js.org/
       shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
-      message: 主题版本Butterfly_v3.8.2
+      message: 主题版本Butterfly_v5.5.4
     - link: https://www.jsdelivr.com/
       shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
       message: 本站使用JsDelivr为静态资源提供CDN加速

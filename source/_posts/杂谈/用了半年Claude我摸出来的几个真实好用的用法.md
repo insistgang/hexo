@@ -7,7 +7,7 @@ tags:
   - 效率
 categories:
   - 杂谈
-cover: /img/claude-half-year/20_00_claude_half_year_cover.jpg
+cover: /img/cover-thumbnails/claude-half-year/20_00_claude_half_year_cover.webp
 abbrlink: claude-half-year
 ---
 
