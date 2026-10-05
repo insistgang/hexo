@@ -838,7 +838,7 @@ css_prefix: true
 
 inject:
   head:
-  - <link rel="stylesheet" href="/css/custom.css">
+  - <link rel="stylesheet" href="/css/custom.css?v=55a1a87bff9e">
 
   bottom:
 
