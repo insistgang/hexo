@@ -1,5 +1,5 @@
 ---
-title: 用了半年 Claude，我摸出来的几个真实好用的用法
+title: "用了半年 Claude，我摸出来的几个真实好用的用法"
 date: 2026-03-20 19:50:00
 tags:
   - Claude
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/claude-half-year/20_00_claude_half_year_cover.webp
 abbrlink: claude-half-year
+description: "用 Claude 半年后我的分工感受：帮我读、帮我改、帮我搭框架最稳定；从零创作容易平庸，查事实会编。我现在的配合方式是自己定方向写初稿，让它打磨细节，重要事实不用它单独查。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/claude-half-year/20_00_claude_half_year_cover.jpg)

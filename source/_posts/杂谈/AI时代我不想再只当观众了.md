@@ -1,5 +1,5 @@
 ---
-title: AI 时代，我不想再只当观众：先跑通一个小闭环
+title: "AI 时代，我不想再只当观众：先跑通一个小闭环"
 date: 2026-03-20 12:40:00
 tags:
   - AI
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/ai-anxiety-action-guide/00_cover.webp
 abbrlink: ai-anxiety-action-guide
+description: "写给被 AI 新闻刷得焦虑的自己：先把目标缩到跑通一个小闭环。我按本周、几个月、一年三层排了行动梯度，从把重复工作交给 AI 开始，到围绕一个自用工具补技能，附一个每日简报的起步想法。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/ai-anxiety-action-guide/00_cover.jpg)

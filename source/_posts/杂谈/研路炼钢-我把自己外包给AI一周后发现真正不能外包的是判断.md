@@ -1,5 +1,5 @@
 ---
-title: 研路炼钢 | 我把自己外包给 AI 一周后，发现真正不能外包的是判断
+title: "把自己外包给 AI 一周后，发现真正不能外包的是判断"
 date: 2026-07-18 03:00:00
 tags:
   - AI工作流
@@ -11,11 +11,11 @@ categories:
   - 杂谈
 cover: /img/ai-project-orchestration-retro/00_cover.webp
 abbrlink: ai-project-orchestration-retro
+description: "主控跑了一周后，半成品和上下文重复开始暴露问题。结合调用日志，我重新收紧并行上限、验收标准和收尾流程；日志里的 Token 总量不等于付费账单。"
+topic: "AI工具与实践"
 ---
 
 ![封面：把自己外包给一个主控](/img/ai-project-orchestration-retro/00_cover.webp)
-
-# 研路炼钢 | 我把自己外包给 AI 一周后，发现真正不能外包的是判断
 
 > AI 可以替我检索、拆解、执行和校验，但不能替我决定什么值得做。主控的价值不是让更多窗口同时忙，而是把碎片推进成有证据的交付。
 

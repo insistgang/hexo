@@ -1,5 +1,5 @@
 ---
-title: 为什么你用 AI 编程工具只能产出"AI 垃圾"？
+title: "为什么你用 AI 编程工具只能产出「AI 垃圾」？"
 date: 2026-03-20 19:50:00
 tags:
   - AI工具
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.webp
 abbrlink: ai-coding-six-stages
+description: "复盘我自己用 AI 写代码从能跑但丑到能用的过程，整理成六个阶段：从下命令到对话协作、管上下文、精简工具、固化流程、多实例并行。这些是我的体感台阶，不是人人必经的路线。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/ai-coding-six-stages/19_00_ai_coding_six_stages_cover.jpg)

@@ -1,5 +1,5 @@
 ---
-title: 《Situational Awareness》精华提取：一个前OpenAI研究员眼中的未来十年
+title: "《Situational Awareness》精华：前 OpenAI 研究员的十年判断"
 date: 2026-03-06 18:50:00
 tags:
   - AI
@@ -12,6 +12,8 @@ categories:
   - 技术研究
 cover: /img/cover-thumbnails/situational-awareness-essence/Situational_Awareness_00_cover.webp
 abbrlink: situational-awareness-essence
+description: "我读后整理的《Situational Awareness》要点：作者用数量级外推论证 AGI 临近，并讨论基建竞赛和实验室安全。他是押注 AGI 的投资者，这些是他的预测而非共识，文末我也列了反面观点。"
+topic: "阅读与生活"
 ---
 
 > 素材整理 | 研路炼钢

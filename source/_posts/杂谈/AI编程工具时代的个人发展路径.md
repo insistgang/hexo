@@ -1,5 +1,5 @@
 ---
-title: AI 编程工具时代，别把会用工具当护城河
+title: "AI 编程工具时代，别把会用工具当护城河"
 date: 2026-02-25 14:00:00
 tags:
   - AI
@@ -12,6 +12,8 @@ cover: /img/ai-coding-era-career-path/00_cover.jpg
 abbrlink: ai-coding-era-career-path
 swiper_index: 1
 swiper_desc: "AI 编程工具时代，真正稀缺的不是行数，而是需求判断和商业闭环"
+description: "转述一段对话给我的提醒：会用 AI 工具不等于有护城河，工具先发优势会过期，没有用户和闭环的项目更像练习。我记下的方向是把经验沉淀成内容、去企业里理解真实需求、垂直领域深扎。"
+topic: "成长与选择"
 ---
 
 ![封面](/img/ai-coding-era-career-path/00_cover.jpg)

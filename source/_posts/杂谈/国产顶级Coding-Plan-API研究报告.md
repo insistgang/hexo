@@ -1,5 +1,5 @@
 ---
-title: 国产顶级 Coding Plan API 研究报告
+title: "国产三大 Coding Plan API 调研与试用记录"
 date: 2026-02-22 12:00:00
 tags:
   - AI
@@ -13,6 +13,8 @@ categories:
   - 技术研究
 cover: /img/coding-plan-report/cover.jpg
 abbrlink: coding-plan-api-report
+description: "整理我试用三家 Coding Plan 接口时遇到的差异：认证方式、协议、图像输入与独立工具端点。保留当时的排查过程，具体接入限制以各平台的当前文档为准。"
+topic: "AI工具与实践"
 ---
 
 ![封面 - 国产顶级 Coding Plan API 研究报告](/img/coding-plan-report/cover.jpg)

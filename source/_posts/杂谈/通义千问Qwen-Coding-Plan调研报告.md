@@ -1,5 +1,5 @@
 ---
-title: 通义千问 (Qwen) Coding Plan 调研报告
+title: "通义千问 Coding Plan 调研报告"
 date: 2026-02-23 12:00:00
 tags:
   - AI
@@ -13,6 +13,8 @@ categories:
   - 技术研究
 cover: /img/qwen-coding-plan/cover.jpg
 abbrlink: qwen-coding-plan-report
+description: "我调研通义千问 Coding Plan 的笔记：专属端点和密钥前缀别用错、双协议兼容、视觉可用而语音不在套餐内、联网和代码搜索要靠扩展。额度和限制以官方页面当时的信息为准。"
+topic: "AI工具与实践"
 ---
 
 ![封面 - 通义千问 Coding Plan 调研报告](/img/qwen-coding-plan/cover.jpg)

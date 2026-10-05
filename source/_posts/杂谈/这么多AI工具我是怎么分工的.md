@@ -1,5 +1,5 @@
 ---
-title: 这么多 AI 工具，我是怎么分工的
+title: "这么多 AI 工具，我是怎么分工的"
 date: 2026-03-20 14:40:00
 tags:
   - AI工具
@@ -8,6 +8,8 @@ categories:
   - 杂谈
 cover: /img/ai-tool-division/01-cover.jpg
 abbrlink: ai-tool-division
+description: "几份订阅同时续费后我做的分工：能动手改代码的、能通读长材料的、能对话出方案的，按工种各留一个主力；任务按通读、决策、执行、复查四步走。铁律是别在对话框搬长文、别让两个工具改同一文件。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/ai-tool-division/01-cover.jpg)

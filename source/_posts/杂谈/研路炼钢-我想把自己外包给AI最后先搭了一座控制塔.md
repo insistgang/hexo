@@ -1,5 +1,5 @@
 ---
-title: 研路炼钢 | 我想把自己外包给 AI，最后先搭了一座“控制塔”
+title: "我想把自己外包给 AI，最后先搭了一座“控制塔”"
 date: 2026-07-11 13:00:23
 tags:
   - AI工作流
@@ -11,11 +11,11 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/ai-personal-control-tower/00_ai-control-tower-cover.webp
 abbrlink: ai-personal-control-tower
+description: "多个 AI 窗口同时开着，我却成了最忙的调度员。这次给主控和执行窗口重新分工：集中收任务、限制并行数，用交付物和回执判断一件事是否真的完成。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/ai-personal-control-tower/00_ai-control-tower-cover.png)
-
-# 研路炼钢 | 我想把自己外包给 AI，最后先搭了一座“控制塔”
 
 > 多窗口不是生产力系统。没有主控、并发上限和验收回流，窗口开得越多，只是在用更高级的方式制造上下文切换。
 

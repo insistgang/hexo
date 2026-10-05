@@ -1,5 +1,5 @@
 ---
-title: Claude的Skills是什么
+title: "Claude的Skills是什么"
 date: 2026-02-26 13:50:00
 tags:
   - AI
@@ -10,6 +10,8 @@ categories:
   - 技术研究
 cover: /img/claude-skills-intro/00_cover.jpg
 abbrlink: claude-skills-intro
+description: "用后厨操作手册的类比讲我对 Skills 的理解：它不是插件而是结构化的说明书，AI 先匹配场景再照着做。对我的启发是，把踩过的坑写成规范，比每次口头交代更稳定。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/claude-skills-intro/00_cover.jpg)

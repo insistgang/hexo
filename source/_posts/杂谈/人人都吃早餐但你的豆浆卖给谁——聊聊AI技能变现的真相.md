@@ -1,5 +1,5 @@
 ---
-title: 人人都吃早餐，但你的豆浆卖给谁？——聊聊AI技能变现的真相
+title: "人人都吃早餐，但你的豆浆卖给谁？——聊聊AI技能变现的真相"
 date: 2026-03-29 15:30:00
 tags:
   - AI工具
@@ -9,6 +9,8 @@ categories:
   - 技术研究
 cover: /img/cover-thumbnails/ai-skill-monetization-truth/ai_skill_cover.webp
 abbrlink: ai-skill-monetization-truth
+description: "从“人人都吃早餐，谁会买你的豆浆”聊到 AI 技能变现：用户要什么结果，哪些环节值得定制，什么时候才适合做成产品。保留一次交流里对需求和交付的判断。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/ai-skill-monetization-truth/ai_skill_cover.jpg)

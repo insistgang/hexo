@@ -1,5 +1,5 @@
 ---
-title: 投稿 SCI，我因为漏了一个文件被退回过
+title: "投稿 SCI，我因为漏了一个文件被退回过"
 date: 2026-03-20 14:15:00
 tags:
   - 学术
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/sci-submission-checklist/06_00_sci_submission_cover.webp
 abbrlink: sci-submission-checklist
+description: "我第一次投 SCI 因漏传标题页被退回，之后整理了投稿材料清单：核心文件、图表格式、投稿信结构、审稿人选择和各类声明，附逐项打钩的检查表。期刊要求各不相同，以投稿系统为准。"
+topic: "科研与写作"
 ---
 
 ![封面](/img/sci-submission-checklist/06_00_sci_submission_cover.jpg)

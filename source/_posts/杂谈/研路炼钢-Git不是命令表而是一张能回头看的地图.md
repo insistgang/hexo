@@ -1,5 +1,5 @@
 ---
-title: 研路炼钢 | 我把 Git 命令跑了一遍，才明白它为什么能救场
+title: "我把 Git 命令跑了一遍，才明白它为什么能救场"
 date: 2026-09-27 14:04:11
 tags:
   - Git
@@ -10,11 +10,11 @@ categories:
   - 杂谈
 cover: /img/git-from-zero-to-practice/00_cover.png
 abbrlink: git-from-zero-to-practice
+description: "从一次改错分支名开始，重新梳理暂存区、分支、合并与撤销。把日常操作分成五步：先看状态，再核对改动与历史，最后处理远程同步。"
+topic: "工程与部署"
 ---
 
 ![封面：Git 记录每一步，也给改错留一条路](/img/git-from-zero-to-practice/00_cover.png)
-
-# 研路炼钢 | 我把 Git 命令跑了一遍，才明白它为什么能救场
 
 > 学 Git 时，我最缺的不是一张命令速查表，而是每次敲命令前都能回答：我现在在哪个分支，改动在哪一层，接下来会动哪段历史？
 

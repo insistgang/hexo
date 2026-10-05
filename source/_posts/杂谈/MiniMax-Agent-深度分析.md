@@ -1,5 +1,5 @@
 ---
-title: MiniMax Agent 应用场景与核心竞争力
+title: "MiniMax Agent 应用场景与核心竞争力"
 date: 2026-02-23 21:00:00
 tags:
   - AI
@@ -14,6 +14,8 @@ cover: /img/cover-thumbnails/minimax-agent-analysis/cover.webp
 abbrlink: minimax-agent-analysis
 swiper_index: 4
 swiper_desc: "MiniMax Agent 深度分析与场景应用"
+description: "从科研使用者的角度整理我对 MiniMax Agent 的定位判断：它偏全模态快速交付，我用来出展示图和草稿；论文写作和复杂代码我仍交给推理更深的工具。这是我的分工习惯，不是统一答案。"
+topic: "AI工具与实践"
 ---
 
 ![封面 - MiniMax Agent 应用场景与核心竞争力](/img/minimax-agent-analysis/cover.png)

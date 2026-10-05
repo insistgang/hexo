@@ -1,5 +1,5 @@
 ---
-title: 人和人说话，也是要消耗 Token 的
+title: "人和人说话，也是要消耗 Token 的"
 date: 2026-03-20 13:50:00
 tags:
   - 人际关系
@@ -8,6 +8,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/token-conversation/03_00_token_conversation_cover.webp
 abbrlink: token-conversation
+description: "我的精力管理笔记：把深度对话想成消耗 Token，白天在群里热心答疑，晚上重要的人说话我却没余量了。现在我把联系人分档，核心的人认真回应，其余用轻量模式，不再为没逐条回复愧疚。"
+topic: "成长与选择"
 ---
 
 ![封面](/img/token-conversation/03_00_token_conversation_cover.jpg)

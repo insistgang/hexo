@@ -1,5 +1,5 @@
 ---
-title: Claude Code 七大组件深度拆解：从入门到真正会用
+title: "Claude Code 七大组件深度拆解：从入门到真正会用"
 date: 2026-02-25 10:00:00
 tags:
   - Claude Code
@@ -12,6 +12,8 @@ cover: /img/cover-thumbnails/claude-code-seven-components-deep-dive/00_cover.web
 abbrlink: claude-code-components
 swiper_index: 2
 swiper_desc: "深入解析 Claude Code 的核心架构与工作流"
+description: "我用新员工入职的类比梳理 Claude Code 的几类组件：交接文档、操作手册、外部账号、强制规则、分身执行和打包分发各自对应什么，以及我建议的上手顺序。版本特性以官方文档为准。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/claude-code-seven-components-deep-dive/00_cover.jpg)
