@@ -1,5 +1,5 @@
 ---
-title: 你每天都在消费Token，但你积累数字资产了吗？
+title: "你每天都在消费Token，但你积累数字资产了吗？"
 date: 2026-03-29 15:45:00
 tags:
   - AI工具
@@ -10,6 +10,8 @@ categories:
   - 研究生成长
 cover: /img/cover-thumbnails/digital-asset-accumulation/digital_asset_cover.webp
 abbrlink: digital-asset-accumulation
+description: "一次长谈后的整理：每天和 AI 聊完就关，等于只消费没沉淀。我们把文章、笔记、仓库、复盘这类可检索可复用的产出叫数字资产。对我的提醒是，每做完一件事都问能不能留下点什么。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/digital-asset-accumulation/digital_asset_cover.jpg)

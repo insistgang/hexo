@@ -1,5 +1,5 @@
 ---
-title: 不是接一个 TTS：我如何把 61 秒视频重构成有记忆、有情绪的 AI 伴侣
+title: "不是接一个 TTS：把 61 秒视频重构成有情绪的 AI 伴侣"
 date: 2026-08-08 16:45:00
 tags:
   - AI伴侣
@@ -11,11 +11,11 @@ categories:
   - 杂谈
 cover: /img/luyao-ai-emotional-companion/00_cover.webp
 abbrlink: luyao-ai-emotional-companion
+description: "一段标杆视频怎样拆成可落地的系统？从对话节奏出发，把记忆、人设、语音与安全检查逐层接起来，记录我重构 AI 伴侣时做过的取舍。"
+topic: "工程与部署"
 ---
 
 ![封面：把 61 秒视频重构成有记忆、有情绪的人工智能伴侣](/img/luyao-ai-emotional-companion/00_cover.webp)
-
-# 不是接一个 TTS：我如何把 61 秒视频重构成有记忆、有情绪的 AI 伴侣
 
 > 我这次真正意识到：情绪共鸣不是一句“请温柔一点”的 Prompt，而是记忆、信息顺序、停顿、声音、气泡节奏和上下文连续性共同形成的结果。
 

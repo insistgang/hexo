@@ -1,5 +1,5 @@
 ---
-title: 桌面Agent大战：MiniMax Agent vs 阿里QoderWork，谁才是你的AI打工搭子？
+title: "MiniMax Agent 与 QoderWork 使用笔记：云端创作与本地操作"
 date: 2026-03-05 16:30:00
 tags:
   - AI工具
@@ -11,6 +11,8 @@ categories:
   - 技术研究
 cover: /img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_01_cover_minimax_agent_vs_qoderwork.jpg
 abbrlink: minimax-agent-vs-qoderwork
+description: "我用过两款桌面 Agent 后的分工笔记：一个偏云端内容生成，一个偏本地文件和应用操作，解决的不是同一类问题。我的做法是按场景分工。文中性能和价格口径以官方信息为准。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/minimax-agent-vs-qoderwork/MiniMax_Agent_vs_QoderWork_01_cover_minimax_agent_vs_qoderwork.jpg)

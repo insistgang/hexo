@@ -1,5 +1,5 @@
 ---
-title: OpenClaw 生态里，真的有人赚到钱了
+title: "OpenClaw 生态里，真的有人赚到钱了"
 date: 2026-03-20 12:50:00
 tags:
   - OpenClaw
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.webp
 abbrlink: openclaw-ecosystem-opportunity
+description: "整理我在 OpenClaw 社群和小红书看到的几类变现说法：部署、培训、托管、行业定制，以及我自己的判断——门槛低的先卷价格，行业理解深的才有壁垒。这些都是个案观察，不是收益承诺。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/openclaw-ecosystem-opportunity/00_openclaw_ecosystem_opportunity.jpg)

@@ -1,5 +1,5 @@
 ---
-title: 研路炼钢 | 从卖产品到卖技能——一顿火锅，我把 Agent 的底层逻辑又梳理了一遍
+title: "从卖产品到卖技能：一顿火锅聊清 Agent 的底层逻辑"
 date: 2026-05-06 22:00:00
 tags:
   - Agent
@@ -11,6 +11,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/agent-skill-sdd/00-cover.webp
 abbrlink: agent-skill-sdd
+description: "一顿饭里的 Agent 讨论：技能怎样变成可复用的能力包，子代理如何分工，为什么需求整理常常比写代码更费时间。记录这些想法怎样影响了我接下来的实践。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/agent-skill-sdd/00-cover.png)

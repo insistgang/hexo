@@ -1,5 +1,5 @@
 ---
-title: AI时代，你的带宽够用吗？
+title: "AI时代，你的带宽够用吗？"
 date: 2026-04-13 20:57:38
 tags:
   - AI
@@ -9,11 +9,11 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/ai-era-bandwidth/00_ai_bandwidth.webp
 abbrlink: ai-era-bandwidth
+description: "重读《格局》后的自省：注意力像带宽固定的网线，我同时推进很多事结果件件烂尾。书里做减法的观点落到我身上，就是清收藏、让 AI 只做预处理、每天只留三件必做的事。"
+topic: "阅读与生活"
 ---
 
 ![封面](/img/ai-era-bandwidth/00_ai_bandwidth.png)
-
-# AI时代，你的带宽够用吗？
 
 > 读吴军《格局》有感
 

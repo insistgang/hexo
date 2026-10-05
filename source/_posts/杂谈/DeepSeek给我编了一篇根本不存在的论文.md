@@ -1,5 +1,5 @@
 ---
-title: DeepSeek 给我编了一篇根本不存在的论文
+title: "DeepSeek 给我编了一篇根本不存在的论文"
 date: 2026-03-20 19:50:00
 tags:
   - AI工具
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/ai-fake-paper/14_00_ai_fake_paper_cover.jpg
 abbrlink: ai-fake-paper
+description: "我写论文时让 AI 推荐文献，拿到几条格式完美的引用，核实后发现好几条根本不存在。之后我的习惯改成：只让 AI 梳理方向、用联网工具交叉验证、引用前逐条点开确认。找文献和读文献分开。"
+topic: "科研与写作"
 ---
 
 ![封面](/img/ai-fake-paper/14_00_ai_fake_paper_cover.jpg)

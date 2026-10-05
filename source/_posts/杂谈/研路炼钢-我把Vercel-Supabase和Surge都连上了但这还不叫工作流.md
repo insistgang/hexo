@@ -1,5 +1,5 @@
 ---
-title: 研路炼钢 | 我把 Vercel、Supabase 和 Surge 都连上了，但这还不叫工作流
+title: "我把 Vercel、Supabase 和 Surge 都连上了，但这还不叫工作流"
 date: 2026-07-23 21:05:00
 tags:
   - Vercel
@@ -13,6 +13,8 @@ categories:
   - 技术实践
 cover: /img/cover-thumbnails/three-cloud-sop/00_cover-zh-v2.webp
 abbrlink: three-cloud-sop
+description: "我把三个云服务都接进工具箱后的反思：能登录、能访问、业务能完成是三件事。我给它们分了工序，密钥只留服务端，每一步配验收件，并且要求能回滚。这是我搭链路的草稿，不是现成方案。"
+topic: "工程与部署"
 ---
 
 ![三个云端工具组成一条可验证的闭环](/img/three-cloud-sop/00_cover-zh-v2.png)

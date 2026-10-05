@@ -1,5 +1,5 @@
 ---
-title: 我用 AI 做了一个 20 秒视频，最后把项目删了
+title: "我用 AI 做了一个 20 秒视频，最后把项目删了"
 date: 2026-07-08 18:00:00
 tags:
   - AI工具
@@ -11,9 +11,9 @@ categories:
   - AI工具实践
 abbrlink: ai-video-workflow-deleted
 cover: /img/cover-thumbnails/ai-video-workflow-deleted/01-video-as-pipeline.webp
+description: "记录我把网页做成一条二十秒宣传片又删掉整个项目的过程：AI 生成不是魔法而是工具接力，原型能跑不等于能交付，权限弹窗其实是信任边界。文件删了，对工作流的理解留下了。"
+topic: "AI工具与实践"
 ---
-
-# 我用 AI 做了一个 20 秒视频，最后把项目删了
 
 > 工具真正留下来的，不一定是那个文件，而是你对工作流的理解。
 

@@ -2,6 +2,8 @@ mixin indexPostUI()
   - const indexLayout = theme.index_layout
   - const masonryLayoutClass = [6, 7].includes(indexLayout) ? 'masonry' : ''
   #recent-posts.recent-posts.nc(class=masonryLayoutClass)
+    if globalPageType === 'home' && (!page.current || page.current === 1)
+      include ../home-intro.pug
     .recent-post-items
       each article, index in page.posts.data
         .recent-post-item
@@ -42,7 +44,13 @@ mixin indexPostUI()
                     i(class=dateIcon)
                     span.article-meta-label= dateTitle
                     time(datetime=date_xml(article[dateType]) title=dateTitle + ' ' + full_date(article[dateType]))= date(article[dateType], config.date_format)
-              if theme.post_meta.page.categories && article.categories.data.length > 0
+              if article.topic
+                - const topic = site.data.editorial.topics.find(item => item.key === article.topic)
+                if topic
+                  span.article-meta
+                    span.article-meta-separator |
+                    a.article-meta__categories(href=url_for('/reading/') + '#' + topic.id)= topic.title
+              if !article.topic && theme.post_meta.page.categories && article.categories.data.length > 0
                 span.article-meta
                   span.article-meta-separator |
                   each item, index in article.categories.data

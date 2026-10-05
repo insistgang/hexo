@@ -1,0 +1,12 @@
+section.home-intro(aria-label='关于研路炼钢')
+  p.home-kicker LEO 的笔记本 · 研路炼钢
+  h2.home-title 从实践出发，留下能复用的经验。
+  p.home-description 记录 AI 工具、项目部署与科研学习。写遇到的问题、试过的方法，也写仍然没想清楚的地方。
+  a.home-start(href=url_for('/reading/')) 第一次来？从专题阅读开始
+    span(aria-hidden='true')  →
+nav.home-topics(aria-label='按主题阅读')
+  each topic in site.data.editorial.topics.slice(0, 3)
+    a(href=url_for('/reading/') + '#' + topic.id)= topic.title
+.home-section-heading
+  h2 最近的笔记
+  a(href=url_for('/archives/')) 全部文章 →

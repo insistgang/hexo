@@ -1,5 +1,5 @@
 ---
-title: Codex 每次都要登录？一文解决 SSH 自动登录问题
+title: "Codex 每次都要登录？一文解决 SSH 自动登录问题"
 date: 2026-02-28 10:00:00
 tags:
   - Codex
@@ -11,6 +11,8 @@ categories:
   - 技术研究
 cover: /img/cover-thumbnails/codex-ssh-auto-login-fix/codex-login_00_cover_codex.webp
 abbrlink: codex-ssh-auto-login-fix
+description: "我在 SSH 服务器上遇到 Codex 每次弹登录的问题，排查后发现写了 API Key 不等于完成登录，缺的是认证状态文件。记录我的三步修复和换服务器时的做法，供遇到同样问题的人参考。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/codex-ssh-auto-login-fix/codex-login_00_cover_codex.png)

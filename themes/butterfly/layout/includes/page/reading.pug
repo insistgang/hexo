@@ -1,0 +1,34 @@
+!= page.content
+- const allPosts = site.posts.toArray().filter(post => post.published !== false && post.published !== 0).sort((a, b) => b.date.valueOf() - a.date.valueOf())
+- const groups = site.data.editorial.topics
+nav.reading-nav(aria-label='阅读主题')
+  each group in groups
+    a(href='#' + group.id)= group.title
+each group in groups
+  - const posts = allPosts.filter(post => post.topic === group.key)
+  section.reading-section(id=group.id)
+    .reading-heading
+      h2= group.title
+      span #{posts.length} 篇
+    p.reading-description= group.description
+    ul.reading-posts
+      each post in posts.slice(0, 3)
+        li
+          a(href=url_for(post.path))= post.title
+          p= post.description || ''
+    if posts.length > 3
+      details.reading-more
+        summary 查看其余 #{posts.length - 3} 篇
+        ul.reading-posts
+          each post in posts.slice(3)
+            li
+              a(href=url_for(post.path))= post.title
+              p= post.description || ''
+- const remaining = allPosts.filter(post => !groups.some(group => group.key === post.topic))
+if remaining.length
+  section.reading-section
+    h2 其他笔记
+    ul.reading-posts
+      each post in remaining
+        li
+          a(href=url_for(post.path))= post.title

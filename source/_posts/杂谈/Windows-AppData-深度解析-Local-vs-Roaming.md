@@ -1,5 +1,5 @@
 ---
-title: Windows AppData 深度解析：Local vs Roaming
+title: "Windows AppData 深度解析：Local vs Roaming"
 date: 2026-02-05 21:30:00
 tags:
   - Windows
@@ -11,6 +11,8 @@ categories:
   - 技术分享
 cover: /img/cover-thumbnails/riji.webp
 abbrlink: appdata-deep-dive
+description: "整理 C 盘时我发现 AppData 占用惊人，于是把 Local 和 Roaming 的机制查清楚：一个偏本机缓存，一个偏随用户走的配置。我的清理口径只代表自己的判断，删任何目录前请先确认里面是什么。"
+topic: "工程与部署"
 ---
 
 ## 前言

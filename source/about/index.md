@@ -18,9 +18,16 @@ comments: false
 
 ## 找到感兴趣的内容
 
-可以按[时间轴](/archives/)阅读，也可以通过[标签](/tags/)和页面顶部的搜索查找主题。[LMCC 练习页](/lmcc/)整理了练习题与备考资料。
+第一次来，可以从[专题阅读](/reading/)按 AI 工具、工程部署、科研写作等主题找文章。也可以按[时间轴](/archives/)阅读，或通过页面顶部的搜索定位具体问题。[LMCC 练习页](/lmcc/)整理了练习题与备考资料。
 
 ## 联系
 
 - GitHub：[insistgang](https://github.com/insistgang)
 - 邮箱：[insistgang@163.com](mailto:insistgang@163.com)
+
+
+## 项目记录
+
+下面是 GitHub 上的近期活动。提交次数只反映活动频率，具体做了什么，可以到仓库里看。
+
+<div id="about-git-calendar"></div>

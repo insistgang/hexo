@@ -1,5 +1,5 @@
 ---
-title: 读博还是工作？一个 AI 方向硕士生的真实纠结
+title: "读博还是工作？一个 AI 方向硕士生的真实纠结"
 date: 2026-03-20 14:15:00
 tags:
   - 职业规划
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/phd-vs-work/05_00_phd_vs_work_cover.webp
 abbrlink: phd-vs-work
+description: "记录我读博还是工作的纠结：学术侧担心方向迭代太快，工业侧看重经验匹配；我仍倾向读博，理由是自己的方向还在早期、学位信号对我更重要，底线是保持和工业界的连接。只是我的个人权衡。"
+topic: "成长与选择"
 ---
 
 ![封面](/img/phd-vs-work/05_00_phd_vs_work_cover.jpg)

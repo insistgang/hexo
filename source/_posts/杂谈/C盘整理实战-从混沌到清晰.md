@@ -1,5 +1,5 @@
 ---
-title: C盘整理实战：从混沌到清晰
+title: "C盘整理实战：从混沌到清晰"
 date: 2026-02-05 21:00:00
 tags:
   - Windows
@@ -11,6 +11,8 @@ categories:
   - 技术分享
 cover: /img/cover-thumbnails/riji.webp
 abbrlink: c-disk-cleanup
+description: "记录我整理 C 盘的过程：桌面堆了多年项目文件，AppData 两个目录是占用大头。我按缓存与配置分开对待的口径逐层清理，也踩了删除报错和幽灵文件夹的坑，文末是我自己的检查清单。"
+topic: "工程与部署"
 ---
 
 ## 前言

@@ -1,5 +1,5 @@
 ---
-title: OpenClaw 的主智能体和子智能体，为什么加载的东西不一样？
+title: "OpenClaw 的主智能体和子智能体，为什么加载的东西不一样？"
 date: 2026-03-20 19:50:00
 tags:
   - OpenClaw
@@ -9,6 +9,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/openclaw-architecture/17_00_openclaw_architecture_cover.webp
 abbrlink: openclaw-architecture
+description: "我配 OpenClaw 多 Agent 时发现主智能体加载人格、记忆等七层文件，子智能体只加载规则和工具。我理解这是决策集中、执行专注的结构。文中对开销的估算是我的体感，不是测量值。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/openclaw-architecture/17_00_openclaw_architecture_cover.jpg)

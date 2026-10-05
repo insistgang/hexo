@@ -1,5 +1,5 @@
 ---
-title: Claude Code 接入 GLM-5 实战教程
+title: "Claude Code 接入 GLM-5 实战教程"
 date: 2026-02-28 10:00:00
 tags:
   - Claude Code
@@ -11,6 +11,8 @@ categories:
   - 技术研究
 cover: /img/claude-code-glm5-tutorial/claude-code-glm5_00_cover.jpg
 abbrlink: claude-code-glm5-tutorial
+description: "记录我把 Claude Code 接到智谱兼容接口的配置过程：用哪个环境变量、shell 里怎么避免冲突、怎么验证，以及我当时遇到的三类报错——连接失败、域名解析、首次启动卡住——分别怎么排查。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/claude-code-glm5-tutorial/claude-code-glm5_00_cover.jpg)

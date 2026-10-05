@@ -1,5 +1,5 @@
 ---
-title: 我每天都在用的 6 个 AI 工具，说说真实体验
+title: "我每天都在用的 6 个 AI 工具，说说真实体验"
 date: 2026-03-20 14:40:00
 tags:
   - AI工具
@@ -8,6 +8,8 @@ categories:
   - 杂谈
 cover: /img/cover-thumbnails/six-ai-tools/11_00_six_ai_tools_cover.webp
 abbrlink: six-ai-tools
+description: "记录我每天实际在用的几类 AI 能力：把重复流程固化、处理表格文档、找现成方案、优化界面、清理冗余代码、跑长任务。好用在哪、坑在哪一起写。效率感受是我的主观体感，不是测量结果。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/six-ai-tools/11_00_six_ai_tools_cover.jpg)

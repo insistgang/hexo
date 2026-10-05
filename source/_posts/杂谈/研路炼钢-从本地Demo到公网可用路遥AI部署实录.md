@@ -1,5 +1,5 @@
 ---
-title: 从本地 Demo 到公网可用：路遥 AI 的低成本部署实录
+title: "从本地 Demo 到公网可用：路遥 AI 的低成本部署实录"
 date: 2026-08-08 18:10:00
 tags:
   - AI部署
@@ -11,11 +11,11 @@ categories:
   - 杂谈
 cover: /img/luyao-ai-public-deployment/00_cover.webp
 abbrlink: luyao-ai-public-deployment
+description: "本地能跑之后，怎样让别人也能访问？记录路遥 AI 的服务拆分、容器部署、平台迁移与密钥处理，也交代免费实例在休眠和数据持久化上的限制。"
+topic: "工程与部署"
 ---
 
 ![封面：从本地演示到公网可用的部署链路](/img/luyao-ai-public-deployment/00_cover.webp)
-
-# 从本地 Demo 到公网可用：路遥 AI 的低成本部署实录
 
 > 本地能跑，只证明代码在我的电脑上成立。真正把一个带后端、数据库和 API Key 的 AI 应用交给别人用，还要同时解决网络、部署、密钥、冷启动和数据持久化。
 

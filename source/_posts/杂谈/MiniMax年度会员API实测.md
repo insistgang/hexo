@@ -1,5 +1,5 @@
 ---
-title: MiniMax 年度会员 API 实测：图像生成 + 语音合成，到底好不好用？
+title: "MiniMax 年度会员 API：图像与语音实测"
 date: 2026-03-26 19:59:00
 tags:
   - AI
@@ -11,11 +11,11 @@ categories:
   - 技术研究
 cover: /img/minimax-api-annual-member-review/minimax_api_cover.jpg
 abbrlink: minimax-api-annual-member-review
+description: "记录我开通年度会员后调 API 的过程：图像生成能调通；语音合成卡在模型名上，翻官方 SDK 才找到会员套餐支持的那个。附我当时整理的错误代码和参数说明，额度以账户页面为准。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/minimax-api-annual-member-review/minimax_api_cover.jpg)
-
-# MiniMax 年度会员 API 实测：图像生成 + 语音合成，到底好不好用？
 
 **作者：研路炼钢**
 **日期：2026年3月26日**

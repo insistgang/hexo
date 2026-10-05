@@ -1,5 +1,5 @@
 ---
-title: D盘整理实战：从"爆红"到"健康"
+title: "D盘整理实战：从「爆红」到「健康」"
 date: 2026-02-05 22:30:00
 tags:
   - Windows
@@ -11,6 +11,8 @@ categories:
   - 技术分享
 cover: /img/cover-thumbnails/linux.webp
 abbrlink: d-disk-cleanup
+description: "C 盘之后的 D 盘整理记录：大头是开发环境和虚拟机。我学到的是包缓存不等于环境、判断软件去留不能只看修改时间还要看进程，以及按能否重新获得来取舍闲置软件。过程比 C 盘更费判断。"
+topic: "工程与部署"
 ---
 
 ## 前言

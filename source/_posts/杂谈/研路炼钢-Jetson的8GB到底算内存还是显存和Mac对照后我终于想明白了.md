@@ -1,5 +1,5 @@
 ---
-title: 研路炼钢 | Jetson 的 8GB 到底算内存还是显存？和 Mac 对照后，我终于想明白了
+title: "Jetson 的 8GB 算内存还是显存？和 Mac 对照后想明白了"
 date: 2026-08-05 20:40:43
 tags:
   - Jetson
@@ -11,11 +11,11 @@ categories:
   - 杂谈
 cover: /img/jetson-mac-unified-memory/00_cover.webp
 abbrlink: jetson-mac-unified-memory
+description: "Jetson 的 8GB 该怎么算，为什么还要看空载余量？和 Mac 对照后，我把统一内存、模型权重、缓存和并发开销放进同一张预算表。"
+topic: "工程与部署"
 ---
 
 ![封面：Jetson 与 Mac 的统一内存预算](/img/jetson-mac-unified-memory/00_cover.webp)
-
-# 研路炼钢 | Jetson 的 8GB 到底算内存还是显存？和 Mac 对照后，我终于想明白了
 
 > 统一内存省掉了 CPU 和 GPU 之间的一部分数据搬运，但没有凭空多出一块显存。Jetson 标称的 8GB，不是“8GB 内存再加 8GB 显存”，而是整台机器共同争抢的一笔预算。
 
@@ -37,7 +37,7 @@ CPU 使用主板上的系统内存，独立 GPU 使用显卡上的显存。一�
 
 Jetson Orin Nano 不是这种结构。
 
-它把 CPU、集成 GPU、DLA 和部分多媒体单元放在同一颗 SoC 上，共享同一块 LPDDR5 物理内存。系统标称的 8GB，既要承担 Linux、桌面和普通进程的开销，也要装模型权重、推理运行时和 GPU 计算缓存。
+它的 CPU、集成 GPU 和部分多媒体单元共享同一块 LPDDR5 物理内存。这里也更正一个型号区别：[NVIDIA 的规格表](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/)中，Orin Nano 不配备 DLA，不能把 Orin NX 或 AGX Orin 的配置直接套到 Nano 上。系统标称的 8GB，既要承担 Linux、桌面和普通进程的开销，也要装模型权重、推理运行时和 GPU 计算缓存。
 
 所以正确的账本只有一本：
 
@@ -76,6 +76,8 @@ Jetson Orin Nano 不是这种结构。
 
 ![Jetson 与 Mac 共享内存架构的相似与差异](/img/jetson-mac-unified-memory/03_jetson-vs-mac.webp)
 
+*图中加速器是设备类别的概念示意；Orin Nano 没有独立 DLA，具体硬件以对应型号的规格表为准。*
+
 把 Jetson 和 Mac 放在一起看，最容易理解统一内存。
 
 Apple Silicon 同样让 CPU、GPU 和神经网络引擎访问一个统一的物理内存池。[Apple 对 M1 的官方说明](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/)强调的核心收益，也是不同计算单元可以访问同一份数据，减少在多个内存池之间复制。苹果在 [WWDC 的架构讲解](https://developer.apple.com/videos/play/wwdc2020/10686/)里也展示了 CPU 与 GPU 共享资源、避免经由 PCIe 来回搬运的思路。
@@ -85,7 +87,7 @@ Apple Silicon 同样让 CPU、GPU 和神经网络引擎访问一个统一的物�
 | 对比项 | Jetson Orin Nano | Apple Silicon Mac |
 |---|---|---|
 | 传统独立显存 | 没有 | 没有 |
-| 内存使用者 | CPU、GPU、DLA 等 | CPU、GPU、神经网络引擎等 |
+| 内存使用者 | CPU、GPU 等 | CPU、GPU、神经网络引擎等 |
 | 主要生态 | CUDA、TensorRT、JetPack | Metal、Core ML、macOS |
 | 常见场景 | 机器人、视觉与边缘 AI | 开发、创作与本地 AI |
 

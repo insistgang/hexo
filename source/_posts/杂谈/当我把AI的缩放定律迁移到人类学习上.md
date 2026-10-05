@@ -1,5 +1,5 @@
 ---
-title: 当我把AI的"缩放定律"迁移到人类学习上
+title: "当我把AI的「缩放定律」迁移到人类学习上"
 date: 2026-03-29 15:35:00
 tags:
   - AI论文
@@ -10,6 +10,8 @@ categories:
   - 技术研究
 cover: /img/cover-thumbnails/scaling-laws-human-learning/00_scaling_laws_human_learning.webp
 abbrlink: scaling-laws-human-learning
+description: "读 Scaling Laws 论文后的一篇联想笔记：我把幂律、样本效率、早停这些概念对照到自己的学习上，比如知识网大了学新东西更顺、只输入不实践像过拟合。这是个人类比，不是论文的结论。"
+topic: "阅读与生活"
 ---
 
 ![封面](/img/scaling-laws-human-learning/00_scaling_laws_human_learning.jpg)

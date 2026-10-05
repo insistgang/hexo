@@ -1,5 +1,5 @@
 ---
-title: 2026年AI编程模型选型指南：Qwen Code 10款模型深度横评
+title: "Qwen Code 编程模型资料整理与选型笔记"
 date: 2026-02-27 12:30:00
 tags:
   - AI编程
@@ -10,6 +10,8 @@ categories:
   - 技术研究
 cover: /img/qwen-code-model-analysis/00_cover.jpg
 abbrlink: qwen-code-model-analysis
+description: "整理阿里百炼 Coding Plan 当时接入的几款编程模型的公开资料：定位、上下文和计费口径，再按我的使用场景给出倾向。参数和价格以官方页面为准，这篇是选型笔记，不是基准测试。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/qwen-code-model-analysis/00_cover.jpg)

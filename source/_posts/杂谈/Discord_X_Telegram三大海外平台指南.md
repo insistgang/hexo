@@ -1,5 +1,5 @@
 ---
-title: Discord、X、Telegram：三个你迟早会用到的海外平台
+title: "Discord、X、Telegram：三个你迟早会用到的海外平台"
 date: 2026-02-26 15:45:00
 tags:
   - 工具
@@ -10,9 +10,9 @@ categories:
   - 技术研究
 cover: /img/discord-x-telegram-guide/cover_05_platforms.jpg
 abbrlink: discord-x-telegram-guide
+description: "我自己的信息渠道笔记：很多开源项目的第一手讨论不在国内平台。这篇按我的使用感受区分三个海外平台的定位——有结构的社区、公开的广场、私密的管道，以及各自适合什么场景。"
+topic: "AI工具与实践"
 ---
-
-# Discord、X、Telegram：三个你迟早会用到的海外平台
 
 ![封面](/img/discord-x-telegram-guide/cover_05_platforms.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: 我用 AI 烧了很多钱，但论文一个字没多
+title: "我用 AI 烧了很多钱，但论文一个字没多"
 date: 2026-03-29 15:40:00
 tags:
   - AI工具
@@ -10,6 +10,8 @@ categories:
   - 研究生成长
 cover: /img/cover-thumbnails/ai-money-paper-zero/ai_money_paper_cover.webp
 abbrlink: ai-money-paper-zero
+description: "一次自我清算：命令行工具装了一堆、订阅开了一堆，论文却没进展。粗算过去三个月在工具和接口上的开销，够一个月伙食费，我才承认自己是在体验工具而不是完成任务。现在开工具前先问论文能多出什么。"
+topic: "AI工具与实践"
 ---
 
 ![封面](/img/ai-money-paper-zero/ai_money_paper_cover.jpg)

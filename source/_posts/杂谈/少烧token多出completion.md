@@ -1,5 +1,5 @@
 ---
-title: 少烧 token，多出 completion
+title: "少烧 token，多出 completion"
 date: 2026-03-29 10:00:00
 tags:
   - 效率提升
@@ -10,11 +10,11 @@ categories:
   - 成长记录
 cover: /img/cover-thumbnails/shaoshaotoken-completion/shaoshaotoken_00_cover.webp
 abbrlink: shaoshaotoken-completion
+description: "一个周六画图崩掉后的反思：桌面十几个软件、浏览器几十个标签页，我以为在并行推进，其实大量精力耗在上下文切换上。借 Token 和 completion 的比喻，我给自己定的解法是每天留一段单线程时间。"
+topic: "成长与选择"
 ---
 
 ![封面](/img/shaoshaotoken-completion/shaoshaotoken_00_cover.jpg)
-
-# 少烧 token，多出 completion
 
 > 研二的某个周六，我坐在电脑前画论文的架构图，不到一个小时就累得不行。不是身体累，是脑子被掏空了。图也没画好。
 
