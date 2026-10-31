@@ -1,2 +1,0 @@
-# 正式官方环境需要 PyTorch（官方 2025 另提供 transformers / mindnlp / 模型）。
-torch
