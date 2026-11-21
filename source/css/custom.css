@@ -478,10 +478,28 @@ html[data-theme="dark"] #nav :is(a, .site-page, .site-name, .menus_item, i, span
   background: var(--yl-accent-soft);
   transition: color .2s var(--yl-ease), border-color .2s var(--yl-ease), background .2s var(--yl-ease), transform .2s var(--yl-ease);
 }
-.tag-cloud-list a { padding: 7px 13px; color: var(--yl-muted) !important; background: var(--yl-accent-soft) !important; }
-.tag-cloud-list a:hover,
+.tag-cloud-list a {
+  --tag-rgb: var(--yl-accent-rgb);
+  padding: 7px 13px;
+  color: rgb(var(--tag-rgb)) !important;
+  border-color: rgba(var(--tag-rgb), .24) !important;
+  background: rgba(var(--tag-rgb), .09) !important;
+}
+.tag-cloud-list a:nth-child(5n+2) { --tag-rgb: 110, 168, 254; }
+.tag-cloud-list a:nth-child(5n+3) { --tag-rgb: 167, 139, 250; }
+.tag-cloud-list a:nth-child(5n+4) { --tag-rgb: 229, 190, 110; }
+.tag-cloud-list a:nth-child(5n+5) { --tag-rgb: 230, 138, 164; }
+.tag-cloud-list a:hover { color: rgb(var(--tag-rgb)) !important; border-color: rgba(var(--tag-rgb), .58) !important; background: rgba(var(--tag-rgb), .17) !important; }
 #article-container .post-tag:hover { color: var(--yl-accent) !important; border-color: var(--yl-accent); background: rgba(var(--yl-accent-rgb), .14) !important; }
 .tag-cloud-list a:active { transform: scale(.97); }
+html[data-theme="light"] .tag-cloud-list a { --tag-rgb: 15, 117, 108; }
+html[data-theme="light"] .tag-cloud-list a:nth-child(5n+2) { --tag-rgb: 45, 105, 180; }
+html[data-theme="light"] .tag-cloud-list a:nth-child(5n+3) { --tag-rgb: 112, 78, 170; }
+html[data-theme="light"] .tag-cloud-list a:nth-child(5n+4) { --tag-rgb: 145, 99, 20; }
+html[data-theme="light"] .tag-cloud-list a:nth-child(5n+5) { --tag-rgb: 166, 65, 96; }
+@media (hover: hover) {
+  .tag-cloud-list a:hover { transform: translateY(-2px); }
+}
 
 #article-container h2 { position: relative; padding-left: 15px; }
 #article-container h2::before {
@@ -942,3 +960,4 @@ html[data-theme="light"] .leo-project:nth-child(2) { --tone: 118, 87, 181; backg
 html[data-theme="light"] .leo-project h3 { color: var(--yl-ink); }
 html[data-theme="light"] .leo-project p { color: var(--yl-muted); }
 html[data-theme="light"] .leo-project:hover { border-color: rgba(var(--tone), .6); }
+html[data-theme="light"] #footer :is(.footer-copyright, .footer_custom_text) { color: var(--yl-muted); }
