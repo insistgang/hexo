@@ -1,17 +1,17 @@
 #local-search
-  .search-dialog
+  .search-dialog(role='dialog' aria-modal='true' aria-labelledby='local-search-title')
     nav.search-nav
-      span.search-dialog-title= _p('search.title')
+      span.search-dialog-title#local-search-title= _p('search.title')
       i.fas.fa-spinner.fa-pulse#loading-status(hidden)
-      button.search-close-button
-        i.fas.fa-times
+      button.search-close-button(type='button' aria-label='关闭搜索')
+        i.fas.fa-times(aria-hidden='true')
 
     #loading-database.text-center
       i.fas.fa-spinner.fa-pulse
       span= '  ' + _p("search.load_data")
 
     .local-search-input
-      input(placeholder=theme.search.placeholder || _p("search.input_placeholder") type="text")
+      input(placeholder=theme.search.placeholder || _p("search.input_placeholder") type="search" name="q" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label=_p("search.input_placeholder"))
 
     hr
 

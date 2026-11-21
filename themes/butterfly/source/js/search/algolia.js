@@ -52,7 +52,7 @@ window.addEventListener('load', () => {
   }
 
   const searchClickFn = () => {
-    btf.addEventListenerPjax(document.querySelector('#search-button > .search'), 'click', openSearch)
+    btf.addEventListenerPjax(document.querySelector('#search-button'), 'click', openSearch)
   }
 
   const searchFnOnce = () => {
