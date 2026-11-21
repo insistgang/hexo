@@ -841,6 +841,9 @@ inject:
   head:
   - <script>try{document.documentElement.dataset.uiStyle=localStorage.getItem('ui-style')==='nebula'?'nebula':'wireframe'}catch(e){document.documentElement.dataset.uiStyle='wireframe'}</script>
   - <link rel="stylesheet" href="/css/custom.css?v=47576855a2af">
+  - <link rel="alternate icon" href="/img/favicon.ico">
+  - <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+  - <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
 
   bottom:
   - <script src="/js/ui.js?v=0ae458f9187a"></script>
