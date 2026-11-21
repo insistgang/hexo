@@ -839,10 +839,11 @@ css_prefix: true
 
 inject:
   head:
-  - <link rel="stylesheet" href="/css/custom.css?v=5880c9a407e2">
+  - <script>try{document.documentElement.dataset.uiStyle=localStorage.getItem('ui-style')==='nebula'?'nebula':'wireframe'}catch(e){document.documentElement.dataset.uiStyle='wireframe'}</script>
+  - <link rel="stylesheet" href="/css/custom.css?v=8efe4f20b364">
 
   bottom:
-  - <script src="/js/ui.js?v=7d5fd7ac31ec"></script>
+  - <script src="/js/ui.js?v=cc7dfdeb1918"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

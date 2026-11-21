@@ -1,6 +1,7 @@
 (() => {
   'use strict'
 
+  const root = document.documentElement
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
   const precisePointer = window.matchMedia('(hover: hover) and (pointer: fine)')
   const progress = document.createElement('div')
@@ -112,17 +113,130 @@
     if (!pointerFrame) pointerFrame = requestAnimationFrame(paintPointerGlow)
   }
 
+  let starCanvas
+  let starContext
+  let starFrame = 0
+  let starWidth = 0
+  let starHeight = 0
+  let stars = []
+
+  const updateStyleButton = () => {
+    const button = document.getElementById('style-mode')
+    if (!button) return
+    const current = root.dataset.uiStyle === 'nebula' ? '星野' : '线框'
+    const next = root.dataset.uiStyle === 'nebula' ? '线框' : '星野'
+    const label = `当前为${current}，点击切换到${next}`
+    button.title = label
+    button.setAttribute('aria-label', label)
+    button.dataset.currentStyle = root.dataset.uiStyle || 'wireframe'
+  }
+
+  const stopStarfield = () => {
+    if (starFrame) cancelAnimationFrame(starFrame)
+    starFrame = 0
+  }
+
+  const drawStarfield = () => {
+    if (!starContext || root.dataset.uiStyle !== 'nebula') return
+    stopStarfield()
+    starContext.clearRect(0, 0, starWidth, starHeight)
+    const time = reduceMotion.matches ? 0 : performance.now() * 0.001
+
+    stars.forEach(star => {
+      if (!reduceMotion.matches) {
+        star.x += star.drift
+        if (star.x < -4) star.x = starWidth + 4
+        if (star.x > starWidth + 4) star.x = -4
+      }
+      const alpha = star.opacity * (0.72 + 0.28 * Math.sin(time * star.speed + star.phase))
+      starContext.beginPath()
+      starContext.arc(star.x, star.y, star.radius, 0, Math.PI * 2)
+      starContext.fillStyle = `rgba(${star.color},${alpha})`
+      starContext.fill()
+    })
+
+    if (!reduceMotion.matches && !document.hidden) starFrame = requestAnimationFrame(drawStarfield)
+  }
+
+  const resizeStarfield = () => {
+    if (!starCanvas || root.dataset.uiStyle !== 'nebula') return
+    const ratio = Math.min(window.devicePixelRatio || 1, 1.5)
+    starWidth = window.innerWidth
+    starHeight = window.innerHeight
+    starCanvas.width = Math.round(starWidth * ratio)
+    starCanvas.height = Math.round(starHeight * ratio)
+    starContext.setTransform(ratio, 0, 0, ratio, 0, 0)
+    const count = Math.min(180, Math.max(55, Math.floor(starWidth * starHeight / 9000)))
+    stars = Array.from({ length: count }, (_, index) => ({
+      x: Math.random() * starWidth,
+      y: Math.random() * starHeight,
+      radius: Math.random() * 1.05 + 0.25,
+      opacity: Math.random() * 0.5 + 0.2,
+      phase: Math.random() * Math.PI * 2,
+      speed: Math.random() * 1.2 + 0.35,
+      drift: (Math.random() - 0.5) * 0.045,
+      color: index % 7 === 0 ? '56,249,215' : index % 4 === 0 ? '150,195,255' : '240,245,255'
+    }))
+    drawStarfield()
+  }
+
+  const syncStarfield = () => {
+    stopStarfield()
+    if (root.dataset.uiStyle !== 'nebula') return
+    if (!starCanvas) {
+      starCanvas = document.createElement('canvas')
+      starCanvas.id = 'ui-starfield'
+      starCanvas.setAttribute('aria-hidden', 'true')
+      document.body.prepend(starCanvas)
+      starContext = starCanvas.getContext('2d')
+    }
+    resizeStarfield()
+  }
+
+  const setUIStyle = (style, persist = true) => {
+    const next = style === 'nebula' ? 'nebula' : 'wireframe'
+    root.dataset.uiStyle = next
+    if (next === 'nebula' && root.dataset.theme !== 'dark' && window.btf) {
+      window.btf.activateDarkMode()
+      window.btf.saveToLocal.set('theme', 'dark', 2)
+    }
+    if (persist) {
+      try { localStorage.setItem('ui-style', next) } catch (error) { /* Storage can be unavailable. */ }
+    }
+    updateStyleButton()
+    syncStarfield()
+  }
+
   const initPageUI = () => {
+    if (root.dataset.uiStyle === 'nebula' && root.dataset.theme !== 'dark' && window.btf) {
+      window.btf.activateDarkMode()
+    }
+    updateStyleButton()
+    syncStarfield()
     updateActiveNavigation()
     setupReveals()
     updateProgress()
   }
 
+  document.getElementById('rightside').addEventListener('click', event => {
+    if (event.target.closest('#style-mode')) {
+      setUIStyle(root.dataset.uiStyle === 'nebula' ? 'wireframe' : 'nebula')
+    }
+  })
+  new MutationObserver(() => {
+    if (root.dataset.theme === 'light' && root.dataset.uiStyle === 'nebula') setUIStyle('wireframe')
+  }).observe(root, { attributes: true, attributeFilter: ['data-theme'] })
+
   window.addEventListener('scroll', queueProgress, { passive: true })
   window.addEventListener('resize', queueProgress, { passive: true })
+  window.addEventListener('resize', resizeStarfield, { passive: true })
   document.addEventListener('pointermove', onPointerMove, { passive: true })
   document.addEventListener('pjax:complete', initPageUI)
-  reduceMotion.addEventListener('change', setupReveals)
+  document.addEventListener('visibilitychange', syncStarfield)
+  reduceMotion.addEventListener('change', () => {
+    setupReveals()
+    syncStarfield()
+  })
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initPageUI, { once: true })

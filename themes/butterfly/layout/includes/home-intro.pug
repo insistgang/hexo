@@ -3,6 +3,10 @@ section.leo-cover(aria-labelledby='leo-name')
     p.leo-signature Leo / 研究与开发
     h1#leo-name 研路炼钢
     p.leo-bio 我是 Leo，一名做计算机视觉研究的研究生。这里记下我做 AI 工具、把项目部署上线，以及读论文、跑实验的过程。
+    .leo-nebula-tags(aria-label='内容方向')
+      span AI 工具实践
+      span 项目部署
+      span 科研学习
     .leo-actions
       a.leo-start(href=url_for('/reading/')) 读我的文章 →
       a(href=url_for('/about/')) 关于我
@@ -11,6 +15,17 @@ section.leo-cover(aria-labelledby='leo-name')
     .leo-sculpture
       each ring in Array.from({length: 42}, (_, i) => i)
         i(style='--n:' + ring)
+section.leo-nebula-stats(aria-label='博客数据')
+  .leo-stat
+    strong= site.posts.length
+    span 公开笔记
+  .leo-stat
+    strong= site.data.editorial.topics.length
+    span 专题方向
+  .leo-stat
+    strong 2
+    span 代表作品
+  p.leo-nebula-quote 从实践出发，留下能复用的经验。
 section.leo-work(aria-labelledby='leo-work-title')
   .leo-heading
     h2#leo-work-title 我的作品

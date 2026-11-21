@@ -49,6 +49,9 @@ mixin rightsideItem(array)
     if showArray.length
       +rightsideItem(showArray)
 
+    button#style-mode(type="button" title="切换视觉风格：当前为线框" aria-label="切换视觉风格：当前为线框")
+      i.fas.fa-wand-magic-sparkles(aria-hidden="true")
+
     button#go-up(type="button" title=_p("rightside.back_to_top"))
       span.scroll-percent
       i.fas.fa-arrow-up
