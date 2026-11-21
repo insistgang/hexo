@@ -67,11 +67,13 @@ section.leo-work(aria-labelledby='leo-work-title')
         span.leo-meter
       h3 AI 额度看板 #[span(aria-hidden='true') ↗]
       p 在一张看板上查看多个 AI 账号的额度窗口、每日消耗和订阅账单。
-    a.leo-project(href=url_for('/luyao/'))
-      .leo-project-visual.leo-luyao(aria-hidden='true')
-        img(src=url_for('/img/luyao-ai/luyao-avatar.png') alt='' width='56' height='56')
-      h3 路遥 AI #[span(aria-hidden='true') →]
-      p 我做的 AI 伴侣，把对话记忆、情绪和语音放进同一次交流。
+    a.leo-project.leo-project-aegis(href='https://github.com/insistgang/aegis')
+      .leo-project-visual.leo-aegis(aria-hidden='true')
+        svg(viewBox='0 0 48 48' focusable='false')
+          path(d='M24 5 39 11v11c0 10-6 17-15 21C15 39 9 32 9 22V11Z' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round')
+          path(d='m17 24 5 5 10-11' fill='none' stroke='currentColor' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round')
+      h3 神盾 AEGIS #[span(aria-hidden='true') ↗]
+      p 给 Agent 的工具调用加上放行、询问与阻断规则，并留下可检查的审计记录。
 section.leo-heading(aria-label='文章导航')
   h2 最近的笔记
   a(href=url_for('/archives/')) 全部文章 →
