@@ -185,3 +185,58 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .type-reading #page > p { max-width: 72ch; line-height: 1.9; }
 .type-reading #page > p a { color: var(--yl-accent); text-decoration: underline; text-underline-offset: 3px; }
 #recent-posts .article-meta__categories { color: var(--yl-accent); }
+
+/* Personal homepage: dark field, luminous wire sculpture and project panels. */
+body:has(.leo-cover) {
+  --yl-ink:#ecf1ff; --yl-muted:#acb6cc; --yl-accent:#85edde;
+  --yl-paper:#111623; --yl-line:#293249; --yl-page:#090c15;
+  color:var(--yl-ink);
+  background:radial-gradient(ellipse at 78% 12%,#1a1731 0,transparent 44rem),#090c15;
+}
+body:has(.leo-cover) #page-header {background:transparent}
+body:has(.leo-cover) #nav {background:rgba(9,12,21,.92)!important;backdrop-filter:blur(18px)}
+.layout:has(.leo-cover) {display:block;max-width:1080px!important}
+.layout:has(.leo-cover) #recent-posts {width:100%}
+.layout:has(.leo-cover) #aside-content {display:none}
+.leo-cover {position:relative;display:grid;align-items:center;min-height:430px;isolation:isolate}
+.leo-cover-copy {max-width:56%;z-index:1}
+.leo-signature {display:flex;align-items:center;gap:12px;margin:0 0 20px;letter-spacing:.12em;color:#90e7d9;font:600 14px/1.5 ui-monospace,monospace}
+.leo-signature::before {content:"";width:34px;height:2px;background:#82eadb}
+.leo-cover h1 {margin:0;font:850 clamp(50px,7vw,92px)/1.15 "PingFang SC",sans-serif;letter-spacing:-.065em;color:#edf7ff;background:linear-gradient(110deg,#f1f5ff 8%,#c0cfff 54%,#81ecd5);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.leo-bio {max-width:30em;margin:20px 0 26px;color:#c2cadd;font-size:16px;line-height:1.9}
+.leo-actions {display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.leo-actions a {font-size:14px;color:#d8e2f5;font-weight:600}
+.leo-actions .leo-start {padding:9px 20px;border-radius:24px;background:#97efdb;color:#0b2522}
+.leo-actions a:hover,.leo-heading a:hover {text-decoration:underline;text-underline-offset:5px}
+.leo-field {position:absolute;inset:0 0 0 52%;overflow:hidden;display:grid;place-items:center;perspective:800px;background:radial-gradient(ellipse at center,rgba(102,71,202,.2),transparent 67%);pointer-events:none}
+.leo-sculpture {position:relative;width:min(75%,300px);aspect-ratio:1;transform-style:preserve-3d;transform:rotateX(34deg) rotateZ(-28deg);animation:leo-orbit 22s ease-in-out infinite alternate}
+.leo-sculpture i {position:absolute;inset:8% 4%;border:1px solid; border-color:hsl(calc(166 + var(--n)*2.1) 85% 73% / .78);border-radius:32% 68% 48% 52%;transform:rotateY(calc(var(--n)*4.2857deg)) rotateZ(calc(var(--n)*1.3deg))}
+@keyframes leo-orbit {to{transform:rotateX(49deg) rotateZ(2deg) rotateY(45deg)}}
+@media(prefers-reduced-motion:reduce){.leo-sculpture{animation:none}}
+.leo-heading {display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin:28px 0 16px}
+.leo-heading h2 {margin:0;font-size:24px;color:var(--yl-ink);letter-spacing:-.04em}
+.leo-heading a {font-size:14px;color:var(--yl-accent)}
+.leo-work-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.leo-project {--tone:118,234,211;position:relative;display:block;overflow:hidden;padding:24px;border:1px solid rgba(var(--tone),.3);border-radius:16px;background:radial-gradient(ellipse at 90% 0,rgba(var(--tone),.15),transparent 75%),#101922;transition:transform .18s,border-color .18s}
+.leo-project:nth-child(2) {--tone:187,156,255;background-color:#181425}
+.leo-project:hover {border-color:rgb(var(--tone));transform:translateY(-2px)}
+.leo-project h3 {margin:0 75px 8px 0;font-size:23px;color:#f1f5ff}
+.leo-project h3 span {color:rgb(var(--tone));font-weight:400}
+.leo-project p {margin:0 72px 0 0;color:#bdc7d8;font-size:14px;line-height:1.75}
+.leo-project-visual {position:absolute;right:21px;top:24px;width:58px;height:58px;border-radius:14px;overflow:hidden}
+.leo-quota {display:grid;align-content:center;gap:2px;padding:0 10px;background:#0b1d24;color:#aff0dd;font:11px/1.35 monospace;border:1px solid #33574f}
+.leo-meter {height:3px;background:linear-gradient(90deg,#91dac9 68%,#314849 68%)}
+.leo-meter:last-child {background:linear-gradient(90deg,#bdaaea 45%,#344050 45%)}
+.leo-luyao img {width:100%;height:100%;object-fit:cover}
+body:has(.leo-cover) .home-topics a {border-radius:24px}
+@media(max-width:720px){
+ .leo-cover{min-height:0;padding:22px 0 8px}
+ .leo-field{position:relative;inset:auto;height:170px;grid-row:1}
+ .leo-sculpture{width:159px}
+ .leo-cover-copy{max-width:none}
+ .leo-signature{margin-bottom:10px}
+ .leo-bio{font-size:15px;margin:14px 0 20px}
+ .leo-work-grid{grid-template-columns:1fr}
+ .leo-project{padding:18px}
+}
+body:has(.leo-cover) #page-header #nav :is(a, .site-page, .site-name, .menus_item, .site-icon, .nav-site-title, i, span) { color: #d9e3f5 !important; }
