@@ -22,6 +22,8 @@ comments: false
 
 ## 联系
 
+- 作品集：[项目与工程案例](https://insistgang.top/portfolio/)
+- 微信公众号：研路炼钢（[关注二维码](/img/wechat-mp-yanlu.jpg)）
 - GitHub：[insistgang](https://github.com/insistgang)
 - 邮箱：[insistgang@163.com](mailto:insistgang@163.com)
 
