@@ -855,3 +855,48 @@ html[data-ui-style="nebula"] #footer { background: rgba(7, 10, 19, .94) !importa
   html[data-ui-style="nebula"] .leo-project { animation: none !important; }
   #ui-starfield { opacity: .55; }
 }
+
+/* A single, infrequent meteor behind site content in both appearances. */
+#body-wrap { position: relative; z-index: 1; }
+.ui-meteor {
+  position: fixed;
+  z-index: 0;
+  left: -200px;
+  width: clamp(90px, 12vw, 170px);
+  height: 1px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(var(--yl-accent-rgb), .24), rgba(240, 245, 255, .7));
+  opacity: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+  animation: ui-meteor-flight var(--ui-meteor-duration, 1600ms) linear both;
+}
+.ui-meteor::after {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(240, 245, 255, .85);
+  box-shadow: 0 0 7px rgba(var(--yl-accent-rgb), .5);
+  content: "";
+}
+@keyframes ui-meteor-flight {
+  0% { opacity: 0; transform: translate3d(0, 0, 0) rotate(-24deg); }
+  18% { opacity: .48; }
+  72% { opacity: .32; }
+  100% { opacity: 0; transform: translate3d(calc(100vw + 400px), -28vh, 0) rotate(-24deg); }
+}
+@media (max-width: 720px) {
+  .ui-meteor { width: 86px; }
+  @keyframes ui-meteor-flight {
+    0% { opacity: 0; transform: translate3d(0, 0, 0) rotate(-24deg); }
+    18% { opacity: .3; }
+    72% { opacity: .22; }
+    100% { opacity: 0; transform: translate3d(calc(100vw + 240px), -24vh, 0) rotate(-24deg); }
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ui-meteor { display: none !important; }
+}

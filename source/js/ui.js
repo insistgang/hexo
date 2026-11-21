@@ -207,6 +207,40 @@
     syncStarfield()
   }
 
+  let meteorTimer = 0
+
+  const launchMeteor = () => {
+    if (reduceMotion.matches || document.hidden) return
+    const meteor = document.createElement('span')
+    const duration = 1400 + Math.random() * 600
+    meteor.className = 'ui-meteor'
+    meteor.setAttribute('aria-hidden', 'true')
+    meteor.style.top = `${14 + Math.random() * 52}vh`
+    meteor.style.setProperty('--ui-meteor-duration', `${duration}ms`)
+    document.body.appendChild(meteor)
+    meteor.addEventListener('animationend', () => meteor.remove(), { once: true })
+    setTimeout(() => meteor.remove(), duration + 600)
+  }
+
+  const scheduleMeteor = (initial = false) => {
+    clearTimeout(meteorTimer)
+    if (reduceMotion.matches || document.hidden) return
+    const delay = initial ? 2500 + Math.random() * 2000 : 8000 + Math.random() * 7000
+    meteorTimer = setTimeout(() => {
+      launchMeteor()
+      scheduleMeteor()
+    }, delay)
+  }
+
+  const syncMeteors = () => {
+    clearTimeout(meteorTimer)
+    if (reduceMotion.matches || document.hidden) {
+      document.querySelectorAll('.ui-meteor').forEach(meteor => meteor.remove())
+      return
+    }
+    scheduleMeteor(true)
+  }
+
   const initPageUI = () => {
     if (root.dataset.uiStyle === 'nebula' && root.dataset.theme !== 'dark' && window.btf) {
       window.btf.activateDarkMode()
@@ -232,11 +266,16 @@
   window.addEventListener('resize', resizeStarfield, { passive: true })
   document.addEventListener('pointermove', onPointerMove, { passive: true })
   document.addEventListener('pjax:complete', initPageUI)
-  document.addEventListener('visibilitychange', syncStarfield)
+  document.addEventListener('visibilitychange', () => {
+    syncStarfield()
+    syncMeteors()
+  })
   reduceMotion.addEventListener('change', () => {
     setupReveals()
     syncStarfield()
+    syncMeteors()
   })
+  syncMeteors()
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initPageUI, { once: true })
