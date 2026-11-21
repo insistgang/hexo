@@ -273,8 +273,8 @@ html[data-theme="dark"] body:has(.leo-cover) #nav {background:rgba(9,12,21,.92)!
 .leo-meter:last-child {background:linear-gradient(90deg,#bdaaea 45%,#344050 45%)}
 .leo-luyao img {width:100%;height:100%;object-fit:cover}
 .leo-project-focus {--tone:163,230,53;background-color:#0c1a15}
-.leo-focus {display:grid;place-items:center;color:#a3e635;background:#102019;border:1px solid #365026}
-.leo-focus svg {width:38px;height:38px}
+.leo-focus {display:block;background:transparent;border:0}
+.leo-focus img {display:block;width:100%;height:100%;border-radius:14px}
 body:has(.leo-cover) .home-topics a {border-radius:24px}
 @media(max-width:720px){
  .leo-cover{min-height:0;padding:22px 0 8px}
@@ -962,7 +962,7 @@ html[data-theme="light"] .leo-project {
 }
 html[data-theme="light"] .leo-project:nth-child(2) { --tone: 118, 87, 181; background-color: #fff; }
 html[data-theme="light"] .leo-project-focus { --tone: 77, 115, 15; background-color: #fff; }
-html[data-theme="light"] .leo-focus { color: #4f7500; background: #f1f8df; border-color: #cbe2a2; }
+html[data-theme="light"] .leo-focus { background: transparent; border-color: transparent; }
 html[data-theme="light"] .leo-project h3 { color: var(--yl-ink); }
 html[data-theme="light"] .leo-project p { color: var(--yl-muted); }
 html[data-theme="light"] .leo-project:hover { border-color: rgba(var(--tone), .6); }

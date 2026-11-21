@@ -840,7 +840,7 @@ css_prefix: true
 inject:
   head:
   - <script>try{document.documentElement.dataset.uiStyle=localStorage.getItem('ui-style')==='nebula'?'nebula':'wireframe'}catch(e){document.documentElement.dataset.uiStyle='wireframe'}</script>
-  - <link rel="stylesheet" href="/css/custom.css?v=6f33b6668a89">
+  - <link rel="stylesheet" href="/css/custom.css?v=47576855a2af">
 
   bottom:
   - <script src="/js/ui.js?v=0ae458f9187a"></script>
