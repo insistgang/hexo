@@ -251,8 +251,9 @@ html[data-theme="dark"] body:has(.leo-cover) #nav {background:rgba(9,12,21,.92)!
 .leo-orbit-grid {fill:none;stroke:currentColor;stroke-width:1;stroke-opacity:.12;stroke-dasharray:2 8}
 .leo-orbit-paths {fill:none;stroke:currentColor;stroke-width:1.25;stroke-opacity:.62;transform-box:fill-box;transform-origin:center;animation:leo-orbit-spin 48s linear infinite}
 .leo-orbit-core {fill:currentColor;fill-opacity:.07;stroke:currentColor;stroke-width:1;stroke-opacity:.45}
-.leo-orbit-core-inner,.leo-orbit-nodes {fill:currentColor;fill-opacity:.88}
-.leo-orbit-nodes .leo-orbit-node-secondary {fill:var(--yl-violet)}
+.leo-orbit-core-inner {fill:currentColor;fill-opacity:.88}
+.leo-orbit-moving-dot {fill:currentColor;fill-opacity:.9;stroke:none}
+.leo-orbit-moving-dot.leo-orbit-node-secondary {fill:var(--yl-violet)}
 @keyframes leo-orbit-spin {to{transform:rotate(360deg)}}
 @keyframes leo-orbit-float {to{transform:translateY(-8px) rotate(2deg)}}
 @media(prefers-reduced-motion:reduce){.leo-orbit-svg,.leo-orbit-paths{animation:none}}

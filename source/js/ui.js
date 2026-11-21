@@ -241,6 +241,13 @@
     scheduleMeteor(true)
   }
 
+  const syncOrbitMotion = () => {
+    document.querySelectorAll('.leo-orbit-svg').forEach(svg => {
+      if (reduceMotion.matches) svg.pauseAnimations()
+      else svg.unpauseAnimations()
+    })
+  }
+
   const initPageUI = () => {
     if (root.dataset.uiStyle === 'nebula' && root.dataset.theme !== 'dark' && window.btf) {
       window.btf.activateDarkMode()
@@ -249,6 +256,7 @@
     syncStarfield()
     updateActiveNavigation()
     setupReveals()
+    syncOrbitMotion()
     updateProgress()
   }
 
@@ -274,6 +282,7 @@
     setupReveals()
     syncStarfield()
     syncMeteors()
+    syncOrbitMotion()
   })
   syncMeteors()
 
