@@ -230,8 +230,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* Personal homepage: dark field, luminous wire sculpture and project panels. */
 body:has(.leo-cover) { color: var(--yl-ink); }
-body:has(.leo-cover) #page-header {background:transparent}
-body:has(.leo-cover) #nav {background:rgba(9,12,21,.92)!important;backdrop-filter:blur(18px)}
+html[data-theme="dark"] body:has(.leo-cover) #page-header {background:transparent}
+html[data-theme="dark"] body:has(.leo-cover) #nav {background:rgba(9,12,21,.92)!important;backdrop-filter:blur(18px)}
 .layout:has(.leo-cover) {display:block;max-width:1080px!important}
 .layout:has(.leo-cover) #recent-posts {width:100%}
 .layout:has(.leo-cover) #aside-content {display:none}
@@ -246,10 +246,16 @@ body:has(.leo-cover) #nav {background:rgba(9,12,21,.92)!important;backdrop-filte
 .leo-actions .leo-start {padding:9px 20px;border-radius:24px;background:#97efdb;color:#0b2522}
 .leo-actions a:hover,.leo-heading a:hover {text-decoration:underline;text-underline-offset:5px}
 .leo-field {position:absolute;inset:0 0 0 52%;overflow:hidden;display:grid;place-items:center;perspective:800px;background:radial-gradient(ellipse at center,rgba(102,71,202,.2),transparent 67%);pointer-events:none}
-.leo-sculpture {position:relative;width:min(75%,300px);aspect-ratio:1;transform-style:preserve-3d;transform:rotateX(34deg) rotateZ(-28deg);animation:leo-orbit 22s ease-in-out infinite alternate}
-.leo-sculpture i {position:absolute;inset:8% 4%;border:1px solid; border-color:hsl(calc(166 + var(--n)*2.1) 85% 73% / .78);border-radius:32% 68% 48% 52%;transform:rotateY(calc(var(--n)*4.2857deg)) rotateZ(calc(var(--n)*1.3deg))}
-@keyframes leo-orbit {to{transform:rotateX(49deg) rotateZ(2deg) rotateY(45deg)}}
-@media(prefers-reduced-motion:reduce){.leo-sculpture{animation:none}}
+.leo-orbit {position:relative;width:min(78%,320px);aspect-ratio:1;color:var(--yl-accent);filter:drop-shadow(0 0 20px rgba(var(--yl-accent-rgb),.12))}
+.leo-orbit-svg {display:block;width:100%;height:auto;overflow:visible;animation:leo-orbit-float 10s ease-in-out infinite alternate}
+.leo-orbit-grid {fill:none;stroke:currentColor;stroke-width:1;stroke-opacity:.12;stroke-dasharray:2 8}
+.leo-orbit-paths {fill:none;stroke:currentColor;stroke-width:1.25;stroke-opacity:.62;transform-box:fill-box;transform-origin:center;animation:leo-orbit-spin 48s linear infinite}
+.leo-orbit-core {fill:currentColor;fill-opacity:.07;stroke:currentColor;stroke-width:1;stroke-opacity:.45}
+.leo-orbit-core-inner,.leo-orbit-nodes {fill:currentColor;fill-opacity:.88}
+.leo-orbit-nodes .leo-orbit-node-secondary {fill:var(--yl-violet)}
+@keyframes leo-orbit-spin {to{transform:rotate(360deg)}}
+@keyframes leo-orbit-float {to{transform:translateY(-8px) rotate(2deg)}}
+@media(prefers-reduced-motion:reduce){.leo-orbit-svg,.leo-orbit-paths{animation:none}}
 .leo-heading {display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin:28px 0 16px}
 .leo-heading h2 {margin:0;font-size:24px;color:var(--yl-ink);letter-spacing:-.04em}
 .leo-heading a {font-size:14px;color:var(--yl-accent)}
@@ -269,14 +275,14 @@ body:has(.leo-cover) .home-topics a {border-radius:24px}
 @media(max-width:720px){
  .leo-cover{min-height:0;padding:22px 0 8px}
  .leo-field{position:relative;inset:auto;height:170px;grid-row:1}
- .leo-sculpture{width:159px}
+ .leo-orbit{width:170px}
  .leo-cover-copy{max-width:none}
  .leo-signature{margin-bottom:10px}
  .leo-bio{font-size:15px;margin:14px 0 20px}
  .leo-work-grid{grid-template-columns:1fr}
  .leo-project{padding:18px}
 }
-body:has(.leo-cover) #page-header #nav :is(a, .site-page, .site-name, .menus_item, .site-icon, .nav-site-title, i, span) { color: #d9e3f5 !important; }
+html[data-theme="dark"] body:has(.leo-cover) #page-header #nav :is(a, .site-page, .site-name, .menus_item, .site-icon, .nav-site-title, i, span) { color: #d9e3f5 !important; }
 
 /* Sitewide wireframe system: shared surfaces, controls and interaction states. */
 .skip-link {
@@ -775,7 +781,7 @@ html[data-ui-style="nebula"] .leo-nebula-tags span {
 html[data-ui-style="nebula"] .leo-actions { margin-top: 26px; }
 html[data-ui-style="nebula"] .leo-actions .leo-start { background: #38f9d7; }
 html[data-ui-style="nebula"] .leo-field { opacity: .8; }
-html[data-ui-style="nebula"] .leo-sculpture { width: min(86%, 390px); filter: drop-shadow(0 0 24px rgba(96, 165, 250, .16)); }
+html[data-ui-style="nebula"] .leo-orbit { width: min(86%, 390px); filter: drop-shadow(0 0 24px rgba(96, 165, 250, .16)); }
 html[data-ui-style="nebula"] .leo-nebula-stats {
   position: relative;
   display: grid;
@@ -841,7 +847,7 @@ html[data-ui-style="nebula"] #footer { background: rgba(7, 10, 19, .94) !importa
   html[data-ui-style="nebula"] .leo-bio { font-size: 15px; }
   html[data-ui-style="nebula"] .leo-nebula-tags { gap: 7px; }
   html[data-ui-style="nebula"] .leo-nebula-tags span { padding: 6px 10px; font-size: 11px; }
-  html[data-ui-style="nebula"] .leo-sculpture { width: 175px; }
+  html[data-ui-style="nebula"] .leo-orbit { width: 175px; }
   html[data-ui-style="nebula"] .leo-nebula-stats { gap: 12px; margin-bottom: 40px; padding: 28px 0 20px; }
   html[data-ui-style="nebula"] .leo-stat strong { font-size: 34px; }
   html[data-ui-style="nebula"] .leo-stat span { font-size: 11px; letter-spacing: .04em; }
@@ -900,3 +906,39 @@ html[data-ui-style="nebula"] #footer { background: rgba(7, 10, 19, .94) !importa
 @media (prefers-reduced-motion: reduce) {
   .ui-meteor { display: none !important; }
 }
+
+/* Daylight homepage: separate surfaces and contrast instead of reusing night colors. */
+html[data-theme="light"] .leo-cover {
+  border-color: rgba(20, 125, 115, .18);
+  background:
+    radial-gradient(ellipse at 84% 26%, rgba(118, 87, 181, .1), transparent 46%),
+    linear-gradient(rgba(20, 125, 115, .035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20, 125, 115, .035) 1px, transparent 1px),
+    #edf4f4;
+  background-size: auto, 32px 32px, 32px 32px, auto;
+  box-shadow: inset 0 1px rgba(255, 255, 255, .8), 0 18px 50px rgba(33, 65, 72, .07);
+}
+html[data-theme="light"] .leo-signature { color: #147d73; }
+html[data-theme="light"] .leo-signature::before { background: #147d73; }
+html[data-theme="light"] .leo-cover h1 {
+  color: #173f48;
+  background: linear-gradient(110deg, #173f48 8%, #147d73 54%, #7657b5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+html[data-theme="light"] .leo-bio { color: #526770; }
+html[data-theme="light"] .leo-actions a { color: #29454f; border-color: #c3d5d8; background: rgba(255, 255, 255, .5); }
+html[data-theme="light"] .leo-actions a:hover { color: #0e6b62; border-color: rgba(20, 125, 115, .5); background: #e0f1ee; }
+html[data-theme="light"] .leo-actions .leo-start { color: #fff; border-color: transparent; background: #147d73; }
+html[data-theme="light"] .leo-actions .leo-start:hover { color: #fff; background: #0e6b62; }
+html[data-theme="light"] .leo-field { background: radial-gradient(ellipse at center, rgba(20, 125, 115, .09), transparent 67%); }
+html[data-theme="light"] .leo-project {
+  --tone: 20, 125, 115;
+  border-color: rgba(var(--tone), .25);
+  background: radial-gradient(ellipse at 90% 0, rgba(var(--tone), .1), transparent 75%), #fff;
+}
+html[data-theme="light"] .leo-project:nth-child(2) { --tone: 118, 87, 181; background-color: #fff; }
+html[data-theme="light"] .leo-project h3 { color: var(--yl-ink); }
+html[data-theme="light"] .leo-project p { color: var(--yl-muted); }
+html[data-theme="light"] .leo-project:hover { border-color: rgba(var(--tone), .6); }

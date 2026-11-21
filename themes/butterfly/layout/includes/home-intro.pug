@@ -12,9 +12,27 @@ section.leo-cover(aria-labelledby='leo-name')
       a(href=url_for('/about/')) 关于我
       a(href='https://github.com/insistgang') GitHub ↗
   .leo-field(aria-hidden='true')
-    .leo-sculpture
-      each ring in Array.from({length: 42}, (_, i) => i)
-        i(style='--n:' + ring)
+    .leo-orbit
+      svg.leo-orbit-svg(viewBox='0 0 420 420' focusable='false')
+        defs
+          radialGradient#leo-core-glow
+            stop(offset='0%' stop-color='currentColor' stop-opacity='.22')
+            stop(offset='100%' stop-color='currentColor' stop-opacity='0')
+        circle.leo-orbit-halo(cx='210' cy='210' r='190' fill='url(#leo-core-glow)')
+        g.leo-orbit-grid
+          circle(cx='210' cy='210' r='132')
+          path(d='M78 210h264M210 78v264')
+        g.leo-orbit-paths
+          ellipse(cx='210' cy='210' rx='154' ry='66' transform='rotate(-24 210 210)')
+          ellipse(cx='210' cy='210' rx='154' ry='66' transform='rotate(36 210 210)')
+          ellipse(cx='210' cy='210' rx='154' ry='66' transform='rotate(86 210 210)')
+        circle.leo-orbit-core(cx='210' cy='210' r='46')
+        circle.leo-orbit-core-inner(cx='210' cy='210' r='7')
+        g.leo-orbit-nodes
+          circle(cx='68' cy='142' r='4')
+          circle(cx='343' cy='147' r='3')
+          circle.leo-orbit-node-secondary(cx='290' cy='332' r='4')
+          circle(cx='134' cy='305' r='2.5')
 section.leo-nebula-stats(aria-label='博客数据')
   .leo-stat
     strong= site.posts.length
