@@ -1,0 +1,91 @@
+section.leo-cover(aria-labelledby='leo-name')
+  .leo-cover-copy
+    p.leo-signature Leo / 研究与开发
+    h1#leo-name 研路炼钢
+    p.leo-bio 我是 Leo，一名做计算机视觉研究的研究生。这里记下我做 AI 工具、把项目部署上线，以及读论文、跑实验的过程。
+    .leo-nebula-tags(aria-label='内容方向')
+      span AI 工具实践
+      span 项目部署
+      span 科研学习
+    .leo-actions
+      a.leo-start(href=url_for('/reading/')) 读我的文章 →
+      a(href=url_for('/about/')) 关于我
+      a(href='https://github.com/insistgang') GitHub ↗
+  .leo-field(aria-hidden='true')
+    .leo-orbit
+      svg.leo-orbit-svg(viewBox='0 0 420 420' focusable='false')
+        defs
+          radialGradient#leo-core-glow
+            stop(offset='0%' stop-color='currentColor' stop-opacity='.22')
+            stop(offset='100%' stop-color='currentColor' stop-opacity='0')
+        circle.leo-orbit-halo(cx='210' cy='210' r='190' fill='url(#leo-core-glow)')
+        g.leo-orbit-grid
+          circle(cx='210' cy='210' r='132')
+          path(d='M78 210h264M210 78v264')
+        g.leo-orbit-paths
+          g(transform='rotate(-24 210 210)')
+            path#leo-track-a(d='M56 210a154 66 0 1 0 308 0a154 66 0 1 0-308 0')
+            circle.leo-orbit-moving-dot(r='4')
+              animateMotion(dur='18s' begin='-3s' repeatCount='indefinite')
+                mpath(href='#leo-track-a')
+            circle.leo-orbit-moving-dot(r='2.5')
+              animateMotion(dur='18s' begin='-12s' repeatCount='indefinite')
+                mpath(href='#leo-track-a')
+          g(transform='rotate(36 210 210)')
+            path#leo-track-b(d='M56 210a154 66 0 1 0 308 0a154 66 0 1 0-308 0')
+            circle.leo-orbit-moving-dot(r='3')
+              animateMotion(dur='24s' begin='-9s' repeatCount='indefinite')
+                mpath(href='#leo-track-b')
+          g(transform='rotate(86 210 210)')
+            path#leo-track-c(d='M56 210a154 66 0 1 0 308 0a154 66 0 1 0-308 0')
+            circle.leo-orbit-moving-dot.leo-orbit-node-secondary(r='4')
+              animateMotion(dur='30s' begin='-17s' repeatCount='indefinite')
+                mpath(href='#leo-track-c')
+        circle.leo-orbit-core(cx='210' cy='210' r='46')
+        circle.leo-orbit-core-inner(cx='210' cy='210' r='7')
+section.leo-nebula-stats(aria-label='博客数据')
+  .leo-stat
+    strong= site.posts.length
+    span 公开笔记
+  .leo-stat
+    strong= site.data.editorial.topics.length
+    span 专题方向
+  .leo-stat
+    strong 2
+    span 代表作品
+  p.leo-nebula-quote 从实践出发，留下能复用的经验。
+section.leo-work(aria-labelledby='leo-work-title')
+  .leo-heading
+    h2#leo-work-title 我的作品
+    a(href='https://insistgang.top/portfolio/') 完整作品集 ↗
+  .leo-work-grid
+    a.leo-project(href='https://insistgang.top/ai-quota-monitor/')
+      .leo-project-visual.leo-quota(aria-hidden='true')
+        span 5h
+        span.leo-meter
+        span 7d
+        span.leo-meter
+      h3 AI 额度看板 #[span(aria-hidden='true') ↗]
+      p 在一张看板上查看多个 AI 账号的额度窗口、每日消耗和订阅账单。
+    a.leo-project.leo-project-focus(href='https://insistgang.top/attention-trainer/')
+      .leo-project-visual.leo-focus(aria-hidden='true')
+        img(src=url_for('/img/focus-console-icon.svg') alt='' width='58' height='58')
+      h3 专注控制台 #[span(aria-hidden='true') ↗]
+      p 舒尔特方格、N-Back、Stroop 三种训练，随时做一轮专注练习。
+section.leo-connect(aria-labelledby='leo-connect-title')
+  .leo-connect-main
+    p.leo-connect-kicker MORE / CONTACT
+    h2#leo-connect-title 作品与交流
+    p 项目背景、技术取舍与可核验证据，都整理在作品集中。
+    a.leo-portfolio-link(href='https://insistgang.top/portfolio/') 查看完整作品集 ↗
+  a.leo-wechat(href=url_for('/img/wechat-mp-yanlu.jpg') target='_blank' rel='noopener noreferrer' aria-label='打开发微信公众号研路炼钢的关注二维码')
+    img(src=url_for('/img/wechat-mp-yanlu.jpg') alt='微信公众号研路炼钢关注二维码' width='112' height='112' loading='lazy' decoding='async')
+    span.leo-wechat-copy
+      strong 研路炼钢
+      small 微信公众号 · 扫码关注
+section.leo-heading(aria-label='文章导航')
+  h2 最近的笔记
+  a(href=url_for('/archives/')) 全部文章 →
+nav.home-topics(aria-label='按主题阅读')
+  each topic in site.data.editorial.topics.slice(0, 3)
+    a(href=url_for('/reading/') + '#' + topic.id)= topic.title

@@ -1,0 +1,45 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "audit": "node tools/audit-generated-site.js",
+    "build": "hexo clean && hexo generate && touch public/.nojekyll",
+    "clean": "hexo clean",
+    "deploy": "npm test && npm run build && npm run audit && hexo deploy",
+    "server": "hexo server",
+    "test": "node --test test/*.test.js"
+  },
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "hexo": "^7.3.0",
+    "hexo-abbrlink": "^2.2.1",
+    "hexo-butterfly-article-double-row": "^1.0.2",
+    "hexo-butterfly-artitalk-pro": "^1.0.5",
+    "hexo-butterfly-footer-beautify": "^1.0.6",
+    "hexo-butterfly-git-gitcalendar": "^1.1.0",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-electric-clock": "^1.1.0",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-sitemap": "^2.2.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-history-calendar": "^1.0.3",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^2.0.0",
+    "hexo-swiper-bar": "^1.1.1",
+    "hexo-util": "^4.0.0",
+    "hexo-wordcount": "^6.0.1",
+    "moment-timezone": "^0.6.6"
+  }
+}

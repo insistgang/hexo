@@ -1,0 +1,4 @@
+# inject.yml
+# 用于注入自定义脚本
+# GitHub Calendar 已通过 hexo-filter-gitcalendar 插件实现
+# 不需要在此处手动注入
